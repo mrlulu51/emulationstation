@@ -84,515 +84,6 @@ msgid_plural "This collection contains %i games, including: %s"
 msgstr[0] ""
 msgstr[1] ""
 
-msgid "DOWNLOADING"
-msgstr "LADATAAN"
-
-msgid "THEME INSTALLED SUCCESSFULLY"
-msgstr "TEEMAN ASENNUS ONNISTUI"
-
-msgid "AN ERROR OCCURRED"
-msgstr "VIRHE ON TAPAHTUNUT"
-
-msgid "THEME UNINSTALLED SUCCESSFULLY"
-msgstr "TEEMAN POISTO ONNISTUI"
-
-msgid "BEZELS INSTALLED SUCCESSFULLY"
-msgstr "KEHYKSET ASENNETTU ONNISTUNEESTI"
-
-msgid "BEZELS UNINSTALLED SUCCESSFULLY"
-msgstr "KEHYKSET POISTETTU ONNISTUNEESTI"
-
-msgid "PACKAGE INSTALLED SUCCESSFULLY"
-msgstr "PAKETIN ASENNUS ONNISTUI"
-
-msgid "PACKAGE REMOVED SUCCESSFULLY"
-msgstr "PAKETIN POISTO ONNISTUI"
-
-msgid "THE EMULATOR EXITED UNEXPECTEDLY"
-msgstr ""
-
-msgid "BAD COMMAND LINE ARGUMENTS"
-msgstr ""
-
-msgid "INVALID CONFIGURATION"
-msgstr ""
-
-msgid "UNKNOWN EMULATOR"
-msgstr "TUNTEMATON EMULAATTORI"
-
-msgid "EMULATOR IS MISSING"
-msgstr "EMULAATTORIA EI OLE"
-
-msgid "CORE IS MISSING"
-msgstr "YDIN PUUTTUU"
-
-msgid "UKNOWN ERROR"
-msgstr "TUNTEMATON VIRHE"
-
-msgid "OK"
-msgstr "OK"
-
-msgid "FAVORITES"
-msgstr "SUOSIKIT"
-
-msgid "GENRE"
-msgstr "TYYLILAJI"
-
-msgid "TAG"
-msgstr ""
-
-msgid "FAMILY"
-msgstr "PELISARJA"
-
-msgid "PLAYERS"
-msgstr "PELAAJAT"
-
-msgid "PUBLISHER/DEVELOPER"
-msgstr "JULKAISIJA/KEHITTÄJÄ"
-
-msgid "RATING"
-msgstr "ARVOSANA"
-
-msgid "YEAR"
-msgstr "VUOSI"
-
-msgid "LANGUAGE"
-msgstr "KIELI"
-
-msgid "REGION"
-msgstr "ALUE"
-
-msgid "KIDGAME"
-msgstr "LASTENPELI"
-
-msgid "ALREADY PLAYED"
-msgstr "KERTOJA PELATTU"
-
-msgid "HAS ACHIEVEMENTS"
-msgstr "TUKEE SAAVUTUKSIA"
-
-msgid "VERTICAL"
-msgstr "PYSTYSUUNTAINEN"
-
-msgid "LIGHTGUN"
-msgstr "VALOASE"
-
-msgid "STEERING WHEEL"
-msgstr ""
-
-msgid "TRACKBALL"
-msgstr ""
-
-msgid "SPINNER"
-msgstr ""
-
-msgid "HAVING MEDIAS"
-msgstr ""
-
-msgid "MISSING MEDIAS"
-msgstr ""
-
-msgid "SEARCH"
-msgstr "ETSI"
-
-msgid "FILENAME, ASCENDING"
-msgstr "TIEDOSTONIMI, NOUSEVA"
-
-msgid "FILENAME, DESCENDING"
-msgstr "TIEDOSTONIMI, LASKEVA"
-
-msgid "RATING, ASCENDING"
-msgstr "ARVOSTELU, NOUSEVA"
-
-msgid "RATING, DESCENDING"
-msgstr "ARVOSTELU, LASKEVA"
-
-msgid "TIMES PLAYED, ASCENDING"
-msgstr "PELIKERRAT, NOUSEVA"
-
-msgid "TIMES PLAYED, DESCENDING"
-msgstr "PELIKERRAT, LASKEVA"
-
-msgid "LAST PLAYED, ASCENDING"
-msgstr "VIIMEKSI PELATTU, NOUSEVA"
-
-msgid "LAST PLAYED, DESCENDING"
-msgstr "VIIMEKSI PELATTU, LASKEVA"
-
-msgid "NUMBER PLAYERS, ASCENDING"
-msgstr "PELAAJIEN MÄÄRÄ, NOUSEVA"
-
-msgid "NUMBER PLAYERS, DESCENDING"
-msgstr "PELAAJIEN MÄÄRÄ, LASKEVA"
-
-msgid "RELEASE DATE, ASCENDING"
-msgstr "JULKAISUPÄIVÄ, NOUSEVA"
-
-msgid "RELEASE DATE, DESCENDING"
-msgstr "JULKAISUPÄIVÄ, LASKEVA"
-
-msgid "GENRE, ASCENDING"
-msgstr "TYYLILAJI, NOUSEVA"
-
-msgid "GENRE, DESCENDING"
-msgstr "TYYLILAJI, LASKEVA"
-
-msgid "DEVELOPER, ASCENDING"
-msgstr "KEHITTÄJÄ, NOUSEVA"
-
-msgid "DEVELOPER, DESCENDING"
-msgstr "KEHITTÄJÄ, LASKEVA"
-
-msgid "PUBLISHER, ASCENDING"
-msgstr "JULKAISIJA, NOUSEVA"
-
-msgid "PUBLISHER, DESCENDING"
-msgstr "JULKAISIJA, LASKEVA"
-
-msgid "SYSTEM, ASCENDING"
-msgstr "JÄRJESTELMÄ, NOUSEVA"
-
-msgid "SYSTEM, DESCENDING"
-msgstr "JÄRJESTELMÄ, LASKEVA"
-
-msgid "FILE CREATION DATE, ASCENDING"
-msgstr "TIEDOSTON LUOMISPÄIVÄ, NOUSEVA"
-
-msgid "FILE CREATION DATE, DESCENDING"
-msgstr "TIEDOSTON LUOMISPÄIVÄ, LASKEVA"
-
-msgid "GAME TIME, ASCENDING"
-msgstr "PELIAIKA, NOUSEVA"
-
-msgid "GAME TIME, DESCENDING"
-msgstr "PELIAIKA, , LASKEVA"
-
-msgid "SYSTEM, RELEASE YEAR, ASCENDING"
-msgstr "JÄRJESTELMÄ, JULKAISUVUOSI, NOUSEVA"
-
-msgid "SYSTEM, RELEASE YEAR, DESCENDING"
-msgstr "JÄRJESTELMÄ, JULKAISUVUOSI, LASKEVA"
-
-msgid "RELEASE YEAR, SYSTEM, ASCENDING"
-msgstr "JULKAISUVUOSI, JÄRJESTELMÄ, NOUSEVA"
-
-msgid "RELEASE YEAR, SYSTEM, DESCENDING"
-msgstr "JULKAISUVUOSI, JÄRJESTELMÄ, , LASKEVA"
-
-msgid "A,AN,THE"
-msgstr ""
-
-msgid "FINISHED"
-msgstr "VALMIS"
-
-msgid "SLOW"
-msgstr ""
-
-msgid "NOT WORKING"
-msgstr ""
-
-msgid "BUGGY"
-msgstr ""
-
-msgid "LIKED"
-msgstr ""
-
-msgid "DISLIKED"
-msgstr ""
-
-msgid "Name"
-msgstr "Nimi"
-
-msgid "this game's name"
-msgstr "tämän pelin nimi"
-
-msgid "Description"
-msgstr "Kuvaus"
-
-msgid "this game's description"
-msgstr "tämän pelin kuvaus"
-
-msgid "Genre"
-msgstr "Tyylilaji"
-
-msgid "enter game genre"
-msgstr "syötä pelin tyylilaji"
-
-msgid "Tags"
-msgstr ""
-
-msgid "tags"
-msgstr ""
-
-msgid "Sort name"
-msgstr ""
-
-msgid "enter game sort name"
-msgstr ""
-
-msgid "Emulator"
-msgstr "Emulaattori"
-
-msgid "emulator"
-msgstr "emulaattori"
-
-msgid "Core"
-msgstr "Ydin"
-
-msgid "core"
-msgstr "ydin"
-
-msgid "Image"
-msgstr "Kuva"
-
-msgid "enter path to image"
-msgstr "polku kuvaan"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "enter path to video"
-msgstr "polku videoon"
-
-msgid "Logo"
-msgstr "Logo"
-
-msgid "enter path to logo"
-msgstr "polku logoon"
-
-msgid "Box"
-msgstr "Kansikuva"
-
-msgid "enter path to box"
-msgstr "polku kansikuvaan"
-
-msgid "Fan art"
-msgstr "Fanikuva"
-
-msgid "enter path to fan art"
-msgstr "polku fanitaiteeseen"
-
-msgid "Title shot"
-msgstr "Aloitusruutukuva"
-
-msgid "enter path to title shot"
-msgstr "polku aloitusruudun kuvaan"
-
-msgid "Manual"
-msgstr "Ohjekirja"
-
-msgid "enter path to manual"
-msgstr "polku ohjekirjaan"
-
-msgid "Magazine"
-msgstr "Lehti"
-
-msgid "enter path to magazine"
-msgstr "polku lehteen"
-
-msgid "Map"
-msgstr "Kartta"
-
-msgid "enter path to map"
-msgstr "polku karttaan"
-
-msgid "Bezel (16:9)"
-msgstr "Kehys (16:9)"
-
-msgid "enter path to bezel (16:9)"
-msgstr "syötä polku kehykseen (16:9)"
-
-msgid "Cartridge"
-msgstr "Kasetti"
-
-msgid "enter path to cartridge"
-msgstr "polku kasettiin"
-
-msgid "Alt BoxArt"
-msgstr "Vaihtoehtoinen kansikuva"
-
-msgid "enter path to alt boxart"
-msgstr "polku vaihtoehtoiseen kansikuvaan"
-
-msgid "Box backside"
-msgstr "Kotelon kääntöpuoli"
-
-msgid "enter path to box background"
-msgstr "polku kotelon kääntöpuoleen"
-
-msgid "Wheel"
-msgstr "Pyörä"
-
-msgid "enter path to wheel"
-msgstr "syötä polku pyörään"
-
-msgid "Mix"
-msgstr ""
-
-msgid "enter path to mix"
-msgstr ""
-
-msgid "Rating"
-msgstr "Arvosana"
-
-msgid "enter rating"
-msgstr "syötä arvosana"
-
-msgid "Release date"
-msgstr "Julkaisupäivä"
-
-msgid "enter release date"
-msgstr "syötä julkaisupäivä"
-
-msgid "Developer"
-msgstr "Kehittäjä"
-
-msgid "this game's developer"
-msgstr "tämän pelin kehittäjä"
-
-msgid "Publisher"
-msgstr "Julkaisija"
-
-msgid "this game's publisher"
-msgstr "tämän pelin julkaisija"
-
-msgid "Game family"
-msgstr ""
-
-msgid "this game's game family"
-msgstr ""
-
-msgid "Genres"
-msgstr "Tyylilajit"
-
-msgid "enter game genres"
-msgstr "syötä pelin tyylilajit"
-
-msgid "Arcade system"
-msgstr "Pelihalli järjestelmä"
-
-msgid "this game's arcade system"
-msgstr "tämän pelin pelihallijärjestelmä"
-
-msgid "Players"
-msgstr "Pelaajat"
-
-msgid "this game's number of players"
-msgstr "palaaja määrä tälle pelille"
-
-msgid "Favorite"
-msgstr "Suosikki"
-
-msgid "enter favorite"
-msgstr "syötä suosikki"
-
-msgid "Hidden"
-msgstr "Piilotettu"
-
-msgid "enter hidden"
-msgstr "syötä piilotettu"
-
-msgid "Kidgame"
-msgstr "Lastenpeli"
-
-msgid "enter kidgame"
-msgstr "syötä lastenpeli"
-
-msgid "Play count"
-msgstr "Pelikerrat"
-
-msgid "enter number of times played"
-msgstr "syötä kuinka monesti pelattu"
-
-msgid "Last played"
-msgstr "Viimeksi pelattu"
-
-msgid "enter last played date"
-msgstr "syötä viimeisin pelipäivä"
-
-msgid "Crc32"
-msgstr "CRS32"
-
-msgid "Crc32 checksum"
-msgstr "CRS32-tarkistussumma"
-
-msgid "Md5"
-msgstr "MD5"
-
-msgid "Md5 checksum"
-msgstr "MD5-tarkistussumma"
-
-msgid "Game time"
-msgstr "Peliaika"
-
-msgid "how long the game has been played in total (seconds)"
-msgstr "kuinka kauan peliä on pelattu yhteensä (sekuntteina)"
-
-msgid "Languages"
-msgstr "Kielet"
-
-msgid "this game's languages"
-msgstr "tämän pelin kielet"
-
-msgid "Region"
-msgstr "Alue"
-
-msgid "this game's region"
-msgstr "tämän pelin alue"
-
-msgid "Cheevos Hash"
-msgstr ""
-
-msgid "Cheevos checksum"
-msgstr ""
-
-msgid "Cheevos Game ID"
-msgstr ""
-
-msgid "Screenscraper Game ID"
-msgstr ""
-
-msgid "MultiDisk"
-msgstr ""
-
-msgid "UPDATE AVAILABLE"
-msgstr "PÄIVITYS SAATAVILLA"
-
-msgid "INVALID CONTENT"
-msgstr ""
-
-msgid ""
-"A valid account is required. Please register an account on https://"
-"retroachievements.org"
-msgstr ""
-
-msgid "Collections"
-msgstr ""
-
-msgid "Unknown"
-msgstr "Tuntematon"
-
-msgid "SCANNING BLUETOOTH"
-msgstr "BLUETOOTH-SKANNAUS KÄYNNISSÄ"
-
-msgid "Searching for devices..."
-msgstr "Etsitään laitteita…"
-
-msgid "BLUETOOTH SCAN IS ALREADY RUNNING."
-msgstr "BLUETOOTH-SKANNAUS ON JO KÄYNNISSÄ."
-
-msgid "FORMATTING DEVICE"
-msgstr "ALUSTETAAN LAITETTA"
-
-msgid "Formatting"
-msgstr "Alustetaan"
-
-msgid "A REBOOT IS REQUIRED TO COMPLETE THE OPERATION"
-msgstr "UUDELLEEN KÄYNNISTYS VAADITAAN TÄMÄN OPERAATION SUORITTAMISEKSI"
-
-msgid "A DRIVE IS ALREADY BEING FORMATTED."
-msgstr "TALTIO ON JO ALUSTUKSESSA."
-
 msgid "SEARCHING RETROACHIEVEMENTS"
 msgstr ""
 
@@ -617,37 +108,125 @@ msgstr "EI"
 msgid "NO GAMES FIT THAT CRITERIA."
 msgstr "MIKÄÄN PELI EI TÄYTÄ KRITEEREITÄ."
 
+msgid "Checking for latest upgrade script..."
+msgstr ""
+
 msgid "Extracting"
 msgstr ""
 
-msgid "Interlaced"
+msgid "Loading system config..."
 msgstr ""
 
-msgid "Searching"
+msgid "Loading..."
+msgstr "Ladataan…"
+
+msgid "QUIT"
+msgstr "LOPETA"
+
+msgid "Loading theme"
+msgstr "Ladataan teemaa"
+
+msgid "SAVING METADATA. PLEASE WAIT..."
 msgstr ""
 
-msgid "Released"
-msgstr "Julkaistu"
+msgid "PAD TO KEYBOARD CONFIGURATION"
+msgstr "OHJAIMESTA-NÄPPÄIMISTÖÖN ASETUKSET"
 
-msgid "NO GAMES FOUND - SKIP"
+msgid "SELECT ACTIONS TO CHANGE"
 msgstr ""
 
-msgid "RETRY"
-msgstr ""
+msgid "SAVE"
+msgstr "TALLENNA"
 
-msgid "SKIP"
-msgstr ""
+msgid "DELETE"
+msgstr "POISTA"
 
 msgid "CANCEL"
 msgstr "TAKAISIN"
 
-msgid "Downloading"
+msgid "CLOSE"
+msgstr "SULJE"
+
+msgid "PLAYER 1"
+msgstr "PELAAJA 1"
+
+msgid "PLAYER 2"
+msgstr "PELAAJA 2"
+
+msgid "PLAYER 3"
+msgstr "PELAAJA 3"
+
+msgid "PLAYER 4"
+msgstr "PELAAJA 4"
+
+msgid "COMBINATIONS"
+msgstr "YHDISTELMÄT"
+
+msgid "MOUSE CURSOR"
+msgstr "HIIREN KURSORI"
+
+msgid "EMULATE MOUSE CURSOR"
+msgstr "EMULOI HIIREN KURSORIA"
+
+msgid "LEFT ANALOG STICK"
+msgstr "VASEN ANALOGINEN SAUVA"
+
+msgid "RIGHT ANALOG STICK"
+msgstr "OIKEA ANALOGINEN SAUVA"
+
+msgid "EDIT DESCRIPTION"
+msgstr "MUOKKAA KUVAUSTA"
+
+msgid "ARE YOU SURE YOU WANT TO DELETE THIS ITEM?"
+msgstr "OLETKO VARMA ETTÄ HALUAT POISTAA TÄMÄN KOHTEEN?"
+
+msgid "BACK"
+msgstr "TAKAISIN"
+
+msgid "DELETE MAPPING"
+msgstr "POISTA KARTOITUS"
+
+msgid "SAVE CHANGES?"
+msgstr "TALLENNA MUUTOKSET?"
+
+msgid "ARE YOU SURE?"
+msgstr "OLETKO VARMA?"
+
+msgid "PLEASE WAIT"
+msgstr "ODOTA HETKI"
+
+msgid "AN ERROR OCCURRED"
+msgstr "VIRHE ON TAPAHTUNUT"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Points"
+msgstr "Pisteet"
+
+msgid "Unlocked on"
 msgstr ""
 
-msgid "SEARCH FOR"
+msgid "HARDCORE MODE"
+msgstr "HARDCORE-TILA"
+
+msgid "LAUNCH"
+msgstr "KÄYNNISTÄ"
+
+msgid "go back"
+msgstr "mene takaisin"
+
+msgid "THIS GAME HAS NO ACHIEVEMENTS YET"
+msgstr "TÄLLÄ PELILLÄ EI OLE SAAVUTUKSIA VIELÄ"
+
+msgid "Achievements (softcore)"
 msgstr ""
 
-msgid "ACCEPT RESULT"
+msgid "Achievements (hardcore)"
+msgstr ""
+
+#, c-format
+msgid "%d%% complete"
 msgstr ""
 
 msgid "BACKUP USER DATA"
@@ -662,125 +241,140 @@ msgstr "LAITETTA EI LÖYTYNYT"
 msgid "START"
 msgstr "KÄYNNISTÄ"
 
-msgid "BACK"
-msgstr "TAKAISIN"
+msgid "CONNECT TO NETPLAY"
+msgstr "YHDISTÄ VERKKOPELIIN"
 
-msgid "CLOSE"
-msgstr "SULJE"
-
-msgid "CONTENT DOWNLOADER"
-msgstr "SISÄLLÖN LATAAJA"
-
-msgid "SELECT CONTENT TO INSTALL/REMOVE"
-msgstr "VALITSE SISÄLTÖÄ ASENNETTAVAKSI/POISTETTAVAKSI"
+msgid "Select a game lobby to join"
+msgstr "Valitse pelialue johon liittyä"
 
 msgid "REFRESH"
 msgstr "PÄIVITÄ"
 
-msgid "UPDATE INSTALLED CONTENT"
-msgstr "PÄIVITÄ ASENNETTU SISÄLTÖ"
+msgid "FAILED"
+msgstr "EPÄONNISTUI"
 
-msgid "No items"
-msgstr "Ei kohteita"
+msgid "UNKNOWN ROM VERSION"
+msgstr "TUNTEMATON ROM-VERSIO"
 
-msgid "MISC"
+msgid "DIFFERENT ROM"
+msgstr "ERI ROM"
+
+msgid "SAME ROM"
+msgstr "SAMA ROM"
+
+msgid "UNAVAILABLE CORE"
+msgstr "YDIN EI SAATAVILLA"
+
+msgid "LAN GAMES"
 msgstr ""
 
-msgid "PLEASE WAIT"
-msgstr "ODOTA HETKI"
+msgid "AVAILABLE GAMES"
+msgstr "SAATAVILLA OLEVAT PELIT"
 
-msgid "UPDATE"
-msgstr "PÄIVITÄ"
-
-#, c-format
-msgid "'%s' ADDED TO DOWNLOAD QUEUE"
-msgstr "'%s' LISÄTTY LATAUSJONOON"
-
-msgid "REMOVE"
-msgstr "POISTA"
-
-msgid "UNINSTALLATION ADDED TO QUEUE"
-msgstr "POISTO LISÄTTY JONOON"
-
-msgid "INSTALL"
-msgstr "ASENNA"
-
-#, c-format
-msgid "CURRENTLY IN DOWNLOAD QUEUE"
-msgstr "TÄLLÄ HETKELLÄ LATAUSJONOSSA"
-
-msgid "THE BEZEL PROJECT"
-msgstr "KEHYSPROJEKTI"
-
-msgid "SELECT BEZELS TO INSTALL/REMOVE"
-msgstr "VALITSE KEHYKSIÄ ASENNETTAVAKSI/POISTETTAVAKSI"
-
-msgid "NO MISSING BIOS FILES"
-msgstr "EI PUUTTUVIA BIOS-TIEDOSTOJA"
-
-msgid "MISSING BIOS CHECK"
-msgstr "TARKISTA PUUTTUVAT BIOS-TIEDOSTOT**"
-
-msgid "Installed systems"
+msgid "ONLINE GAMES"
 msgstr ""
 
-msgid "All"
-msgstr "Kaikki"
+msgid "UNAVAILABLE GAMES"
+msgstr "EI SAATAVILLA OLEVAT PELIT"
 
-msgid "refresh"
+msgid "NO GAMES FOUND"
+msgstr "PELEJÄ EI LÖYTYNYT"
+
+msgid "JOIN GAME"
+msgstr "LIITY PELIIN"
+
+msgid "WATCH GAME"
+msgstr "KATSO PELIÄ"
+
+msgid "PARIS"
 msgstr ""
 
-msgid "NO MISSING BIOS"
-msgstr "EI PUUTTUVAA BIOS:TA"
-
-msgid "DEVICE OPTIONS"
+msgid "OSAKA"
 msgstr ""
 
-msgid "DISCONNECT"
+msgid "SEOUL"
 msgstr ""
 
-msgid "CONNECT"
+msgid "NETPLAY SETTINGS"
+msgstr "VERKKOPELIN ASETUKSET"
+
+msgid "SETTINGS"
+msgstr "ASETUKSET"
+
+msgid "ENABLE NETPLAY"
+msgstr "OTA VERKKOPELI KÄYTTÖÖN"
+
+msgid "NICKNAME"
+msgstr "NIMIMERKKI"
+
+msgid "OPTIONS"
+msgstr "ASETUKSET"
+
+msgid "PORT"
+msgstr "PORTTI"
+
+msgid "AUTOMATICALLY CREATE LOBBY"
 msgstr ""
 
-msgid "FORGET"
+msgid "Automatically creates a Netplay lobby when starting a game."
 msgstr ""
 
-#, c-format
-msgid "ARE YOU SURE YOU WANT TO FORGET '%s' ?"
+msgid "SHOW RELAY SERVER GAMES ONLY"
 msgstr ""
 
-#, c-format
-msgid "ARE YOU SURE YOU WANT TO CONNECT TO '%s' ?"
+msgid "Relay server games have a higher chance of successful entry."
 msgstr ""
 
-#, c-format
-msgid "ARE YOU SURE YOU WANT TO DISCONNECT '%s' ?"
+msgid "SHOW UNAVAILABLE GAMES"
+msgstr "NÄYTÄ EI SAATAVILLA OLEVAT PELIT"
+
+msgid "Show rooms for games not present on this machine."
 msgstr ""
 
-msgid "BLUETOOTH DEVICE LIST"
+msgid "GAME INDEXES"
 msgstr ""
 
-msgid "REMOVE ALL"
-msgstr "POISTA KAIKKI"
-
-msgid "NO BLUETOOTH DEVICES FOUND"
-msgstr "BLUETOOTH-LAITTEITA EI LÖYTYNYT"
-
-msgid " (Connected)"
+msgid "INDEX NEW GAMES AT STARTUP"
 msgstr ""
 
-msgid "BLUETOOTH DEVICES HAVE BEEN DELETED."
-msgstr "BLUETOOTH-LAITTEET ON POISTETTU."
+msgid "INDEX GAMES"
+msgstr ""
 
-#, c-format
-msgid "ARE YOU SURE YOU WANT TO REMOVE '%s' ?"
-msgstr "OLETKO VARMA, ETTÄ HALUAT POISTAA '%s' ?"
+msgid "USE RELAY SERVER"
+msgstr "KÄYTÄ VÄLITYSPALVELINTA"
 
-msgid "PAIR A BLUETOOTH DEVICE"
-msgstr "PARITA BLUETOOTH-LAITE"
+msgid "NONE"
+msgstr "EI MITÄÄN"
 
-msgid "PAIR"
-msgstr "PARITA"
+msgid "NEW YORK"
+msgstr "NEW YORK"
+
+msgid "MADRID"
+msgstr "MADRID"
+
+msgid "MONTREAL"
+msgstr "MONTREAL"
+
+msgid "SAO PAULO"
+msgstr "SAO PAULO"
+
+msgid "CUSTOM"
+msgstr ""
+
+msgid "CUSTOM RELAY SERVER"
+msgstr ""
+
+msgid "ZOOM OUT"
+msgstr ""
+
+msgid "ZOOM IN"
+msgstr ""
+
+msgid "MOVE"
+msgstr ""
+
+msgid "ZOOM"
+msgstr ""
 
 msgid "GAME COLLECTION SETTINGS"
 msgstr "PELIKOKOELMAN ASETUKSET"
@@ -812,9 +406,6 @@ msgstr "LUO UUSI MUOKATTAVA KOKOELMA"
 msgid "CREATE NEW DYNAMIC COLLECTION"
 msgstr "LUO UUSI DYNAAMINEN KOKOELMA"
 
-msgid "OPTIONS"
-msgstr "ASETUKSET"
-
 msgid "SORT COLLECTIONS AND SYSTEMS"
 msgstr "LAJITTELE KOKOELMAT JA JÄRJESTELMÄT"
 
@@ -841,9 +432,6 @@ msgstr "JÄRJESTELE JÄRJESTELMÄT"
 
 msgid "START ON SYSTEM"
 msgstr "ALOITA JÄRJESTELMÄSTÄ"
-
-msgid "NONE"
-msgstr "EI MITÄÄN"
 
 msgid "RESTORE LAST SELECTED"
 msgstr "ALOITA VIIMEKSI KÄYTETYSTÄ"
@@ -872,9 +460,6 @@ msgstr ""
 msgid "UPDATE GAMELISTS"
 msgstr "PÄIVITÄ PELILISTA"
 
-msgid "Loading..."
-msgstr "Ladataan…"
-
 msgid "SELECT COLLECTIONS"
 msgstr "VALITSE KOKOELMAT"
 
@@ -899,8 +484,23 @@ msgstr "DYNAAMISET KOKELMAT"
 msgid "CUSTOM GAME COLLECTIONS"
 msgstr "MUKAUTETUT PELIKOKOELMAT"
 
-msgid "FAVORITE SONGS"
-msgstr "SUOSIKKIKAPPALEET"
+msgid "NO MISSING BIOS FILES"
+msgstr "EI PUUTTUVIA BIOS-TIEDOSTOJA"
+
+msgid "MISSING BIOS CHECK"
+msgstr "TARKISTA PUUTTUVAT BIOS-TIEDOSTOT**"
+
+msgid "Installed systems"
+msgstr ""
+
+msgid "All"
+msgstr "Kaikki"
+
+msgid "refresh"
+msgstr ""
+
+msgid "NO MISSING BIOS"
+msgstr "EI PUUTTUVAA BIOS:TA"
 
 msgid "FILE BROWSER"
 msgstr "TIEDOSTOSELAIN"
@@ -917,33 +517,27 @@ msgstr "KUVAKAAPPAUSTEN KANSION"
 msgid "SELECT"
 msgstr "VALITSE"
 
-msgid "Points"
-msgstr "Pisteet"
-
-msgid "Unlocked on"
+msgid "BLUETOOTH DEVICE LIST"
 msgstr ""
 
-msgid "HARDCORE MODE"
-msgstr "HARDCORE-TILA"
+msgid "REMOVE ALL"
+msgstr "POISTA KAIKKI"
 
-msgid "LAUNCH"
-msgstr "KÄYNNISTÄ"
+msgid "NO BLUETOOTH DEVICES FOUND"
+msgstr "BLUETOOTH-LAITTEITA EI LÖYTYNYT"
 
-msgid "go back"
-msgstr "mene takaisin"
-
-msgid "THIS GAME HAS NO ACHIEVEMENTS YET"
-msgstr "TÄLLÄ PELILLÄ EI OLE SAAVUTUKSIA VIELÄ"
-
-msgid "Achievements (softcore)"
+msgid " (Connected)"
 msgstr ""
 
-msgid "Achievements (hardcore)"
-msgstr ""
+msgid "REMOVE"
+msgstr "POISTA"
+
+msgid "BLUETOOTH DEVICES HAVE BEEN DELETED."
+msgstr "BLUETOOTH-LAITTEET ON POISTETTU."
 
 #, c-format
-msgid "%d%% complete"
-msgstr ""
+msgid "ARE YOU SURE YOU WANT TO REMOVE '%s' ?"
+msgstr "OLETKO VARMA, ETTÄ HALUAT POISTAA '%s' ?"
 
 msgid "GAME MEDIA"
 msgstr "PELIN VIDEO"
@@ -1054,6 +648,9 @@ msgstr "POISTA KOKOELMASTA %s"
 msgid "ADD TO %s"
 msgstr "LISÄÄ KOKOELMAAN %s"
 
+msgid "FAVORITES"
+msgstr "SUOSIKIT"
+
 msgid "ADD TO CUSTOM COLLECTION..."
 msgstr "LISÄÄ MUKAUTETTUUN KOKOELMAAN…"
 
@@ -1084,11 +681,97 @@ msgstr "NÄYTÄ OHJAIMESTA-NÄPPÄIMISTÖÖN TIEDOT"
 msgid "THIS FUNCTION IS DISABLED WHILE THE SCRAPER IS RUNNING"
 msgstr "TÄMÄ TOIMINTO ON POIS KÄYTÖSTÄ, KUN TIEDON ETSINTÄ ON KÄYNNISSÄ"
 
-msgid "ARE YOU SURE YOU WANT TO DELETE THIS ITEM?"
-msgstr "OLETKO VARMA ETTÄ HALUAT POISTAA TÄMÄN KOHTEEN?"
+msgid "FINISHED"
+msgstr "VALMIS"
 
-msgid "INPUT"
-msgstr "SYÖTE"
+msgid "ADD COMBINATION KEY"
+msgstr ""
+
+msgid "INPUT MANUALLY"
+msgstr "SYÖTÄ MANUAALISESTI"
+
+msgid "NO WI-FI NETWORKS FOUND"
+msgstr "WI-FI VERKKOJA EI LÖYTYNYT"
+
+msgid "SEARCHING WI-FI NETWORKS"
+msgstr "ETSITÄÄN WI-FI VERKKOJA"
+
+#, c-format
+msgid "%d of %d softcore points"
+msgstr ""
+
+#, c-format
+msgid "%d of %d hardcore points"
+msgstr ""
+
+#, c-format
+msgid "%d%% (%d of %d)"
+msgstr ""
+
+msgid "RETROACHIEVEMENTS"
+msgstr "RETROACHIEVEMENTS"
+
+msgid "Softcore points"
+msgstr ""
+
+msgid "Points (hardcore)"
+msgstr ""
+
+msgid "Rank"
+msgstr "Sijoitus"
+
+msgid "VIEW DETAILS"
+msgstr "NÄYTÄ YKSITYSKOHDAT"
+
+msgid "FAVORITE SONGS"
+msgstr "SUOSIKKIKAPPALEET"
+
+msgid "INSTALL ON A NEW DISK"
+msgstr "ASENNA UUDELLE LEVYLLE"
+
+msgid "TARGET ARCHITECTURE"
+msgstr "KOHDE ARKKITEHTUURI"
+
+msgid "INSTALL"
+msgstr "ASENNA"
+
+msgid "NETWORK REQUIRED"
+msgstr "VERKKOYHTEYS VAADITAAN"
+
+msgid "INVALID PARAMETERS"
+msgstr "VIRHEELLISET ARVOT"
+
+msgid "THEMES DOWNLOADER"
+msgstr "TEEMOJEN LATAAJA"
+
+msgid "SELECT THEMES TO INSTALL/REMOVE"
+msgstr "VALITSE TEEMAT ASENNETTAVAKSI/POISTETTAVAKSI"
+
+msgid "Installed"
+msgstr "Asennetut"
+
+msgid "Available"
+msgstr "Saatavilla"
+
+msgid "No items"
+msgstr "Ei kohteita"
+
+msgid "UPDATE"
+msgstr "PÄIVITÄ"
+
+#, c-format
+msgid "'%s' ADDED TO DOWNLOAD QUEUE"
+msgstr "'%s' LISÄTTY LATAUSJONOON"
+
+msgid "THEME UNINSTALLED SUCCESSFULLY"
+msgstr "TEEMAN POISTO ONNISTUI"
+
+msgid "CURRENT THEME"
+msgstr "NYKYINEN TEEMA"
+
+#, c-format
+msgid "CURRENTLY IN DOWNLOAD QUEUE"
+msgstr "TÄLLÄ HETKELLÄ LATAUSJONOSSA"
 
 msgid "FILTER GAMELIST BY"
 msgstr ""
@@ -1102,53 +785,182 @@ msgstr "POISTA KAIKKI SUODATTIMET"
 msgid "FIND GAMES"
 msgstr "ETSI PELEJÄ"
 
+msgid "Unknown"
+msgstr "Tuntematon"
+
 msgid "SYSTEMS"
 msgstr "JÄRJESTELMÄT"
 
-msgid "VIEW OPTIONS"
-msgstr "NÄYTÄ ASETUKSET"
+msgid "SCRAPER"
+msgstr "TIEDONETSIJÄ"
 
-msgid "NAVIGATION"
+msgid "ACCOUNTS"
 msgstr ""
 
-msgid "OTHER FILTERS"
-msgstr "MUUT SUODATTIMET"
+msgid "SCRAPING DATABASE"
+msgstr "TIEDONETSIJÄN TIETOKANTA"
 
-msgid "SELECT RANDOM GAME"
-msgstr "VALITSE SATUNNAINEN PELI"
+msgid "SOURCE"
+msgstr "LÄHDE"
 
-msgid "JUMP TO GAME BEGINNING WITH THE LETTER"
-msgstr "SIIRRY PELIIN JOKA ALKAA KIRJAIMELLA"
+msgid "SCRAPE FROM"
+msgstr "ETSI TIETOA"
 
-msgid "SORT GAMES BY"
-msgstr "PELIEN JÄRJESTYS"
+msgid "FILTERS"
+msgstr "SUODATTIMET"
 
-msgid "DYNAMIC COLLECTION"
-msgstr "DYNAAMINEN KOKOELMA"
+msgid "GAMES TO SCRAPE FOR"
+msgstr "ETSI TIETOA PELEILLE"
 
-msgid "CUSTOM COLLECTION"
-msgstr "MUKAUTETTU KOKOELMA"
+msgid "ALL"
+msgstr "KAIKKI"
 
-msgid "COLLECTION"
-msgstr "KOKOELMA"
+msgid "GAMES MISSING ANY MEDIA"
+msgstr "JOISTA PUUTTUU MEDIAA"
 
-msgid "GAMELIST VIEW STYLE"
-msgstr "PELILISTAN TYYLI"
+msgid "GAMES MISSING ALL MEDIA"
+msgstr "JOISTA PUUTTUU KAIKKI MEDIA"
 
-msgid "automatic"
-msgstr "automaattinen"
+msgid "IGNORE RECENTLY SCRAPED GAMES"
+msgstr "OHITA HILJATTAIN ETSITYT PELIT"
 
-msgid "VIEW CUSTOMIZATION"
+msgid "LAST DAY"
+msgstr "EILEN"
+
+msgid "LAST WEEK"
+msgstr "VIIME VIIKOLLA"
+
+msgid "LAST 15 DAYS"
+msgstr "VIIMEISEN 15 PÄIVÄN AIKANA"
+
+msgid "LAST MONTH"
+msgstr "VIIME KUUSSA"
+
+msgid "LAST 3 MONTHS"
+msgstr "VIIMEISEN 3 KUUKAUDEN AIKANA"
+
+msgid "LAST YEAR"
+msgstr "VIIME VUONNA"
+
+msgid "SYSTEMS INCLUDED"
+msgstr "SISÄLLETYT JÄRJESTELMÄT"
+
+msgid "SCRAPE NOW"
+msgstr "ETSI NYT"
+
+msgid "IMAGE SOURCE"
+msgstr "KUVAN LÄHDE"
+
+msgid "SCREENSHOT"
+msgstr "KUVAKAAPPAUS"
+
+msgid "TITLE SCREENSHOT"
+msgstr "OTSIKKOKUVA"
+
+msgid "MIX V1"
 msgstr ""
 
-msgid "ADVANCED SYSTEM OPTIONS"
-msgstr "EDISTYNEET JÄRJESTELMÄASETUKSET"
+msgid "MIX V2"
+msgstr ""
 
-msgid "RESET FILTERS"
-msgstr "NOLLAA SUODATTIMET"
+msgid "BOX 2D"
+msgstr "KOTELO 2D"
 
-msgid "FILTER GAMES BY TEXT"
-msgstr "SUODATA PELEJÄ TEKSTILLÄ"
+msgid "BOX 3D"
+msgstr "KOTELO 3D"
+
+msgid "FAN ART"
+msgstr "FANIKUVITUS"
+
+msgid "BOX SOURCE"
+msgstr ""
+
+msgid "LOGO SOURCE"
+msgstr ""
+
+msgid "HD WHEEL"
+msgstr ""
+
+msgid "WHEEL"
+msgstr ""
+
+msgid "MARQUEE"
+msgstr ""
+
+msgid "PREFERED REGION"
+msgstr ""
+
+msgid "AUTO"
+msgstr "AUTOMAATTINEN"
+
+msgid "OVERWRITE NAMES"
+msgstr ""
+
+msgid "OVERWRITE DESCRIPTIONS"
+msgstr ""
+
+msgid "OVERWRITE MEDIAS"
+msgstr ""
+
+msgid "SCRAPE FOR"
+msgstr ""
+
+msgid "SHORT NAME"
+msgstr "LYHYT NIMI"
+
+msgid "COMMUNITY RATING"
+msgstr "YHTEISÖN ARVOSANA"
+
+msgid "VIDEO"
+msgstr "VIDEO"
+
+msgid "BEZEL (16:9)"
+msgstr "KEHYS (16:9)"
+
+msgid "BOX BACKSIDE"
+msgstr "KOTELON TAKAKANSI"
+
+msgid "MAP"
+msgstr "KARTTA"
+
+msgid "MANUAL"
+msgstr "OHJEKIRJA"
+
+msgid "PADTOKEY SETTINGS"
+msgstr "OHJEIMESTA-NÄPPÄIMISTÖÖN ASETUKSET"
+
+msgid "MANUAL SCRAPE"
+msgstr ""
+
+msgid "INCLUDED SCRAPERS"
+msgstr ""
+
+msgid "SCREENSCRAPER"
+msgstr ""
+
+msgid "USERNAME"
+msgstr "KÄYTTÄJÄNIMI"
+
+msgid "PASSWORD"
+msgstr "SALASANA"
+
+msgid "IGDB"
+msgstr ""
+
+msgid "CLIENT ID"
+msgstr ""
+
+msgid "CLIENT SECRET"
+msgstr ""
+
+msgid ""
+"WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS "
+"MAY BE FOR DIFFERENT SYSTEMS!\n"
+"CONTINUE ANYWAY?"
+msgstr ""
+
+msgid "SCRAPING IS RUNNING. DO YOU WANT TO STOP IT?"
+msgstr "ETSINTÄ KÄYNNISSÄ. HALUATKO PYSÄYTTÄÄ SEN?"
 
 msgid "dim"
 msgstr "himmennä"
@@ -1185,9 +997,6 @@ msgstr ""
 
 msgid "SCREENSAVER SETTINGS"
 msgstr "NÄYTÖNSÄÄSTÄJÄN ASETUKSET"
-
-msgid "SETTINGS"
-msgstr "ASETUKSET"
 
 msgid "START SCREENSAVER AFTER"
 msgstr "KÄYNNISTÄ NÄYTÖN SÄÄSTÄJÄ"
@@ -1267,99 +1076,6 @@ msgstr "KÄYTÄ MUKAUTETUN HAKEMISTON ALIHAKEMISTOISSA OLEVIA KUVIA"
 msgid "CUSTOM IMAGE FILE EXTENSIONS"
 msgstr "MUKAUTETUT KUVIEN TIEDOSTOPÄÄTTEET"
 
-msgid "INDEX GAMES"
-msgstr ""
-
-msgid "GAMES TO INDEX"
-msgstr ""
-
-msgid "ALL"
-msgstr "KAIKKI"
-
-msgid "ONLY MISSING"
-msgstr ""
-
-msgid "SYSTEMS INCLUDED"
-msgstr "SISÄLLETYT JÄRJESTELMÄT"
-
-msgid "ZOOM OUT"
-msgstr ""
-
-msgid "ZOOM IN"
-msgstr ""
-
-msgid "MOVE"
-msgstr ""
-
-msgid "ZOOM"
-msgstr ""
-
-msgid "INSTALL ON A NEW DISK"
-msgstr "ASENNA UUDELLE LEVYLLE"
-
-msgid "TARGET ARCHITECTURE"
-msgstr "KOHDE ARKKITEHTUURI"
-
-msgid "ARE YOU SURE?"
-msgstr "OLETKO VARMA?"
-
-msgid "NETWORK REQUIRED"
-msgstr "VERKKOYHTEYS VAADITAAN"
-
-msgid "INVALID PARAMETERS"
-msgstr "VIRHEELLISET ARVOT"
-
-msgid "PAD TO KEYBOARD CONFIGURATION"
-msgstr "OHJAIMESTA-NÄPPÄIMISTÖÖN ASETUKSET"
-
-msgid "SELECT ACTIONS TO CHANGE"
-msgstr ""
-
-msgid "SAVE"
-msgstr "TALLENNA"
-
-msgid "DELETE"
-msgstr "POISTA"
-
-msgid "PLAYER 1"
-msgstr "PELAAJA 1"
-
-msgid "PLAYER 2"
-msgstr "PELAAJA 2"
-
-msgid "PLAYER 3"
-msgstr "PELAAJA 3"
-
-msgid "PLAYER 4"
-msgstr "PELAAJA 4"
-
-msgid "COMBINATIONS"
-msgstr "YHDISTELMÄT"
-
-msgid "MOUSE CURSOR"
-msgstr "HIIREN KURSORI"
-
-msgid "EMULATE MOUSE CURSOR"
-msgstr "EMULOI HIIREN KURSORIA"
-
-msgid "LEFT ANALOG STICK"
-msgstr "VASEN ANALOGINEN SAUVA"
-
-msgid "RIGHT ANALOG STICK"
-msgstr "OIKEA ANALOGINEN SAUVA"
-
-msgid "EDIT DESCRIPTION"
-msgstr "MUOKKAA KUVAUSTA"
-
-msgid "DELETE MAPPING"
-msgstr "POISTA KARTOITUS"
-
-msgid "SAVE CHANGES?"
-msgstr "TALLENNA MUUTOKSET?"
-
-msgid "ADD COMBINATION KEY"
-msgstr ""
-
 msgid "KEYBOARDTOPADS"
 msgstr ""
 
@@ -1429,9 +1145,6 @@ msgstr "TAKAISIN KELAUS"
 msgid "SCREEN LAYOUT"
 msgstr ""
 
-msgid "SCREENSHOT"
-msgstr "KUVAKAAPPAUS"
-
 msgid "SWAP SCREEN"
 msgstr ""
 
@@ -1459,169 +1172,32 @@ msgstr ""
 msgid "KEY ASSIGNED TWICE"
 msgstr ""
 
-msgid "EDIT METADATA"
-msgstr "MUOKKAA METATIETOJA"
+msgid "CONTENT DOWNLOADER"
+msgstr "SISÄLLÖN LATAAJA"
 
-msgid "AUTO"
-msgstr "AUTOMAATTINEN"
+msgid "SELECT CONTENT TO INSTALL/REMOVE"
+msgstr "VALITSE SISÄLTÖÄ ASENNETTAVAKSI/POISTETTAVAKSI"
 
-msgid "TAGS"
+msgid "SEARCH"
+msgstr "ETSI"
+
+msgid "UPDATE INSTALLED CONTENT"
+msgstr "PÄIVITÄ ASENNETTU SISÄLTÖ"
+
+msgid "MISC"
 msgstr ""
 
-msgid "GENRES"
-msgstr "TYYLILAJIT"
+msgid "UNINSTALLATION ADDED TO QUEUE"
+msgstr "POISTO LISÄTTY JONOON"
 
-#, fuzzy
-msgid ""
-"SOME FILES YOU LINKED ARE LOCATED OUTSIDE THE GAMELIST PATH.\n"
-"DO YOU WANT TO USE A COPY OF THESE FILES RELATIVE TO THE GAMELIST ?"
-msgstr ""
-"JOTKIN LINKITTÄMÄSI TIEDOSTOT SIJAITSEVAT PELILISTAN POLUN ULKOPUOLELLA.\n"
-"HALUATKO KÄYTTÄÄ NÄIDEN TIEDOSTOJEN KOPIOITA SUHTEESSA PELILISTAAN?"
-
-msgid "CONNECT TO NETPLAY"
-msgstr "YHDISTÄ VERKKOPELIIN"
-
-msgid "Select a game lobby to join"
-msgstr "Valitse pelialue johon liittyä"
-
-msgid "FAILED"
-msgstr "EPÄONNISTUI"
-
-msgid "UNKNOWN ROM VERSION"
-msgstr "TUNTEMATON ROM-VERSIO"
-
-msgid "DIFFERENT ROM"
-msgstr "ERI ROM"
-
-msgid "SAME ROM"
-msgstr "SAMA ROM"
-
-msgid "UNAVAILABLE CORE"
-msgstr "YDIN EI SAATAVILLA"
-
-msgid "LAN GAMES"
+msgid "GAMES TO INDEX"
 msgstr ""
 
-msgid "AVAILABLE GAMES"
-msgstr "SAATAVILLA OLEVAT PELIT"
-
-msgid "ONLINE GAMES"
+msgid "ONLY MISSING"
 msgstr ""
-
-msgid "UNAVAILABLE GAMES"
-msgstr "EI SAATAVILLA OLEVAT PELIT"
-
-msgid "NO GAMES FOUND"
-msgstr "PELEJÄ EI LÖYTYNYT"
-
-msgid "JOIN GAME"
-msgstr "LIITY PELIIN"
-
-msgid "WATCH GAME"
-msgstr "KATSO PELIÄ"
-
-msgid "PARIS"
-msgstr ""
-
-msgid "OSAKA"
-msgstr ""
-
-msgid "SEOUL"
-msgstr ""
-
-msgid "NETPLAY SETTINGS"
-msgstr "VERKKOPELIN ASETUKSET"
-
-msgid "ENABLE NETPLAY"
-msgstr "OTA VERKKOPELI KÄYTTÖÖN"
-
-msgid "NICKNAME"
-msgstr "NIMIMERKKI"
-
-msgid "PORT"
-msgstr "PORTTI"
-
-msgid "AUTOMATICALLY CREATE LOBBY"
-msgstr ""
-
-msgid "Automatically creates a Netplay lobby when starting a game."
-msgstr ""
-
-msgid "SHOW RELAY SERVER GAMES ONLY"
-msgstr ""
-
-msgid "Relay server games have a higher chance of successful entry."
-msgstr ""
-
-msgid "SHOW UNAVAILABLE GAMES"
-msgstr "NÄYTÄ EI SAATAVILLA OLEVAT PELIT"
-
-msgid "Show rooms for games not present on this machine."
-msgstr ""
-
-msgid "GAME INDEXES"
-msgstr ""
-
-msgid "INDEX NEW GAMES AT STARTUP"
-msgstr ""
-
-msgid "USE RELAY SERVER"
-msgstr "KÄYTÄ VÄLITYSPALVELINTA"
-
-msgid "NEW YORK"
-msgstr "NEW YORK"
-
-msgid "MADRID"
-msgstr "MADRID"
-
-msgid "MONTREAL"
-msgstr "MONTREAL"
-
-msgid "SAO PAULO"
-msgstr "SAO PAULO"
-
-msgid "CUSTOM"
-msgstr ""
-
-msgid "CUSTOM RELAY SERVER"
-msgstr ""
-
-#, c-format
-msgid "%d of %d softcore points"
-msgstr ""
-
-#, c-format
-msgid "%d of %d hardcore points"
-msgstr ""
-
-#, c-format
-msgid "%d%% (%d of %d)"
-msgstr ""
-
-msgid "RETROACHIEVEMENTS"
-msgstr "RETROACHIEVEMENTS"
-
-msgid "Softcore points"
-msgstr ""
-
-msgid "Points (hardcore)"
-msgstr ""
-
-msgid "Rank"
-msgstr "Sijoitus"
-
-msgid "VIEW DETAILS"
-msgstr "NÄYTÄ YKSITYSKOHDAT"
 
 msgid "RETROACHIEVEMENTS SETTINGS"
 msgstr "RETROACHIEVEMENTS-ASETUKSET"
-
-msgid "USERNAME"
-msgstr "KÄYTTÄJÄNIMI"
-
-msgid "PASSWORD"
-msgstr "SALASANA"
 
 msgid "Disable loading states, rewind and cheats for more points."
 msgstr ""
@@ -1684,6 +1260,38 @@ msgstr ""
 msgid "UNABLE TO ACTIVATE RETROACHIEVEMENTS:"
 msgstr ""
 
+msgid "EDIT METADATA"
+msgstr "MUOKKAA METATIETOJA"
+
+msgid "Emulator"
+msgstr "Emulaattori"
+
+msgid "Core"
+msgstr "Ydin"
+
+msgid "TAGS"
+msgstr ""
+
+msgid "GENRES"
+msgstr "TYYLILAJIT"
+
+#, fuzzy
+msgid ""
+"SOME FILES YOU LINKED ARE LOCATED OUTSIDE THE GAMELIST PATH.\n"
+"DO YOU WANT TO USE A COPY OF THESE FILES RELATIVE TO THE GAMELIST ?"
+msgstr ""
+"JOTKIN LINKITTÄMÄSI TIEDOSTOT SIJAITSEVAT PELILISTAN POLUN ULKOPUOLELLA.\n"
+"HALUATKO KÄYTTÄÄ NÄIDEN TIEDOSTOJEN KOPIOITA SUHTEESSA PELILISTAAN?"
+
+msgid "PAIR A BLUETOOTH DEVICE"
+msgstr "PARITA BLUETOOTH-LAITE"
+
+msgid "SCANNING BLUETOOTH"
+msgstr "BLUETOOTH-SKANNAUS KÄYNNISSÄ"
+
+msgid "PAIR"
+msgstr "PARITA"
+
 msgid "SAVESTATE MANAGER"
 msgstr "TILATALLENNUSTEN HALLINTA"
 
@@ -1701,241 +1309,6 @@ msgstr "LOHKO"
 
 msgid "COPY TO FREE SLOT"
 msgstr "KOPIOI VAPAASEEN LOHKOON"
-
-msgid "SCRAPER"
-msgstr "TIEDONETSIJÄ"
-
-msgid "ACCOUNTS"
-msgstr ""
-
-msgid "SCRAPING DATABASE"
-msgstr "TIEDONETSIJÄN TIETOKANTA"
-
-msgid "SOURCE"
-msgstr "LÄHDE"
-
-msgid "SCRAPE FROM"
-msgstr "ETSI TIETOA"
-
-msgid "FILTERS"
-msgstr "SUODATTIMET"
-
-msgid "GAMES TO SCRAPE FOR"
-msgstr "ETSI TIETOA PELEILLE"
-
-msgid "GAMES MISSING ANY MEDIA"
-msgstr "JOISTA PUUTTUU MEDIAA"
-
-msgid "GAMES MISSING ALL MEDIA"
-msgstr "JOISTA PUUTTUU KAIKKI MEDIA"
-
-msgid "IGNORE RECENTLY SCRAPED GAMES"
-msgstr "OHITA HILJATTAIN ETSITYT PELIT"
-
-msgid "LAST DAY"
-msgstr "EILEN"
-
-msgid "LAST WEEK"
-msgstr "VIIME VIIKOLLA"
-
-msgid "LAST 15 DAYS"
-msgstr "VIIMEISEN 15 PÄIVÄN AIKANA"
-
-msgid "LAST MONTH"
-msgstr "VIIME KUUSSA"
-
-msgid "LAST 3 MONTHS"
-msgstr "VIIMEISEN 3 KUUKAUDEN AIKANA"
-
-msgid "LAST YEAR"
-msgstr "VIIME VUONNA"
-
-msgid "SCRAPE NOW"
-msgstr "ETSI NYT"
-
-msgid "IMAGE SOURCE"
-msgstr "KUVAN LÄHDE"
-
-msgid "TITLE SCREENSHOT"
-msgstr "OTSIKKOKUVA"
-
-msgid "MIX V1"
-msgstr ""
-
-msgid "MIX V2"
-msgstr ""
-
-msgid "BOX 2D"
-msgstr "KOTELO 2D"
-
-msgid "BOX 3D"
-msgstr "KOTELO 3D"
-
-msgid "FAN ART"
-msgstr "FANIKUVITUS"
-
-msgid "BOX SOURCE"
-msgstr ""
-
-msgid "LOGO SOURCE"
-msgstr ""
-
-msgid "HD WHEEL"
-msgstr ""
-
-msgid "WHEEL"
-msgstr ""
-
-msgid "MARQUEE"
-msgstr ""
-
-msgid "PREFERED REGION"
-msgstr ""
-
-msgid "OVERWRITE NAMES"
-msgstr ""
-
-msgid "OVERWRITE DESCRIPTIONS"
-msgstr ""
-
-msgid "OVERWRITE MEDIAS"
-msgstr ""
-
-msgid "SCRAPE FOR"
-msgstr ""
-
-msgid "SHORT NAME"
-msgstr "LYHYT NIMI"
-
-msgid "COMMUNITY RATING"
-msgstr "YHTEISÖN ARVOSANA"
-
-msgid "VIDEO"
-msgstr "VIDEO"
-
-msgid "BEZEL (16:9)"
-msgstr "KEHYS (16:9)"
-
-msgid "BOX BACKSIDE"
-msgstr "KOTELON TAKAKANSI"
-
-msgid "MAP"
-msgstr "KARTTA"
-
-msgid "MANUAL"
-msgstr "OHJEKIRJA"
-
-msgid "PADTOKEY SETTINGS"
-msgstr "OHJEIMESTA-NÄPPÄIMISTÖÖN ASETUKSET"
-
-msgid "MANUAL SCRAPE"
-msgstr ""
-
-msgid "INCLUDED SCRAPERS"
-msgstr ""
-
-msgid "SCREENSCRAPER"
-msgstr ""
-
-msgid "IGDB"
-msgstr ""
-
-msgid "CLIENT ID"
-msgstr ""
-
-msgid "CLIENT SECRET"
-msgstr ""
-
-msgid ""
-"WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS "
-"MAY BE FOR DIFFERENT SYSTEMS!\n"
-"CONTINUE ANYWAY?"
-msgstr ""
-
-msgid "SCRAPING IS RUNNING. DO YOU WANT TO STOP IT?"
-msgstr "ETSINTÄ KÄYNNISSÄ. HALUATKO PYSÄYTTÄÄ SEN?"
-
-msgid "INFORMATION"
-msgstr "JÄRJESTELMÄN TIEDOT"
-
-msgid "VERSION"
-msgstr "VERSIO"
-
-msgid "USER DISK USAGE"
-msgstr "KÄYTTÄJÄN LEVYN KÄYTTÖ"
-
-msgid "SYSTEM DISK USAGE"
-msgstr "JÄRJESTELMÄN LEVYN KÄYTTÖ"
-
-msgid "DISK USAGE"
-msgstr ""
-
-msgid "SYSTEM"
-msgstr "JÄRJESTELMÄ"
-
-msgid "VIDEO DRIVER"
-msgstr "VIDEOAJURI"
-
-msgid "THEMES DOWNLOADER"
-msgstr "TEEMOJEN LATAAJA"
-
-msgid "SELECT THEMES TO INSTALL/REMOVE"
-msgstr "VALITSE TEEMAT ASENNETTAVAKSI/POISTETTAVAKSI"
-
-msgid "Installed"
-msgstr "Asennetut"
-
-msgid "Available"
-msgstr "Saatavilla"
-
-msgid "CURRENT THEME"
-msgstr "NYKYINEN TEEMA"
-
-msgid "REALLY UPDATE?"
-msgstr "HALUATKO VARMASTI PÄIVITTÄÄ?"
-
-#, c-format
-msgid ""
-"YOU ARE CURRENTLY USING VERSION %s\n"
-"DO YOU WANT TO UPDATE TO VERSION %s?"
-msgstr ""
-"KÄYTÄT TÄLLÄ HETKELLÄ VERSIOTA %s\n"
-"HALUATKO PÄIVITTÄÄ VERSIOON %s?"
-
-#, c-format
-msgid ""
-"UNOFFICIAL SYSTEM MODIFICATIONS DETECTED.\n"
-"UPGRADING COULD BREAK YOUR SYSTEM.\n"
-"DO YOU WANT TO UPDATE TO VERSION %s?"
-msgstr ""
-"EPÄVIRALLISIA JÄRJESTELMÄMUUTOKSIA HAVAITTU.\n"
-"PÄIVITTÄMINEN SAATTAA RIKKOA ASENNUKSESI.\n"
-"HALUATKO SILTI PÄIVITTÄÄ VERSIOON %s?"
-
-msgid "NETWORK CONNECTION NEEDED"
-msgstr "VERKKOYHTEYS VAADITAAN"
-
-msgid "NO UPDATE AVAILABLE"
-msgstr "PÄIVITYKSIÄ EI SAATAVILLA"
-
-#, c-format
-msgid "UPDATING %s"
-msgstr "PÄIVITETÄÄN %s"
-
-msgid "UPDATE IS READY"
-msgstr "PÄIVITYS ON VALMIS"
-
-msgid "REBOOT TO APPLY"
-msgstr "UUDELLEENKÄYNNISTÄ VIIMEISTELLÄKSESI"
-
-msgid "INPUT MANUALLY"
-msgstr "SYÖTÄ MANUAALISESTI"
-
-msgid "NO WI-FI NETWORKS FOUND"
-msgstr "WI-FI VERKKOJA EI LÖYTYNYT"
-
-msgid "SEARCHING WI-FI NETWORKS"
-msgstr "ETSITÄÄN WI-FI VERKKOJA"
 
 msgid "CONTROLLER SETTINGS"
 msgstr "OHJAIMEN ASETUKSET"
@@ -1987,6 +1360,9 @@ msgstr "YHDISTÄ BLUETOOTH-OHJAIMET AUTOMAATTISESTI"
 
 msgid "PAIR A BLUETOOTH DEVICE MANUALLY"
 msgstr "YHDISTÄ BLUETOOTH-LAITE AUTOMAATTISESTI"
+
+msgid "BLUETOOTH SCAN IS ALREADY RUNNING."
+msgstr "BLUETOOTH-SKANNAUS ON JO KÄYNNISSÄ."
 
 msgid "DISPLAY OPTIONS"
 msgstr ""
@@ -2231,6 +1607,97 @@ msgstr ""
 msgid "RIGHT"
 msgstr ""
 
+msgid "REALLY UPDATE?"
+msgstr "HALUATKO VARMASTI PÄIVITTÄÄ?"
+
+#, c-format
+msgid ""
+"YOU ARE CURRENTLY USING VERSION %s\n"
+"DO YOU WANT TO UPDATE TO VERSION %s?"
+msgstr ""
+"KÄYTÄT TÄLLÄ HETKELLÄ VERSIOTA %s\n"
+"HALUATKO PÄIVITTÄÄ VERSIOON %s?"
+
+#, c-format
+msgid ""
+"UNOFFICIAL SYSTEM MODIFICATIONS DETECTED.\n"
+"UPGRADING COULD BREAK YOUR SYSTEM.\n"
+"DO YOU WANT TO UPDATE TO VERSION %s?"
+msgstr ""
+"EPÄVIRALLISIA JÄRJESTELMÄMUUTOKSIA HAVAITTU.\n"
+"PÄIVITTÄMINEN SAATTAA RIKKOA ASENNUKSESI.\n"
+"HALUATKO SILTI PÄIVITTÄÄ VERSIOON %s?"
+
+msgid "NETWORK CONNECTION NEEDED"
+msgstr "VERKKOYHTEYS VAADITAAN"
+
+msgid "NO UPDATE AVAILABLE"
+msgstr "PÄIVITYKSIÄ EI SAATAVILLA"
+
+#, c-format
+msgid "UPDATING %s"
+msgstr "PÄIVITETÄÄN %s"
+
+msgid "UPDATE IS READY"
+msgstr "PÄIVITYS ON VALMIS"
+
+msgid "REBOOT TO APPLY"
+msgstr "UUDELLEENKÄYNNISTÄ VIIMEISTELLÄKSESI"
+
+msgid "INFORMATION"
+msgstr "JÄRJESTELMÄN TIEDOT"
+
+msgid "VERSION"
+msgstr "VERSIO"
+
+msgid "USER DISK USAGE"
+msgstr "KÄYTTÄJÄN LEVYN KÄYTTÖ"
+
+msgid "SYSTEM DISK USAGE"
+msgstr "JÄRJESTELMÄN LEVYN KÄYTTÖ"
+
+msgid "DISK USAGE"
+msgstr ""
+
+msgid "SYSTEM"
+msgstr "JÄRJESTELMÄ"
+
+msgid "VIDEO DRIVER"
+msgstr "VIDEOAJURI"
+
+msgid "THE BEZEL PROJECT"
+msgstr "KEHYSPROJEKTI"
+
+msgid "SELECT BEZELS TO INSTALL/REMOVE"
+msgstr "VALITSE KEHYKSIÄ ASENNETTAVAKSI/POISTETTAVAKSI"
+
+msgid "BEZELS UNINSTALLED SUCCESSFULLY"
+msgstr "KEHYKSET POISTETTU ONNISTUNEESTI"
+
+msgid "DEVICE OPTIONS"
+msgstr ""
+
+msgid "DISCONNECT"
+msgstr ""
+
+msgid "CONNECT"
+msgstr ""
+
+msgid "FORGET"
+msgstr ""
+
+#, c-format
+msgid "ARE YOU SURE YOU WANT TO FORGET '%s' ?"
+msgstr ""
+
+#, c-format
+msgid "ARE YOU SURE YOU WANT TO CONNECT TO '%s' ?"
+msgstr ""
+
+#, c-format
+msgid "ARE YOU SURE YOU WANT TO DISCONNECT '%s' ?"
+msgstr ""
+
 msgid "fade"
 msgstr "häivytä"
 
@@ -2400,9 +1867,6 @@ msgstr "JÄRJESTELMÄN ASETUKSET"
 
 msgid "UNLOCK USER INTERFACE MODE"
 msgstr "AVAA KÄYTTÖLIITTYMÄTILA"
-
-msgid "QUIT"
-msgstr "LOPETA"
 
 msgid "ARE YOU SURE YOU WANT TO CONFIGURE THE INPUT?"
 msgstr "OLETKO VARMA ETTÄ HALUAT MUOKATA SYÖTETTÄ?"
@@ -2783,6 +2247,9 @@ msgstr ""
 
 msgid "DOWNLOAD STATUS"
 msgstr ""
+
+msgid "LANGUAGE"
+msgstr "KIELI"
 
 msgid "LANGUAGE (REGION)"
 msgstr "KIELI (ALUE)"
@@ -3165,8 +2632,17 @@ msgstr ""
 msgid "THEME CONFIGURATION"
 msgstr "TEEMAN ASETUKSET"
 
+msgid "VIEW CUSTOMIZATION"
+msgstr ""
+
 msgid "GAMELIST STYLE"
 msgstr "PELILISTAN TYYLI"
+
+msgid "GAMELIST VIEW STYLE"
+msgstr "PELILISTAN TYYLI"
+
+msgid "automatic"
+msgstr "automaattinen"
 
 msgid "basic"
 msgstr "perus"
@@ -3515,29 +2991,169 @@ msgstr ""
 msgid "Ejecting..."
 msgstr ""
 
-msgid "Loading system config..."
+msgid "VIEW OPTIONS"
+msgstr "NÄYTÄ ASETUKSET"
+
+msgid "NAVIGATION"
 msgstr ""
 
-msgid "Loading theme"
-msgstr "Ladataan teemaa"
+msgid "OTHER FILTERS"
+msgstr "MUUT SUODATTIMET"
 
-msgid "SAVING METADATA. PLEASE WAIT..."
+msgid "SELECT RANDOM GAME"
+msgstr "VALITSE SATUNNAINEN PELI"
+
+msgid "JUMP TO GAME BEGINNING WITH THE LETTER"
+msgstr "SIIRRY PELIIN JOKA ALKAA KIRJAIMELLA"
+
+msgid "SORT GAMES BY"
+msgstr "PELIEN JÄRJESTYS"
+
+msgid "DYNAMIC COLLECTION"
+msgstr "DYNAAMINEN KOKOELMA"
+
+msgid "CUSTOM COLLECTION"
+msgstr "MUKAUTETTU KOKOELMA"
+
+msgid "COLLECTION"
+msgstr "KOKOELMA"
+
+msgid "ADVANCED SYSTEM OPTIONS"
+msgstr "EDISTYNEET JÄRJESTELMÄASETUKSET"
+
+msgid "RESET FILTERS"
+msgstr "NOLLAA SUODATTIMET"
+
+msgid "FILTER GAMES BY TEXT"
+msgstr "SUODATA PELEJÄ TEKSTILLÄ"
+
+msgid "INPUT"
+msgstr "SYÖTE"
+
+msgid "SLOW"
 msgstr ""
 
-msgid "INVALID CREDENTIALS"
+msgid "NOT WORKING"
 msgstr ""
 
-msgid "SCRAPING"
+msgid "BUGGY"
 msgstr ""
 
-msgid "SCRAPE FAILED"
+msgid "LIKED"
 msgstr ""
 
-msgid "SCRAPING FINISHED"
+msgid "DISLIKED"
 msgstr ""
 
-msgid "DO YOU WANT TO SWITCH THE SCREEN ?"
+msgid "FILENAME, ASCENDING"
+msgstr "TIEDOSTONIMI, NOUSEVA"
+
+msgid "FILENAME, DESCENDING"
+msgstr "TIEDOSTONIMI, LASKEVA"
+
+msgid "RATING, ASCENDING"
+msgstr "ARVOSTELU, NOUSEVA"
+
+msgid "RATING, DESCENDING"
+msgstr "ARVOSTELU, LASKEVA"
+
+msgid "TIMES PLAYED, ASCENDING"
+msgstr "PELIKERRAT, NOUSEVA"
+
+msgid "TIMES PLAYED, DESCENDING"
+msgstr "PELIKERRAT, LASKEVA"
+
+msgid "LAST PLAYED, ASCENDING"
+msgstr "VIIMEKSI PELATTU, NOUSEVA"
+
+msgid "LAST PLAYED, DESCENDING"
+msgstr "VIIMEKSI PELATTU, LASKEVA"
+
+msgid "NUMBER PLAYERS, ASCENDING"
+msgstr "PELAAJIEN MÄÄRÄ, NOUSEVA"
+
+msgid "NUMBER PLAYERS, DESCENDING"
+msgstr "PELAAJIEN MÄÄRÄ, LASKEVA"
+
+msgid "RELEASE DATE, ASCENDING"
+msgstr "JULKAISUPÄIVÄ, NOUSEVA"
+
+msgid "RELEASE DATE, DESCENDING"
+msgstr "JULKAISUPÄIVÄ, LASKEVA"
+
+msgid "GENRE, ASCENDING"
+msgstr "TYYLILAJI, NOUSEVA"
+
+msgid "GENRE, DESCENDING"
+msgstr "TYYLILAJI, LASKEVA"
+
+msgid "DEVELOPER, ASCENDING"
+msgstr "KEHITTÄJÄ, NOUSEVA"
+
+msgid "DEVELOPER, DESCENDING"
+msgstr "KEHITTÄJÄ, LASKEVA"
+
+msgid "PUBLISHER, ASCENDING"
+msgstr "JULKAISIJA, NOUSEVA"
+
+msgid "PUBLISHER, DESCENDING"
+msgstr "JULKAISIJA, LASKEVA"
+
+msgid "SYSTEM, ASCENDING"
+msgstr "JÄRJESTELMÄ, NOUSEVA"
+
+msgid "SYSTEM, DESCENDING"
+msgstr "JÄRJESTELMÄ, LASKEVA"
+
+msgid "FILE CREATION DATE, ASCENDING"
+msgstr "TIEDOSTON LUOMISPÄIVÄ, NOUSEVA"
+
+msgid "FILE CREATION DATE, DESCENDING"
+msgstr "TIEDOSTON LUOMISPÄIVÄ, LASKEVA"
+
+msgid "GAME TIME, ASCENDING"
+msgstr "PELIAIKA, NOUSEVA"
+
+msgid "GAME TIME, DESCENDING"
+msgstr "PELIAIKA, , LASKEVA"
+
+msgid "SYSTEM, RELEASE YEAR, ASCENDING"
+msgstr "JÄRJESTELMÄ, JULKAISUVUOSI, NOUSEVA"
+
+msgid "SYSTEM, RELEASE YEAR, DESCENDING"
+msgstr "JÄRJESTELMÄ, JULKAISUVUOSI, LASKEVA"
+
+msgid "RELEASE YEAR, SYSTEM, ASCENDING"
+msgstr "JULKAISUVUOSI, JÄRJESTELMÄ, NOUSEVA"
+
+msgid "RELEASE YEAR, SYSTEM, DESCENDING"
+msgstr "JULKAISUVUOSI, JÄRJESTELMÄ, , LASKEVA"
+
+msgid "A,AN,THE"
 msgstr ""
+
+msgid ""
+"WARNING: THE EMULATOR/CORE CURRENTLY SET DOES NOT SUPPORT THIS GAME'S FILE "
+"FORMAT.\n"
+"DO YOU WANT TO LAUNCH IT ANYWAY?"
+msgstr ""
+"VAROITUS: NYKYINEN EMULAATTORI/YDIN EI TUE TÄMÄN PELIN TIEDOSTOMUOTOA.\n"
+"HALUATKO KÄYNNISTÄÄ PELIN SILTI."
+
+msgid ""
+"WARNING: THE SYSTEM HAS MISSING BIOS FILE(S) AND THE GAME MAY NOT WORK "
+"CORRECTLY.\n"
+"DO YOU WANT TO LAUNCH IT ANYWAY?"
+msgstr ""
+"VAROITUS: JÄRJESTELMÄN BIOS-TIEDOSTOJA PUUTTUU, JOTEN PELI EI SAATA TOIMIA "
+"OIKEIN.\n"
+"HALUATKO KÄYNNISTÄÄ PELIN SILTI?"
+
+msgid "Preloading UI"
+msgstr "Esiladataan käyttöliittymää"
+
+msgid "Loading gamelists"
+msgstr "Ladataan pelilistaa"
 
 msgid "SYSTEM INFO"
 msgstr "JÄRJESTELMÄN TIEDOT"
@@ -3589,43 +3205,35 @@ msgstr "SATUNNAINEN"
 msgid "NAVIGATION BAR"
 msgstr "NAVIGAATIOPALKKI"
 
-msgid "Full"
-msgstr "Täysi"
+msgid "Rating"
+msgstr "Arvosana"
 
-msgid "Kiosk"
-msgstr "Kioski"
+msgid "Released"
+msgstr "Julkaistu"
 
-msgid "Kid"
-msgstr "Lapsi"
+msgid "Developer"
+msgstr "Kehittäjä"
 
-msgid "Basic"
-msgstr "Perus"
+msgid "Publisher"
+msgstr "Julkaisija"
 
-msgid ""
-"WARNING: THE EMULATOR/CORE CURRENTLY SET DOES NOT SUPPORT THIS GAME'S FILE "
-"FORMAT.\n"
-"DO YOU WANT TO LAUNCH IT ANYWAY?"
-msgstr ""
-"VAROITUS: NYKYINEN EMULAATTORI/YDIN EI TUE TÄMÄN PELIN TIEDOSTOMUOTOA.\n"
-"HALUATKO KÄYNNISTÄÄ PELIN SILTI."
+msgid "Genre"
+msgstr "Tyylilaji"
 
-msgid ""
-"WARNING: THE SYSTEM HAS MISSING BIOS FILE(S) AND THE GAME MAY NOT WORK "
-"CORRECTLY.\n"
-"DO YOU WANT TO LAUNCH IT ANYWAY?"
-msgstr ""
-"VAROITUS: JÄRJESTELMÄN BIOS-TIEDOSTOJA PUUTTUU, JOTEN PELI EI SAATA TOIMIA "
-"OIKEIN.\n"
-"HALUATKO KÄYNNISTÄÄ PELIN SILTI?"
+msgid "Players"
+msgstr "Pelaajat"
 
-msgid "Preloading UI"
-msgstr "Esiladataan käyttöliittymää"
-
-msgid "Loading gamelists"
-msgstr "Ladataan pelilistaa"
+msgid "Last played"
+msgstr "Viimeksi pelattu"
 
 msgid "Times played"
 msgstr "Kertoja pelattu"
+
+msgid "Game time"
+msgstr "Peliaika"
+
+msgid "Favorite"
+msgstr "Suosikki"
 
 #, c-format
 msgid "This folder contains %i game, including: %s"
@@ -3655,7 +3263,399 @@ msgstr ""
 msgid "No Entries Found"
 msgstr ""
 
-msgid "Checking for latest upgrade script..."
+msgid "Full"
+msgstr "Täysi"
+
+msgid "Kiosk"
+msgstr "Kioski"
+
+msgid "Kid"
+msgstr "Lapsi"
+
+msgid "Basic"
+msgstr "Perus"
+
+msgid "THE EMULATOR EXITED UNEXPECTEDLY"
+msgstr ""
+
+msgid "BAD COMMAND LINE ARGUMENTS"
+msgstr ""
+
+msgid "INVALID CONFIGURATION"
+msgstr ""
+
+msgid "UNKNOWN EMULATOR"
+msgstr "TUNTEMATON EMULAATTORI"
+
+msgid "EMULATOR IS MISSING"
+msgstr "EMULAATTORIA EI OLE"
+
+msgid "CORE IS MISSING"
+msgstr "YDIN PUUTTUU"
+
+msgid "UKNOWN ERROR"
+msgstr "TUNTEMATON VIRHE"
+
+msgid "DOWNLOADING"
+msgstr "LADATAAN"
+
+msgid "THEME INSTALLED SUCCESSFULLY"
+msgstr "TEEMAN ASENNUS ONNISTUI"
+
+msgid "BEZELS INSTALLED SUCCESSFULLY"
+msgstr "KEHYKSET ASENNETTU ONNISTUNEESTI"
+
+msgid "PACKAGE INSTALLED SUCCESSFULLY"
+msgstr "PAKETIN ASENNUS ONNISTUI"
+
+msgid "PACKAGE REMOVED SUCCESSFULLY"
+msgstr "PAKETIN POISTO ONNISTUI"
+
+msgid "INVALID CREDENTIALS"
+msgstr ""
+
+msgid "SCRAPING"
+msgstr ""
+
+msgid "SCRAPE FAILED"
+msgstr ""
+
+msgid "SCRAPING FINISHED"
+msgstr ""
+
+msgid "Collections"
+msgstr ""
+
+msgid "UPDATE AVAILABLE"
+msgstr "PÄIVITYS SAATAVILLA"
+
+msgid "DO YOU WANT TO SWITCH THE SCREEN ?"
+msgstr ""
+
+msgid "Searching for devices..."
+msgstr "Etsitään laitteita…"
+
+msgid "FORMATTING DEVICE"
+msgstr "ALUSTETAAN LAITETTA"
+
+msgid "Formatting"
+msgstr "Alustetaan"
+
+msgid "A REBOOT IS REQUIRED TO COMPLETE THE OPERATION"
+msgstr "UUDELLEEN KÄYNNISTYS VAADITAAN TÄMÄN OPERAATION SUORITTAMISEKSI"
+
+msgid "A DRIVE IS ALREADY BEING FORMATTED."
+msgstr "TALTIO ON JO ALUSTUKSESSA."
+
+msgid "INVALID CONTENT"
+msgstr ""
+
+msgid ""
+"A valid account is required. Please register an account on https://"
+"retroachievements.org"
+msgstr ""
+
+msgid "Searching"
+msgstr ""
+
+msgid "NO GAMES FOUND - SKIP"
+msgstr ""
+
+msgid "RETRY"
+msgstr ""
+
+msgid "SKIP"
+msgstr ""
+
+msgid "Downloading"
+msgstr ""
+
+msgid "SEARCH FOR"
+msgstr ""
+
+msgid "ACCEPT RESULT"
+msgstr ""
+
+msgid "Interlaced"
+msgstr ""
+
+msgid "Name"
+msgstr "Nimi"
+
+msgid "this game's name"
+msgstr "tämän pelin nimi"
+
+msgid "Description"
+msgstr "Kuvaus"
+
+msgid "this game's description"
+msgstr "tämän pelin kuvaus"
+
+msgid "enter game genre"
+msgstr "syötä pelin tyylilaji"
+
+msgid "Tags"
+msgstr ""
+
+msgid "tags"
+msgstr ""
+
+msgid "Sort name"
+msgstr ""
+
+msgid "enter game sort name"
+msgstr ""
+
+msgid "emulator"
+msgstr "emulaattori"
+
+msgid "core"
+msgstr "ydin"
+
+msgid "Image"
+msgstr "Kuva"
+
+msgid "enter path to image"
+msgstr "polku kuvaan"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "enter path to video"
+msgstr "polku videoon"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "enter path to logo"
+msgstr "polku logoon"
+
+msgid "Box"
+msgstr "Kansikuva"
+
+msgid "enter path to box"
+msgstr "polku kansikuvaan"
+
+msgid "Fan art"
+msgstr "Fanikuva"
+
+msgid "enter path to fan art"
+msgstr "polku fanitaiteeseen"
+
+msgid "Title shot"
+msgstr "Aloitusruutukuva"
+
+msgid "enter path to title shot"
+msgstr "polku aloitusruudun kuvaan"
+
+msgid "Manual"
+msgstr "Ohjekirja"
+
+msgid "enter path to manual"
+msgstr "polku ohjekirjaan"
+
+msgid "Magazine"
+msgstr "Lehti"
+
+msgid "enter path to magazine"
+msgstr "polku lehteen"
+
+msgid "Map"
+msgstr "Kartta"
+
+msgid "enter path to map"
+msgstr "polku karttaan"
+
+msgid "Bezel (16:9)"
+msgstr "Kehys (16:9)"
+
+msgid "enter path to bezel (16:9)"
+msgstr "syötä polku kehykseen (16:9)"
+
+msgid "Cartridge"
+msgstr "Kasetti"
+
+msgid "enter path to cartridge"
+msgstr "polku kasettiin"
+
+msgid "Alt BoxArt"
+msgstr "Vaihtoehtoinen kansikuva"
+
+msgid "enter path to alt boxart"
+msgstr "polku vaihtoehtoiseen kansikuvaan"
+
+msgid "Box backside"
+msgstr "Kotelon kääntöpuoli"
+
+msgid "enter path to box background"
+msgstr "polku kotelon kääntöpuoleen"
+
+msgid "Wheel"
+msgstr "Pyörä"
+
+msgid "enter path to wheel"
+msgstr "syötä polku pyörään"
+
+msgid "Mix"
+msgstr ""
+
+msgid "enter path to mix"
+msgstr ""
+
+msgid "enter rating"
+msgstr "syötä arvosana"
+
+msgid "Release date"
+msgstr "Julkaisupäivä"
+
+msgid "enter release date"
+msgstr "syötä julkaisupäivä"
+
+msgid "this game's developer"
+msgstr "tämän pelin kehittäjä"
+
+msgid "this game's publisher"
+msgstr "tämän pelin julkaisija"
+
+msgid "Game family"
+msgstr ""
+
+msgid "this game's game family"
+msgstr ""
+
+msgid "Genres"
+msgstr "Tyylilajit"
+
+msgid "enter game genres"
+msgstr "syötä pelin tyylilajit"
+
+msgid "Arcade system"
+msgstr "Pelihalli järjestelmä"
+
+msgid "this game's arcade system"
+msgstr "tämän pelin pelihallijärjestelmä"
+
+msgid "this game's number of players"
+msgstr "palaaja määrä tälle pelille"
+
+msgid "enter favorite"
+msgstr "syötä suosikki"
+
+msgid "Hidden"
+msgstr "Piilotettu"
+
+msgid "enter hidden"
+msgstr "syötä piilotettu"
+
+msgid "Kidgame"
+msgstr "Lastenpeli"
+
+msgid "enter kidgame"
+msgstr "syötä lastenpeli"
+
+msgid "Play count"
+msgstr "Pelikerrat"
+
+msgid "enter number of times played"
+msgstr "syötä kuinka monesti pelattu"
+
+msgid "enter last played date"
+msgstr "syötä viimeisin pelipäivä"
+
+msgid "Crc32"
+msgstr "CRS32"
+
+msgid "Crc32 checksum"
+msgstr "CRS32-tarkistussumma"
+
+msgid "Md5"
+msgstr "MD5"
+
+msgid "Md5 checksum"
+msgstr "MD5-tarkistussumma"
+
+msgid "how long the game has been played in total (seconds)"
+msgstr "kuinka kauan peliä on pelattu yhteensä (sekuntteina)"
+
+msgid "Languages"
+msgstr "Kielet"
+
+msgid "this game's languages"
+msgstr "tämän pelin kielet"
+
+msgid "Region"
+msgstr "Alue"
+
+msgid "this game's region"
+msgstr "tämän pelin alue"
+
+msgid "Cheevos Hash"
+msgstr ""
+
+msgid "Cheevos checksum"
+msgstr ""
+
+msgid "Cheevos Game ID"
+msgstr ""
+
+msgid "Screenscraper Game ID"
+msgstr ""
+
+msgid "MultiDisk"
+msgstr ""
+
+msgid "GENRE"
+msgstr "TYYLILAJI"
+
+msgid "TAG"
+msgstr ""
+
+msgid "FAMILY"
+msgstr "PELISARJA"
+
+msgid "PLAYERS"
+msgstr "PELAAJAT"
+
+msgid "PUBLISHER/DEVELOPER"
+msgstr "JULKAISIJA/KEHITTÄJÄ"
+
+msgid "RATING"
+msgstr "ARVOSANA"
+
+msgid "YEAR"
+msgstr "VUOSI"
+
+msgid "REGION"
+msgstr "ALUE"
+
+msgid "KIDGAME"
+msgstr "LASTENPELI"
+
+msgid "ALREADY PLAYED"
+msgstr "KERTOJA PELATTU"
+
+msgid "HAS ACHIEVEMENTS"
+msgstr "TUKEE SAAVUTUKSIA"
+
+msgid "VERTICAL"
+msgstr "PYSTYSUUNTAINEN"
+
+msgid "LIGHTGUN"
+msgstr "VALOASE"
+
+msgid "STEERING WHEEL"
+msgstr ""
+
+msgid "TRACKBALL"
+msgstr ""
+
+msgid "SPINNER"
+msgstr ""
+
+msgid "HAVING MEDIAS"
+msgstr ""
+
+msgid "MISSING MEDIAS"
 msgstr ""
 
 #, c-format
@@ -3666,120 +3666,19 @@ msgstr ""
 msgid "%s disconnected"
 msgstr ""
 
-msgid "SCREEN READER ENABLED"
-msgstr "NÄYTÖNSÄÄSTÄJÄ OTETTU KÄYTTÖÖN"
-
-msgid "SCREEN READER DISABLED"
-msgstr "NÄYTÖNSÄÄSTÄJÄ POISTETTU KÄYTÖSTÄ"
-
-msgid ""
-"CALIBRATING GUN\n"
-"Fire on targets to calibrate"
+msgid "DISCARD CHANGES"
 msgstr ""
 
-msgid "Reloaded the games list..."
+msgid "SHIFTS FOR UPPER, LOWER, AND SPECIAL"
 msgstr ""
 
-msgid "GAME DRIVE DETECTED"
+msgid "ALT GR"
 msgstr ""
 
-msgid "DEVICE"
+msgid "SHIFT"
 msgstr ""
 
-msgid "MODEL"
-msgstr ""
-
-msgid "SIZE"
-msgstr ""
-
-msgid "MOUNT"
-msgstr ""
-
-msgid "Merge games from this drive partition now?"
-msgstr ""
-
-msgid "(This will also apply on future boots)"
-msgstr ""
-
-msgid "Merge requested... Please wait."
-msgstr ""
-
-msgid "MERGE FAILED"
-msgstr ""
-
-msgid "Please check the logs."
-msgstr ""
-
-msgid "NO, IGNORE THIS TIME"
-msgstr ""
-
-msgid "NO, IGNORE FOREVER"
-msgstr ""
-
-msgid "Adding drive to ignore list..."
-msgstr ""
-
-msgid "YES, MERGE DRIVE"
-msgstr ""
-
-msgid "NEW DRIVE DETECTED"
-msgstr ""
-
-msgid "Format and prepare this drive for game storage?"
-msgstr ""
-
-msgid "(ALL EXISTING DATA WILL BE ERASED)"
-msgstr ""
-
-msgid "Starting format process..."
-msgstr ""
-
-msgid "FORMAT FAILED"
-msgstr ""
-
-msgid "YES, FORMAT & MERGE"
-msgstr ""
-
-msgid "NO, IGNORE"
-msgstr ""
-
-msgid "WORKING..."
-msgstr ""
-
-msgid "ENABLED"
-msgstr ""
-
-msgid "up/down"
-msgstr ""
-
-msgid "accept"
-msgstr ""
-
-msgid "SELECT ALL"
-msgstr "VALITSE KAIKKI"
-
-msgid "select all"
-msgstr "valitse kaikki"
-
-msgid "SELECT NONE"
-msgstr "TYHJENNÄ"
-
-msgid "select none"
-msgstr "tyhjennä"
-
-#, c-format
-msgid "%i SELECTED"
-msgid_plural "%i SELECTED"
-msgstr[0] ""
-msgstr[1] ""
-
-msgid "CHANGE"
-msgstr ""
-
-msgid "MOVE CURSOR"
-msgstr ""
-
-msgid "EDIT"
+msgid "SPACE"
 msgstr ""
 
 msgid "WELCOME"
@@ -3945,20 +3844,82 @@ msgstr ""
 msgid "ALREADY TAKEN"
 msgstr ""
 
-msgid "DISCARD CHANGES"
+msgid ""
+"CALIBRATING GUN\n"
+"Fire on targets to calibrate"
 msgstr ""
 
-msgid "SHIFTS FOR UPPER, LOWER, AND SPECIAL"
+msgid "Reloaded the games list..."
 msgstr ""
 
-msgid "ALT GR"
+msgid "GAME DRIVE DETECTED"
 msgstr ""
 
-msgid "SHIFT"
+msgid "DEVICE"
 msgstr ""
 
-msgid "SPACE"
+msgid "MODEL"
 msgstr ""
+
+msgid "SIZE"
+msgstr ""
+
+msgid "MOUNT"
+msgstr ""
+
+msgid "Merge games from this drive partition now?"
+msgstr ""
+
+msgid "(This will also apply on future boots)"
+msgstr ""
+
+msgid "Merge requested... Please wait."
+msgstr ""
+
+msgid "MERGE FAILED"
+msgstr ""
+
+msgid "Please check the logs."
+msgstr ""
+
+msgid "NO, IGNORE THIS TIME"
+msgstr ""
+
+msgid "NO, IGNORE FOREVER"
+msgstr ""
+
+msgid "Adding drive to ignore list..."
+msgstr ""
+
+msgid "YES, MERGE DRIVE"
+msgstr ""
+
+msgid "NEW DRIVE DETECTED"
+msgstr ""
+
+msgid "Format and prepare this drive for game storage?"
+msgstr ""
+
+msgid "(ALL EXISTING DATA WILL BE ERASED)"
+msgstr ""
+
+msgid "Starting format process..."
+msgstr ""
+
+msgid "FORMAT FAILED"
+msgstr ""
+
+msgid "YES, FORMAT & MERGE"
+msgstr ""
+
+msgid "NO, IGNORE"
+msgstr ""
+
+msgid "SCREEN READER ENABLED"
+msgstr "NÄYTÖNSÄÄSTÄJÄ OTETTU KÄYTTÖÖN"
+
+msgid "SCREEN READER DISABLED"
+msgstr "NÄYTÖNSÄÄSTÄJÄ POISTETTU KÄYTÖSTÄ"
 
 #, c-format
 msgid "%d d"
@@ -4005,6 +3966,45 @@ msgid "%d second ago"
 msgid_plural "%d seconds ago"
 msgstr[0] "%d sekuntti sitten"
 msgstr[1] "%d sekunttia sitten"
+
+msgid "WORKING..."
+msgstr ""
+
+msgid "MOVE CURSOR"
+msgstr ""
+
+msgid "EDIT"
+msgstr ""
+
+msgid "up/down"
+msgstr ""
+
+msgid "CHANGE"
+msgstr ""
+
+msgid "accept"
+msgstr ""
+
+msgid "SELECT ALL"
+msgstr "VALITSE KAIKKI"
+
+msgid "select all"
+msgstr "valitse kaikki"
+
+msgid "SELECT NONE"
+msgstr "TYHJENNÄ"
+
+msgid "select none"
+msgstr "tyhjennä"
+
+#, c-format
+msgid "%i SELECTED"
+msgid_plural "%i SELECTED"
+msgstr[0] ""
+msgstr[1] ""
+
+msgid "ENABLED"
+msgstr ""
 
 #~ msgid "FANART"
 #~ msgstr "FANITAIDE"

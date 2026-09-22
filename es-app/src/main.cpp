@@ -1,10 +1,12 @@
-//EmulationStation, a graphical front-end for ROM browsing. Created by Alec "Aloshi" Lofquist.
-//http://www.aloshi.com
+// EmulationStation, a graphical front-end for ROM browsing. Created by Alec "Aloshi" Lofquist.
+// http://www.aloshi.com
 
 #include "UsbHandler.h"
+#include "ProfileManager.h"
 #include "services/HttpServerThread.h"
 #include "guis/GuiDetectDevice.h"
 #include "guis/GuiMsgBox.h"
+#include "guis/GuiProfileSelector.h"
 #include "utils/FileSystemUtil.h"
 #include "views/ViewController.h"
 #include "CollectionSystemManager.h"
@@ -58,7 +60,7 @@ static std::string gPlayVideo;
 static int gPlayVideoDuration = 0;
 static bool enable_startup_game = true;
 
-bool parseArgs(int argc, char* argv[])
+bool parseArgs(int argc, char *argv[])
 {
 	Paths::setExePath(argv[0]);
 
@@ -79,7 +81,7 @@ bool parseArgs(int argc, char* argv[])
 		}
 	}
 
-	for(int i = 1; i < argc; i++)
+	for (int i = 1; i < argc; i++)
 	{
 		if (strcmp(argv[i], "--videoduration") == 0)
 		{
@@ -103,9 +105,9 @@ bool parseArgs(int argc, char* argv[])
 			i++; // skip the argument value
 			Settings::getInstance()->setInt("MonitorID", monitorId);
 		}
-		else if(strcmp(argv[i], "--resolution") == 0)
+		else if (strcmp(argv[i], "--resolution") == 0)
 		{
-			if(i >= argc - 2)
+			if (i >= argc - 2)
 			{
 				std::cerr << "Invalid resolution supplied.";
 				return false;
@@ -117,9 +119,10 @@ bool parseArgs(int argc, char* argv[])
 			Settings::getInstance()->setInt("WindowWidth", width);
 			Settings::getInstance()->setInt("WindowHeight", height);
 			Settings::getInstance()->setBool("FullscreenBorderless", false);
-		}else if(strcmp(argv[i], "--screensize") == 0)
+		}
+		else if (strcmp(argv[i], "--screensize") == 0)
 		{
-			if(i >= argc - 2)
+			if (i >= argc - 2)
 			{
 				std::cerr << "Invalid screensize supplied.";
 				return false;
@@ -130,9 +133,10 @@ bool parseArgs(int argc, char* argv[])
 			i += 2; // skip the argument value
 			Settings::getInstance()->setInt("ScreenWidth", width);
 			Settings::getInstance()->setInt("ScreenHeight", height);
-		}else if(strcmp(argv[i], "--screenoffset") == 0)
+		}
+		else if (strcmp(argv[i], "--screenoffset") == 0)
 		{
-			if(i >= argc - 2)
+			if (i >= argc - 2)
 			{
 				std::cerr << "Invalid screenoffset supplied.";
 				return false;
@@ -143,7 +147,8 @@ bool parseArgs(int argc, char* argv[])
 			i += 2; // skip the argument value
 			Settings::getInstance()->setInt("ScreenOffsetX", x);
 			Settings::getInstance()->setInt("ScreenOffsetY", y);
-		}else if (strcmp(argv[i], "--screenrotate") == 0)
+		}
+		else if (strcmp(argv[i], "--screenrotate") == 0)
 		{
 			if (i >= argc - 1)
 			{
@@ -154,40 +159,50 @@ bool parseArgs(int argc, char* argv[])
 			int rotate = atoi(argv[i + 1]);
 			++i; // skip the argument value
 			Settings::getInstance()->setInt("ScreenRotate", rotate);
-		}else if(strcmp(argv[i], "--gamelist-only") == 0)
+		}
+		else if (strcmp(argv[i], "--gamelist-only") == 0)
 		{
 			Settings::getInstance()->setBool("ParseGamelistOnly", true);
-		}else if(strcmp(argv[i], "--ignore-gamelist") == 0)
+		}
+		else if (strcmp(argv[i], "--ignore-gamelist") == 0)
 		{
 			Settings::getInstance()->setBool("IgnoreGamelist", true);
-		}else if(strcmp(argv[i], "--show-hidden-files") == 0)
+		}
+		else if (strcmp(argv[i], "--show-hidden-files") == 0)
 		{
 			Settings::setShowHiddenFiles(true);
-		}else if(strcmp(argv[i], "--draw-framerate") == 0)
+		}
+		else if (strcmp(argv[i], "--draw-framerate") == 0)
 		{
 			Settings::getInstance()->setBool("DrawFramerate", true);
-		}else if(strcmp(argv[i], "--no-exit") == 0)
+		}
+		else if (strcmp(argv[i], "--no-exit") == 0)
 		{
 			Settings::getInstance()->setBool("ShowExit", false);
-		}else if(strcmp(argv[i], "--exit-on-reboot-required") == 0)
+		}
+		else if (strcmp(argv[i], "--exit-on-reboot-required") == 0)
 		{
 			Settings::getInstance()->setBool("ExitOnRebootRequired", true);
-		}else if(strcmp(argv[i], "--no-startup-game") == 0)
+		}
+		else if (strcmp(argv[i], "--no-startup-game") == 0)
 		{
-		        enable_startup_game = false;
-		}else if(strcmp(argv[i], "--no-splash") == 0)
+			enable_startup_game = false;
+		}
+		else if (strcmp(argv[i], "--no-splash") == 0)
 		{
 			Settings::getInstance()->setBool("SplashScreen", false);
-		}else if(strcmp(argv[i], "--splash-image") == 0)
+		}
+		else if (strcmp(argv[i], "--splash-image") == 0)
 		{
-		        if (i >= argc - 1)
+			if (i >= argc - 1)
 			{
 				std::cerr << "Invalid splash image supplied.";
 				return false;
 			}
-			Settings::getInstance()->setString("AlternateSplashScreen", argv[i+1]);
+			Settings::getInstance()->setString("AlternateSplashScreen", argv[i + 1]);
 			++i; // skip the argument value
-		}else if(strcmp(argv[i], "--debug") == 0)
+		}
+		else if (strcmp(argv[i], "--debug") == 0)
 		{
 			Settings::getInstance()->setBool("Debug", true);
 			Settings::getInstance()->setBool("HideConsole", false);
@@ -198,17 +213,19 @@ bool parseArgs(int argc, char* argv[])
 		}
 		else if (strcmp(argv[i], "--fullscreen") == 0)
 		{
-		Settings::getInstance()->setBool("FullscreenBorderless", false);
+			Settings::getInstance()->setBool("FullscreenBorderless", false);
 		}
-		else if(strcmp(argv[i], "--windowed") == 0)
+		else if (strcmp(argv[i], "--windowed") == 0)
 		{
 			Settings::getInstance()->setBool("Windowed", true);
-		}else if(strcmp(argv[i], "--vsync") == 0)
+		}
+		else if (strcmp(argv[i], "--vsync") == 0)
 		{
 			bool vsync = (strcmp(argv[i + 1], "on") == 0 || strcmp(argv[i + 1], "1") == 0) ? true : false;
 			Settings::getInstance()->setBool("VSync", vsync);
 			i++; // skip vsync value
-		}else if(strcmp(argv[i], "--max-vram") == 0)
+		}
+		else if (strcmp(argv[i], "--max-vram") == 0)
 		{
 			int maxVRAM = atoi(argv[i + 1]);
 			Settings::getInstance()->setInt("MaxVRAM", maxVRAM);
@@ -253,30 +270,30 @@ bool parseArgs(int argc, char* argv[])
 			AttachConsole(ATTACH_PARENT_PROCESS);
 			freopen("CONOUT$", "wb", stdout);
 #endif
-			std::cout <<
-				"EmulationStation, a graphical front-end for ROM browsing.\n"
-				"Written by Alec \"Aloshi\" Lofquist.\n"
-				"Version " << PROGRAM_VERSION_STRING << ", built " << PROGRAM_BUILT_STRING << "\n\n"
-				"Command line arguments:\n"
-				"--resolution [width] [height]	try and force a particular resolution\n"
-				"--gamelist-only			skip automatic game search, only read from gamelist.xml\n"
-				"--ignore-gamelist		ignore the gamelist (useful for troubleshooting)\n"
-				"--draw-framerate		display the framerate\n"
-				"--no-exit			don't show the exit option in the menu\n"
-				"--no-splash			don't show the splash screen\n"
-				"--debug				more logging, show console on Windows\n"				
-				"--windowed			not fullscreen, should be used with --resolution\n"
-				"--vsync [1/on or 0/off]		turn vsync on or off (default is on)\n"
-				"--max-vram [size]		Max VRAM to use in Mb before swapping. 0 for unlimited\n"
-				"--anti-aliasing [0, 2 or 4]	set MSAA anti-aliasing to disabled, 2x or 4x\n"
-				"--force-kid		Force the UI mode to be Kid\n"
-				"--force-kiosk		Force the UI mode to be Kiosk\n"
-				"--force-disable-filters		Force the UI to ignore applied filters in gamelist\n"
-				"--home [path]		Directory to use as home path\n"
-				"--help, -h			summon a sentient, angry tuba\n\n"
-				"--monitor [index]			monitor index\n\n"				
-				"More information available in README.md.\n";
-			return false; //exit after printing help
+			std::cout << "EmulationStation, a graphical front-end for ROM browsing.\n"
+						 "Written by Alec \"Aloshi\" Lofquist.\n"
+						 "Version "
+					  << PROGRAM_VERSION_STRING << ", built " << PROGRAM_BUILT_STRING << "\n\n"
+																						 "Command line arguments:\n"
+																						 "--resolution [width] [height]	try and force a particular resolution\n"
+																						 "--gamelist-only			skip automatic game search, only read from gamelist.xml\n"
+																						 "--ignore-gamelist		ignore the gamelist (useful for troubleshooting)\n"
+																						 "--draw-framerate		display the framerate\n"
+																						 "--no-exit			don't show the exit option in the menu\n"
+																						 "--no-splash			don't show the splash screen\n"
+																						 "--debug				more logging, show console on Windows\n"
+																						 "--windowed			not fullscreen, should be used with --resolution\n"
+																						 "--vsync [1/on or 0/off]		turn vsync on or off (default is on)\n"
+																						 "--max-vram [size]		Max VRAM to use in Mb before swapping. 0 for unlimited\n"
+																						 "--anti-aliasing [0, 2 or 4]	set MSAA anti-aliasing to disabled, 2x or 4x\n"
+																						 "--force-kid		Force the UI mode to be Kid\n"
+																						 "--force-kiosk		Force the UI mode to be Kiosk\n"
+																						 "--force-disable-filters		Force the UI to ignore applied filters in gamelist\n"
+																						 "--home [path]		Directory to use as home path\n"
+																						 "--help, -h			summon a sentient, angry tuba\n\n"
+																						 "--monitor [index]			monitor index\n\n"
+																						 "More information available in README.md.\n";
+			return false; // exit after printing help
 		}
 	}
 
@@ -285,13 +302,13 @@ bool parseArgs(int argc, char* argv[])
 
 bool verifyHomeFolderExists()
 {
-	//make sure the config directory exists	
+	// make sure the config directory exists
 	std::string configDir = Paths::getUserEmulationStationPath();
-	if(!Utils::FileSystem::exists(configDir))
+	if (!Utils::FileSystem::exists(configDir))
 	{
 		std::cout << "Creating config directory \"" << configDir << "\"\n";
 		Utils::FileSystem::createDirectory(configDir);
-		if(!Utils::FileSystem::exists(configDir))
+		if (!Utils::FileSystem::exists(configDir))
 		{
 			std::cerr << "Config directory could not be created!\n";
 			return false;
@@ -302,34 +319,34 @@ bool verifyHomeFolderExists()
 }
 
 // Returns true if everything is OK,
-bool loadSystemConfigFile(Window* window, const char** errorString)
+bool loadSystemConfigFile(Window *window, const char **errorString)
 {
 	*errorString = NULL;
 
 	StopWatch stopWatch("loadSystemConfigFile :", LogDebug);
 
-	if(!SystemData::loadConfig(window))
+	if (!SystemData::loadConfig(window))
 	{
 		LOG(LogError) << "Error while parsing systems configuration file!";
 		*errorString = "IT LOOKS LIKE YOUR SYSTEMS CONFIGURATION FILE HAS NOT BEEN SET UP OR IS INVALID. YOU'LL NEED TO DO THIS BY HAND, UNFORTUNATELY.\n\n"
-			"VISIT EMULATIONSTATION.ORG FOR MORE INFORMATION.";
+					   "VISIT EMULATIONSTATION.ORG FOR MORE INFORMATION.";
 		return false;
 	}
 
-	if(SystemData::sSystemVector.size() == 0)
+	if (SystemData::sSystemVector.size() == 0)
 	{
 		LOG(LogError) << "No systems found! Does at least one system have a game present? (check that extensions match!)\n(Also, make sure you've updated your es_systems.cfg for XML!)";
 		*errorString = "WE CAN'T FIND ANY SYSTEMS!\n"
-			"CHECK THAT YOUR PATHS ARE CORRECT IN THE SYSTEMS CONFIGURATION FILE, "
-			"AND YOUR GAME DIRECTORY HAS AT LEAST ONE GAME WITH THE CORRECT EXTENSION.\n\n"
-			"VISIT EMULATIONSTATION.ORG FOR MORE INFORMATION.";
+					   "CHECK THAT YOUR PATHS ARE CORRECT IN THE SYSTEMS CONFIGURATION FILE, "
+					   "AND YOUR GAME DIRECTORY HAS AT LEAST ONE GAME WITH THE CORRECT EXTENSION.\n\n"
+					   "VISIT EMULATIONSTATION.ORG FOR MORE INFORMATION.";
 		return false;
 	}
 
 	return true;
 }
 
-//called on exit, assuming we get far enough to have the log initialized
+// called on exit, assuming we get far enough to have the log initialized
 void onExit()
 {
 	Log::close();
@@ -340,15 +357,15 @@ void onExit()
 #include <direct.h>
 #endif
 
-int setLocale(char * argv1)
+int setLocale(char *argv1)
 {
 #if WIN32
 	std::locale::global(std::locale("en-US"));
 #else
 	if (Utils::FileSystem::exists("./locale/lang")) // for local builds
-		EsLocale::init("", "./locale/lang");	
+		EsLocale::init("", "./locale/lang");
 	else
-		EsLocale::init("", "/usr/share/locale");	
+		EsLocale::init("", "/usr/share/locale");
 #endif
 
 	setlocale(LC_TIME, "");
@@ -356,8 +373,7 @@ int setLocale(char * argv1)
 	return 0;
 }
 
-
-void signalHandler(int signum) 
+void signalHandler(int signum)
 {
 	if (signum == SIGSEGV)
 		LOG(LogError) << "Interrupt signal SIGSEGV received.\n";
@@ -370,7 +386,7 @@ void signalHandler(int signum)
 
 	Log::flush();
 
-	// cleanup and close up stuff here  
+	// cleanup and close up stuff here
 	exit(signum);
 }
 
@@ -397,10 +413,9 @@ void playVideo()
 	vid.setMaxSize(Renderer::getScreenWidth(), Renderer::getScreenHeight());
 
 	vid.setOnVideoEnded([&exitLoop]()
-	{
+						{
 		exitLoop = true;
-		return false;
-	});
+		return false; });
 
 	window.pushGui(&vid);
 
@@ -420,8 +435,7 @@ void playVideo()
 			{
 				if (event.type == SDL_QUIT)
 					return;
-			} 
-			while (SDL_PollEvent(&event));
+			} while (SDL_PollEvent(&event));
 		}
 
 		int curTime = SDL_GetTicks();
@@ -453,19 +467,19 @@ void launchStartupGame()
 	auto gamePath = SystemConf::getInstance()->get("global.bootgame.path");
 	if (gamePath.empty() || !Utils::FileSystem::exists(gamePath))
 		return;
-	
+
 	auto command = SystemConf::getInstance()->get("global.bootgame.cmd");
 	if (!command.empty())
 	{
 		InputManager::getInstance()->init();
 		command = Utils::String::replace(command, "%CONTROLLERSCONFIG%", InputManager::getInstance()->configureEmulators());
-		Utils::Platform::ProcessStartInfo(command).run();		
-	}	
+		Utils::Platform::ProcessStartInfo(command).run();
+	}
 }
 
 // #include "utils/MathExpr.h"
 
-int main(int argc, char* argv[])
+int main(int argc, char *argv[])
 {
 	// Utils::MathExpr::performUnitTests();
 
@@ -485,7 +499,7 @@ int main(int argc, char* argv[])
 
 	std::locale::global(std::locale("C"));
 
-	if(!parseArgs(argc, argv))
+	if (!parseArgs(argc, argv))
 		return 0;
 
 	// only show the console on Windows if HideConsole is false
@@ -499,24 +513,26 @@ int main(int argc, char* argv[])
 	// will leave a brief flash.
 	// TL;DR: You should compile ES under the "WINDOWS" subsystem.
 	// I have no idea how this works with non-MSVC compilers.
-	if(!Settings::getInstance()->getBool("HideConsole"))
+	if (!Settings::getInstance()->getBool("HideConsole"))
 	{
 		// we want to show the console
 		// if we're compiled in "CONSOLE" mode, this is already done.
 		// if we're compiled in "WINDOWS" mode, no console is created for us automatically;
 		// the user asked for one, so make one and then hook stdin/stdout/sterr up to it
-		if(AllocConsole()) // should only pass in "WINDOWS" mode
+		if (AllocConsole()) // should only pass in "WINDOWS" mode
 		{
 			freopen("CONIN$", "r", stdin);
 			freopen("CONOUT$", "wb", stdout);
 			freopen("CONOUT$", "wb", stderr);
 		}
-	}else{
+	}
+	else
+	{
 		// we want to hide the console
 		// if we're compiled with the "WINDOWS" subsystem, this is already done.
 		// if we're compiled with the "CONSOLE" subsystem, a console is already created;
 		// it'll flash open, but we hide it nearly immediately
-		if(GetConsoleWindow()) // should only pass in "CONSOLE" mode
+		if (GetConsoleWindow()) // should only pass in "CONSOLE" mode
 			ShowWindow(GetConsoleWindow(), SW_HIDE);
 	}
 #endif
@@ -526,8 +542,8 @@ int main(int argc, char* argv[])
 	FreeImage_Initialise();
 #endif
 
-	//if ~/.emulationstation doesn't exist and cannot be created, bail
-	if(!verifyHomeFolderExists())
+	// if ~/.emulationstation doesn't exist and cannot be created, bail
+	if (!verifyHomeFolderExists())
 		return 1;
 
 	if (!gPlayVideo.empty())
@@ -536,38 +552,46 @@ int main(int argc, char* argv[])
 		return 0;
 	}
 
-	//start the logger
-	Log::init();	
+	// start the logger
+	Log::init();
 
 	LOG(LogInfo) << "EmulationStation - v" << PROGRAM_VERSION_STRING << ", built " << PROGRAM_BUILT_STRING;
 
-	//always close the log on exit
+	// always close the log on exit
 	atexit(&onExit);
 
 	// Set locale
-	setLocale(argv[0]);	
+	setLocale(argv[0]);
 
 #if !WIN32
-	if(enable_startup_game) {
-	  // Run boot game, before Window Create for linux
-	  launchStartupGame();
+	if (enable_startup_game)
+	{
+		// Run boot game, before Window Create for linux
+		launchStartupGame();
 	}
 #endif
 
 	// Threaded initializations
 	auto threadPool = new Utils::ThreadPool("main()", -3);
-	auto vlcInit = threadPool->queueWorkItem([] { VideoVlcComponent::init(); });
-	threadPool->queueWorkItem([] { ApiSystem::getInstance()->getIpAddress(); });
-	threadPool->queueWorkItem([] { MetaDataList::initMetadata(); });
-	threadPool->queueWorkItem([] { MameNames::init(); });
-	threadPool->queueWorkItem([] { Genres::init(); });
-	threadPool->queueWorkItem([] { HttpReq::resetCookies(); });
+	auto vlcInit = threadPool->queueWorkItem([]
+											 { VideoVlcComponent::init(); });
+	threadPool->queueWorkItem([]
+							  { ApiSystem::getInstance()->getIpAddress(); });
+	threadPool->queueWorkItem([]
+							  { MetaDataList::initMetadata(); });
+	threadPool->queueWorkItem([]
+							  { MameNames::init(); });
+	threadPool->queueWorkItem([]
+							  { Genres::init(); });
+	threadPool->queueWorkItem([]
+							  { HttpReq::resetCookies(); });
 	threadPool->start();
 
 	Window window;
 	ViewController::init(&window);
 
-	window.setReloadGamelistsCallback([&window] { ViewController::reloadAllGames(&window, true, true); });	
+	window.setReloadGamelistsCallback([&window]
+									  { ViewController::reloadAllGames(&window, true, true); });
 	window.pushGui(ViewController::get());
 	if (!window.init(true, false))
 	{
@@ -587,17 +611,17 @@ int main(int argc, char* argv[])
 
 	SystemScreenSaver screensaver(&window);
 	CollectionSystemManager::init(&window);
-	
+
 	Zaparoo::checkZaparooEnabledAsync();
 	PowerSaver::init();
 	InputConfig::AssignActionButtons();
 
 	if (ApiSystem::getInstance()->isScriptingSupported(ApiSystem::PDFEXTRACTION))
 		TextureData::PdfHandler = ApiSystem::getInstance();
-	
+
 	threadPool->waitAllExcept(vlcInit); // Wait for what's necessary for loadSystemConfigFile
 
-	const char* errorMsg = NULL;
+	const char *errorMsg = NULL;
 	if (!loadSystemConfigFile(splashScreen && splashScreenProgress ? &window : nullptr, &errorMsg))
 	{
 		// something went terribly wrong
@@ -609,10 +633,11 @@ int main(int argc, char* argv[])
 		}
 
 		// we can't handle es_systems.cfg file problems inside ES itself, so display the error message then quit
-		window.pushGui(new GuiMsgBox(&window, errorMsg, _("QUIT"), [] { Utils::Platform::quitES(); }));
+		window.pushGui(new GuiMsgBox(&window, errorMsg, _("QUIT"), []
+									 { Utils::Platform::quitES(); }));
 	}
 
-	SystemConf* systemConf = SystemConf::getInstance();
+	SystemConf *systemConf = SystemConf::getInstance();
 
 #ifdef _ENABLE_KODI_
 	if (systemConf->getBool("kodi.enabled", true) && systemConf->getBool("kodi.atstartup"))
@@ -642,12 +667,12 @@ int main(int argc, char* argv[])
 	UsbHandler usbHandler;
 	usbHandler.start();
 
-	NetworkThread* nthread = new NetworkThread(&window);
+	NetworkThread *nthread = new NetworkThread(&window);
 	HttpServerThread httpServer(&window);
 
 	// tts
 	TextToSpeech::getInstance()->enable(Settings::getInstance()->getBool("TTS"), false);
-	
+
 	if (errorMsg == NULL)
 	{
 		if (splashScreen)
@@ -672,8 +697,7 @@ int main(int argc, char* argv[])
 	else
 		AudioManager::getInstance()->playRandomMusic();
 
-
-#ifdef WIN32	
+#ifdef WIN32
 	DWORD displayFrequency = 60;
 
 	DEVMODE lpDevMode;
@@ -682,11 +706,12 @@ int main(int argc, char* argv[])
 	lpDevMode.dmFields = DM_BITSPERPEL | DM_PELSWIDTH | DM_PELSHEIGHT | DM_DISPLAYFLAGS | DM_DISPLAYFREQUENCY;
 	lpDevMode.dmDriverExtra = 0;
 
-	if (EnumDisplaySettings(NULL, ENUM_CURRENT_SETTINGS, &lpDevMode) != 0) {
+	if (EnumDisplaySettings(NULL, ENUM_CURRENT_SETTINGS, &lpDevMode) != 0)
+	{
 		displayFrequency = lpDevMode.dmDisplayFrequency; // default value if cannot retrieve from user settings.
 	}
 
-	int timeLimit = (1000 / displayFrequency) - 10;	 // Margin for vsync
+	int timeLimit = (1000 / displayFrequency) - 10; // Margin for vsync
 	if (timeLimit < 0)
 		timeLimit = 0;
 #endif
@@ -702,7 +727,7 @@ int main(int argc, char* argv[])
 	bool hotkeyPressed = false;
 #endif
 
-	while(running)
+	while (running)
 	{
 		SDL_Event event;
 
@@ -729,55 +754,111 @@ int main(int argc, char* argv[])
 			// Reset this event's state
 			TRYCATCH("resetRefreshEvent", PowerSaver::resetRefreshEvent());
 
-			if(event.type == EVENT_USB_INSERTED) {
-				char* idStr = static_cast<char*>(event.user.data1);
-				std::string uniqueId(idStr);
-				delete[] idStr;
+			if (event.type == EVENT_USB_INSERTED)
+			{
 
-				std::string msg = "Bienvenue " + uniqueId;
+				char *jsonStr = static_cast<char *>(event.user.data1);
+				char *mountStr = static_cast<char *>(event.user.data2);
 
-				window.displayNotificationMessage(msg);
+				std::string jsonData(jsonStr);
+				std::string mountPoint(mountStr);
+
+				delete[] jsonStr;
+				delete[] mountStr;
+
+				std::string playerName = "Guest";
+				std::string playerId = "0";
+
+				size_t namePos = jsonData.find("\"nickname\"");
+				if (namePos != std::string::npos)
+				{
+					size_t startQuote = jsonData.find("\"", namePos + 10);
+					if (startQuote != std::string::npos)
+					{
+						size_t endQuote = jsonData.find("\"", startQuote + 1);
+						if (endQuote != std::string::npos)
+						{
+							playerName = jsonData.substr(startQuote + 1, endQuote - startQuote - 1);
+						}
+					}
+				}
+
+				size_t idPos = jsonData.find("\"id\"");
+				if (idPos != std::string::npos)
+				{
+					size_t startQuote = jsonData.find("\"", idPos + 4);
+					if (startQuote != std::string::npos)
+					{
+						size_t endQuote = jsonData.find("\"", startQuote + 1);
+						if (endQuote != std::string::npos)
+						{
+							playerId = jsonData.substr(startQuote + 1, endQuote - startQuote - 1);
+						}
+					}
+				}
+
+				std::string welcomeMessage = "Welcome " + playerName;
+				window.displayNotificationMessage(welcomeMessage);
+
+				ProfileManager::getInstance()->addProfile(playerId, playerName, mountPoint);
+
+				auto profiles = ProfileManager::getInstance()->getAvailableProfiles();
+				int numControllers = InputManager::getInstance()->getNumConfiguredDevices();
+
+				if(profiles.size() == 1) {
+					ProfileManager::getInstance()->assignProfileToPlayer(0, profiles[0]);
+					window.displayNotificationMessage(profiles[0].nickname + " has been assigned to Controller #1");
+
+					for (int i = 1; i < numControllers; i++) {
+						PlayerProfile guest = { "0", "Guest", "", true };
+						ProfileManager::getInstance()->assignProfileToPlayer(i, guest);
+					}
+				}
+				else if(profiles.size() > 1) {
+					window.pushGui(new GuiProfileSelector(&window));
+				}
+
 				continue;
 			}
 
 			do
 			{
 #ifdef BATOCERA
-			  // global hotkeys
-			  bool eventTaken = false;
-			  if(event.type == SDL_JOYBUTTONDOWN || event.type == SDL_JOYBUTTONUP)
-			    {
-			      InputConfig* config = InputManager::getInstance()->getInputConfigByDevice(event.jbutton.which);
-			      if(config)
+				// global hotkeys
+				bool eventTaken = false;
+				if (event.type == SDL_JOYBUTTONDOWN || event.type == SDL_JOYBUTTONUP)
 				{
-				  // Find first player controller info
-				  auto playerDevices = InputManager::getInstance()->lastKnownPlayersDeviceIndexes();
-				  auto playerDevice = playerDevices.find(0);
-				  if (playerDevice != playerDevices.cend())
-				    {
-				      if (config->getDeviceIndex() == playerDevice->second.index)
+					InputConfig *config = InputManager::getInstance()->getInputConfigByDevice(event.jbutton.which);
+					if (config)
 					{
-					  Input input = Input(event.jbutton.which, TYPE_BUTTON, event.jbutton.button, event.jbutton.state == SDL_PRESSED, false);
-					  if (config->isMappedTo("hotkey", input))
-					    hotkeyPressed = input.value != 0;
-
-					  if(hotkeyPressed && input.value != 0)
-					    {
-					      std::string hotkey_controlcenter = Settings::getInstance()->getString("HOTKEY_CONTROLCENTER");
-					      if (config->isMappedTo(hotkey_controlcenter, input))
+						// Find first player controller info
+						auto playerDevices = InputManager::getInstance()->lastKnownPlayersDeviceIndexes();
+						auto playerDevice = playerDevices.find(0);
+						if (playerDevice != playerDevices.cend())
 						{
-						  hotkeyPressed = false;
-						  ApiSystem::getInstance()->launchControlcenter();
-						  eventTaken = true;
+							if (config->getDeviceIndex() == playerDevice->second.index)
+							{
+								Input input = Input(event.jbutton.which, TYPE_BUTTON, event.jbutton.button, event.jbutton.state == SDL_PRESSED, false);
+								if (config->isMappedTo("hotkey", input))
+									hotkeyPressed = input.value != 0;
+
+								if (hotkeyPressed && input.value != 0)
+								{
+									std::string hotkey_controlcenter = Settings::getInstance()->getString("HOTKEY_CONTROLCENTER");
+									if (config->isMappedTo(hotkey_controlcenter, input))
+									{
+										hotkeyPressed = false;
+										ApiSystem::getInstance()->launchControlcenter();
+										eventTaken = true;
+									}
+								}
+							}
 						}
-					    }
 					}
-				    }
 				}
-			    }
-			  //
-			  if(eventTaken)
-			    continue;
+				//
+				if (eventTaken)
+					continue;
 #endif
 
 				TRYCATCH("InputManager::parseEvent", InputManager::getInstance()->parseEvent(event, &window));
@@ -798,12 +879,11 @@ int main(int argc, char* argv[])
 
 						Renderer::setWindowResizable(true);
 					}
-				}				
+				}
 
 				if (event.type == SDL_QUIT)
 					running = false;
-			} 
-			while(SDL_PollEvent(&event));
+			} while (SDL_PollEvent(&event));
 
 			// check guns
 			InputManager::getInstance()->updateGuns(&window);
@@ -818,15 +898,15 @@ int main(int argc, char* argv[])
 		}
 		else if (ps_standby == false)
 		{
-		  // check guns
-		  InputManager::getInstance()->updateGuns(&window);
+			// check guns
+			InputManager::getInstance()->updateGuns(&window);
 
-		  if (screenSaverWait)
-			ps_time = SDL_GetTicks();
+			if (screenSaverWait)
+				ps_time = SDL_GetTicks();
 
-		  // If exitting SDL_WaitEventTimeout due to timeout. Trail considering
-		  // timeout as an event
-		  //	ps_time = SDL_GetTicks();
+			// If exitting SDL_WaitEventTimeout due to timeout. Trail considering
+			// timeout as an event
+			//	ps_time = SDL_GetTicks();
 		}
 
 		if (window.isSleeping())
@@ -841,10 +921,10 @@ int main(int argc, char* argv[])
 		lastTime = curTime;
 
 		// cap deltaTime if it ever goes negative
-		if(deltaTime < 0)
+		if (deltaTime < 0)
 			deltaTime = 1000;
 
-		TRYCATCH("Window.update" ,window.update(deltaTime))	
+		TRYCATCH("Window.update", window.update(deltaTime))
 		TRYCATCH("Window.render", window.render())
 
 		int fpsLimit = Settings::FpsLimit();
@@ -860,7 +940,7 @@ int main(int argc, char* argv[])
 			}
 		}
 
-		Renderer::swapBuffers();		
+		Renderer::swapBuffers();
 	}
 
 	if (Utils::Platform::isFastShutdown())
@@ -890,7 +970,7 @@ int main(int argc, char* argv[])
 #ifdef FREEIMAGE_LIB
 	FreeImage_DeInitialise();
 #endif
-	
+
 	// Delete ViewController
 	while (window.peekGui() != nullptr)
 		delete window.peekGui();
@@ -905,4 +985,3 @@ int main(int argc, char* argv[])
 
 	return 0;
 }
-

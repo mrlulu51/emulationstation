@@ -102,25 +102,28 @@ void UsbHandler::run() {
           std::string mountPoint = waitForMount(nodePath);
 
           if (!mountPoint.empty()) {
-            std::string targetFile = mountPoint + "/es_usb.txt";
-            std::ifstream file(targetFile);
+            std::string playerDataFile = mountPoint + "/ESGI-Game/player_data.json";
+            std::ifstream file(playerDataFile);
 
-            if (file.is_open()) {
-              std::string identifier;
-              std::getline(file, identifier);
+            if(file.is_open()) {
+              std::stringstream buffer;
+              buffer << file.rdbuf();
+              std::string jsonContent = buffer.str();
 
-              if (EVENT_USB_INSERTED != (uint32_t)-1) {
+              if(EVENT_USB_INSERTED != (uint32_t)-1) {
                 SDL_Event event;
                 SDL_zero(event);
                 event.type = EVENT_USB_INSERTED;
 
-                char* idStr = new char[identifier.length() + 1];
-                std::strcpy(idStr, identifier.c_str());
-                event.user.data1 = idStr;
+                char* dataStr = new char[jsonContent.length() + 1];
+                std::strcpy(dataStr, jsonContent.c_str());
+                event.user.data1 = dataStr;
+
+                char* mountStr = new char[mountPoint.length() + 1];
+                std::strcpy(mountStr, mountPoint.c_str());
+                event.user.data2 = mountStr;
 
                 SDL_PushEvent(&event);
-
-                LOG(LogInfo) << "UsbHandler::run Usb was plugged in";
               }
             }
           }

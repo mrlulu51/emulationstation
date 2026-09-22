@@ -79,517 +79,6 @@ msgid_plural "This collection contains %i games, including: %s"
 msgstr[0] "This collection contains %i game: %s"
 msgstr[1] "This collection contains %i games, including: %s"
 
-msgid "DOWNLOADING"
-msgstr "DOWNLOADING"
-
-msgid "THEME INSTALLED SUCCESSFULLY"
-msgstr "THEME INSTALLED SUCCESSFULLY"
-
-msgid "AN ERROR OCCURRED"
-msgstr "AN ERROR OCCURRED"
-
-msgid "THEME UNINSTALLED SUCCESSFULLY"
-msgstr "THEME UNINSTALLED SUCCESSFULLY"
-
-msgid "BEZELS INSTALLED SUCCESSFULLY"
-msgstr "BEZELS INSTALLED SUCCESSFULLY"
-
-msgid "BEZELS UNINSTALLED SUCCESSFULLY"
-msgstr "BEZELS UNINSTALLED SUCCESSFULLY"
-
-msgid "PACKAGE INSTALLED SUCCESSFULLY"
-msgstr "PACKAGE INSTALLED SUCCESSFULLY"
-
-msgid "PACKAGE REMOVED SUCCESSFULLY"
-msgstr "PACKAGE REMOVED SUCCESSFULLY"
-
-msgid "THE EMULATOR EXITED UNEXPECTEDLY"
-msgstr "THE EMULATOR EXITED UNEXPECTEDLY"
-
-msgid "BAD COMMAND LINE ARGUMENTS"
-msgstr "BAD COMMAND LINE ARGUMENTS"
-
-msgid "INVALID CONFIGURATION"
-msgstr "INVALID CONFIGURATION"
-
-msgid "UNKNOWN EMULATOR"
-msgstr "UNKNOWN EMULATOR"
-
-msgid "EMULATOR IS MISSING"
-msgstr "EMULATOR IS MISSING"
-
-msgid "CORE IS MISSING"
-msgstr "CORE IS MISSING"
-
-msgid "UKNOWN ERROR"
-msgstr "UKNOWN ERROR"
-
-msgid "OK"
-msgstr "OK"
-
-msgid "FAVORITES"
-msgstr "FAVOURITES"
-
-msgid "GENRE"
-msgstr "GENRE"
-
-msgid "TAG"
-msgstr ""
-
-msgid "FAMILY"
-msgstr "FAMILY"
-
-msgid "PLAYERS"
-msgstr "PLAYERS"
-
-msgid "PUBLISHER/DEVELOPER"
-msgstr "PUBLISHER/DEVELOPER"
-
-msgid "RATING"
-msgstr "RATING"
-
-msgid "YEAR"
-msgstr "YEAR"
-
-msgid "LANGUAGE"
-msgstr "LANGUAGE"
-
-msgid "REGION"
-msgstr "REGION"
-
-msgid "KIDGAME"
-msgstr "KIDGAME"
-
-msgid "ALREADY PLAYED"
-msgstr "ALREADY PLAYED"
-
-msgid "HAS ACHIEVEMENTS"
-msgstr "HAS ACHIEVEMENTS"
-
-msgid "VERTICAL"
-msgstr "VERTICAL"
-
-msgid "LIGHTGUN"
-msgstr "LIGHTGUN"
-
-msgid "STEERING WHEEL"
-msgstr "STEERING WHEEL"
-
-msgid "TRACKBALL"
-msgstr ""
-
-msgid "SPINNER"
-msgstr ""
-
-msgid "HAVING MEDIAS"
-msgstr "HAVING MEDIAS"
-
-msgid "MISSING MEDIAS"
-msgstr "MISSING MEDIAS"
-
-msgid "SEARCH"
-msgstr "SEARCH"
-
-msgid "FILENAME, ASCENDING"
-msgstr "FILENAME, ASCENDING"
-
-msgid "FILENAME, DESCENDING"
-msgstr "FILENAME, DESCENDING"
-
-msgid "RATING, ASCENDING"
-msgstr "RATING, ASCENDING"
-
-msgid "RATING, DESCENDING"
-msgstr "RATING, DESCENDING"
-
-msgid "TIMES PLAYED, ASCENDING"
-msgstr "TIMES PLAYED, ASCENDING"
-
-msgid "TIMES PLAYED, DESCENDING"
-msgstr "TIMES PLAYED, DESCENDING"
-
-msgid "LAST PLAYED, ASCENDING"
-msgstr "LAST PLAYED, ASCENDING"
-
-msgid "LAST PLAYED, DESCENDING"
-msgstr "LAST PLAYED, DESCENDING"
-
-msgid "NUMBER PLAYERS, ASCENDING"
-msgstr "NUMBER PLAYERS, ASCENDING"
-
-msgid "NUMBER PLAYERS, DESCENDING"
-msgstr "NUMBER PLAYERS, DESCENDING"
-
-msgid "RELEASE DATE, ASCENDING"
-msgstr "RELEASE DATE, ASCENDING"
-
-msgid "RELEASE DATE, DESCENDING"
-msgstr "RELEASE DATE, DESCENDING"
-
-msgid "GENRE, ASCENDING"
-msgstr "GENRE, ASCENDING"
-
-msgid "GENRE, DESCENDING"
-msgstr "GENRE, DESCENDING"
-
-msgid "DEVELOPER, ASCENDING"
-msgstr "DEVELOPER, ASCENDING"
-
-msgid "DEVELOPER, DESCENDING"
-msgstr "DEVELOPER, DESCENDING"
-
-msgid "PUBLISHER, ASCENDING"
-msgstr "PUBLISHER, ASCENDING"
-
-msgid "PUBLISHER, DESCENDING"
-msgstr "PUBLISHER, DESCENDING"
-
-msgid "SYSTEM, ASCENDING"
-msgstr "SYSTEM, ASCENDING"
-
-msgid "SYSTEM, DESCENDING"
-msgstr "SYSTEM, DESCENDING"
-
-msgid "FILE CREATION DATE, ASCENDING"
-msgstr "FILE CREATION DATE, ASCENDING"
-
-msgid "FILE CREATION DATE, DESCENDING"
-msgstr "FILE CREATION DATE, DESCENDING"
-
-msgid "GAME TIME, ASCENDING"
-msgstr "GAME TIME, ASCENDING"
-
-msgid "GAME TIME, DESCENDING"
-msgstr "GAME TIME, DESCENDING"
-
-msgid "SYSTEM, RELEASE YEAR, ASCENDING"
-msgstr "SYSTEM, RELEASE YEAR, ASCENDING"
-
-msgid "SYSTEM, RELEASE YEAR, DESCENDING"
-msgstr "SYSTEM, RELEASE YEAR, DESCENDING"
-
-msgid "RELEASE YEAR, SYSTEM, ASCENDING"
-msgstr "RELEASE YEAR, SYSTEM, ASCENDING"
-
-msgid "RELEASE YEAR, SYSTEM, DESCENDING"
-msgstr "RELEASE YEAR, SYSTEM, DESCENDING"
-
-msgid "A,AN,THE"
-msgstr "A,AN,THE"
-
-msgid "FINISHED"
-msgstr "FINISHED"
-
-msgid "SLOW"
-msgstr ""
-
-msgid "NOT WORKING"
-msgstr ""
-
-msgid "BUGGY"
-msgstr ""
-
-msgid "LIKED"
-msgstr ""
-
-msgid "DISLIKED"
-msgstr ""
-
-msgid "Name"
-msgstr "Name"
-
-msgid "this game's name"
-msgstr "this game's name"
-
-msgid "Description"
-msgstr "Description"
-
-msgid "this game's description"
-msgstr "this game's description"
-
-msgid "Genre"
-msgstr "Genre"
-
-msgid "enter game genre"
-msgstr "enter game genre"
-
-msgid "Tags"
-msgstr ""
-
-msgid "tags"
-msgstr ""
-
-msgid "Sort name"
-msgstr ""
-
-msgid "enter game sort name"
-msgstr ""
-
-msgid "Emulator"
-msgstr "Emulator"
-
-msgid "emulator"
-msgstr "emulator"
-
-msgid "Core"
-msgstr "Core"
-
-msgid "core"
-msgstr "core"
-
-msgid "Image"
-msgstr "Image"
-
-msgid "enter path to image"
-msgstr "enter path to image"
-
-msgid "Video"
-msgstr "Video"
-
-msgid "enter path to video"
-msgstr "enter path to video"
-
-msgid "Logo"
-msgstr "Logo"
-
-msgid "enter path to logo"
-msgstr "enter path to logo"
-
-msgid "Box"
-msgstr "Box"
-
-msgid "enter path to box"
-msgstr "enter path to box"
-
-msgid "Fan art"
-msgstr "Fan art"
-
-msgid "enter path to fan art"
-msgstr "enter path to fan art"
-
-msgid "Title shot"
-msgstr "Title shot"
-
-msgid "enter path to title shot"
-msgstr "enter path to title shot"
-
-msgid "Manual"
-msgstr "Manual"
-
-msgid "enter path to manual"
-msgstr "enter path to manual"
-
-msgid "Magazine"
-msgstr "Magazine"
-
-msgid "enter path to magazine"
-msgstr "enter path to magazine"
-
-msgid "Map"
-msgstr "Map"
-
-msgid "enter path to map"
-msgstr "enter path to map"
-
-msgid "Bezel (16:9)"
-msgstr "Bezel (16:9)"
-
-msgid "enter path to bezel (16:9)"
-msgstr "enter path to bezel (16:9)"
-
-msgid "Cartridge"
-msgstr "Cartridge"
-
-msgid "enter path to cartridge"
-msgstr "enter path to cartridge"
-
-msgid "Alt BoxArt"
-msgstr "Alt BoxArt"
-
-msgid "enter path to alt boxart"
-msgstr "enter path to alt boxart"
-
-msgid "Box backside"
-msgstr "Box backside"
-
-msgid "enter path to box background"
-msgstr "enter path to box background"
-
-msgid "Wheel"
-msgstr "Wheel"
-
-msgid "enter path to wheel"
-msgstr "enter path to wheel"
-
-msgid "Mix"
-msgstr "Mix"
-
-msgid "enter path to mix"
-msgstr "enter path to mix"
-
-msgid "Rating"
-msgstr "Rating"
-
-msgid "enter rating"
-msgstr "enter rating"
-
-msgid "Release date"
-msgstr "Release date"
-
-msgid "enter release date"
-msgstr "enter release date"
-
-msgid "Developer"
-msgstr "Developer"
-
-msgid "this game's developer"
-msgstr "this game's developer"
-
-msgid "Publisher"
-msgstr "Publisher"
-
-msgid "this game's publisher"
-msgstr "this game's publisher"
-
-msgid "Game family"
-msgstr "Game family"
-
-msgid "this game's game family"
-msgstr "this game's game family"
-
-msgid "Genres"
-msgstr "Genres"
-
-msgid "enter game genres"
-msgstr "enter game genres"
-
-msgid "Arcade system"
-msgstr "Arcade system"
-
-msgid "this game's arcade system"
-msgstr "this game's arcade system"
-
-msgid "Players"
-msgstr "Players"
-
-msgid "this game's number of players"
-msgstr "this game's number of players"
-
-msgid "Favorite"
-msgstr "Favourite"
-
-msgid "enter favorite"
-msgstr "enter favourite"
-
-msgid "Hidden"
-msgstr "Hidden"
-
-msgid "enter hidden"
-msgstr "enter hidden"
-
-msgid "Kidgame"
-msgstr "Kidgame"
-
-msgid "enter kidgame"
-msgstr "enter kidgame"
-
-msgid "Play count"
-msgstr "Play count"
-
-msgid "enter number of times played"
-msgstr "enter number of times played"
-
-msgid "Last played"
-msgstr "Last played"
-
-msgid "enter last played date"
-msgstr "enter last played date"
-
-msgid "Crc32"
-msgstr "Crc32"
-
-msgid "Crc32 checksum"
-msgstr "Crc32 checksum"
-
-msgid "Md5"
-msgstr "Md5"
-
-msgid "Md5 checksum"
-msgstr "Md5 checksum"
-
-msgid "Game time"
-msgstr "Game time"
-
-msgid "how long the game has been played in total (seconds)"
-msgstr "how long the game has been played in total (seconds)"
-
-msgid "Languages"
-msgstr "Languages"
-
-msgid "this game's languages"
-msgstr "this game's languages"
-
-msgid "Region"
-msgstr "Region"
-
-msgid "this game's region"
-msgstr "this game's region"
-
-msgid "Cheevos Hash"
-msgstr "Cheevos Hash"
-
-msgid "Cheevos checksum"
-msgstr "Cheevos checksum"
-
-msgid "Cheevos Game ID"
-msgstr "Cheevos Game ID"
-
-msgid "Screenscraper Game ID"
-msgstr "Screenscraper Game ID"
-
-msgid "MultiDisk"
-msgstr ""
-
-msgid "UPDATE AVAILABLE"
-msgstr "UPDATE AVAILABLE"
-
-msgid "INVALID CONTENT"
-msgstr "INVALID CONTENT"
-
-msgid ""
-"A valid account is required. Please register an account on https://"
-"retroachievements.org"
-msgstr ""
-"A valid account is required. Please register an account on https://"
-"retroachievements.org"
-
-msgid "Collections"
-msgstr "Collections"
-
-msgid "Unknown"
-msgstr "Unknown"
-
-msgid "SCANNING BLUETOOTH"
-msgstr "SCANNING BLUETOOTH"
-
-msgid "Searching for devices..."
-msgstr "Searching for devices…"
-
-msgid "BLUETOOTH SCAN IS ALREADY RUNNING."
-msgstr "BLUETOOTH SCAN IS ALREADY RUNNING."
-
-msgid "FORMATTING DEVICE"
-msgstr "FORMATTING DEVICE"
-
-msgid "Formatting"
-msgstr "Formatting"
-
-msgid "A REBOOT IS REQUIRED TO COMPLETE THE OPERATION"
-msgstr "A REBOOT IS REQUIRED TO COMPLETE THE OPERATION"
-
-msgid "A DRIVE IS ALREADY BEING FORMATTED."
-msgstr "A DRIVE IS ALREADY BEING FORMATTED."
-
 msgid "SEARCHING RETROACHIEVEMENTS"
 msgstr "SEARCHING RETROACHIEVEMENTS"
 
@@ -614,38 +103,126 @@ msgstr "NO"
 msgid "NO GAMES FIT THAT CRITERIA."
 msgstr "NO GAMES FIT THAT CRITERIA."
 
+msgid "Checking for latest upgrade script..."
+msgstr ""
+
 msgid "Extracting"
 msgstr "Extracting"
 
-msgid "Interlaced"
+msgid "Loading system config..."
+msgstr "Loading system config…"
+
+msgid "Loading..."
+msgstr "Loading…"
+
+msgid "QUIT"
+msgstr "QUIT"
+
+msgid "Loading theme"
+msgstr "Loading theme"
+
+msgid "SAVING METADATA. PLEASE WAIT..."
 msgstr ""
 
-msgid "Searching"
-msgstr "Searching"
+msgid "PAD TO KEYBOARD CONFIGURATION"
+msgstr "PAD TO KEYBOARD CONFIGURATION"
 
-msgid "Released"
-msgstr "Released"
+msgid "SELECT ACTIONS TO CHANGE"
+msgstr "SELECT ACTIONS TO CHANGE"
 
-msgid "NO GAMES FOUND - SKIP"
-msgstr "NO GAMES FOUND - SKIP"
+msgid "SAVE"
+msgstr "SAVE"
 
-msgid "RETRY"
-msgstr "RETRY"
-
-msgid "SKIP"
-msgstr "SKIP"
+msgid "DELETE"
+msgstr "DELETE"
 
 msgid "CANCEL"
 msgstr "CANCEL"
 
-msgid "Downloading"
-msgstr "Downloading"
+msgid "CLOSE"
+msgstr "CLOSE"
 
-msgid "SEARCH FOR"
-msgstr "SEARCH FOR"
+msgid "PLAYER 1"
+msgstr "PLAYER 1"
 
-msgid "ACCEPT RESULT"
-msgstr "ACCEPT RESULT"
+msgid "PLAYER 2"
+msgstr "PLAYER 2"
+
+msgid "PLAYER 3"
+msgstr "PLAYER 3"
+
+msgid "PLAYER 4"
+msgstr "PLAYER 4"
+
+msgid "COMBINATIONS"
+msgstr "COMBINATIONS"
+
+msgid "MOUSE CURSOR"
+msgstr "MOUSE CURSOR"
+
+msgid "EMULATE MOUSE CURSOR"
+msgstr "EMULATE MOUSE CURSOR"
+
+msgid "LEFT ANALOG STICK"
+msgstr "LEFT ANALOQUE STICK"
+
+msgid "RIGHT ANALOG STICK"
+msgstr "RIGHT ANALOQUE STICK"
+
+msgid "EDIT DESCRIPTION"
+msgstr "EDIT DESCRIPTION"
+
+msgid "ARE YOU SURE YOU WANT TO DELETE THIS ITEM?"
+msgstr "ARE YOU SURE YOU WANT TO DELETE THIS ITEM?"
+
+msgid "BACK"
+msgstr "BACK"
+
+msgid "DELETE MAPPING"
+msgstr "DELETE MAPPING"
+
+msgid "SAVE CHANGES?"
+msgstr "SAVE CHANGES?"
+
+msgid "ARE YOU SURE?"
+msgstr "ARE YOU SURE?"
+
+msgid "PLEASE WAIT"
+msgstr "PLEASE WAIT"
+
+msgid "AN ERROR OCCURRED"
+msgstr "AN ERROR OCCURRED"
+
+msgid "OK"
+msgstr "OK"
+
+msgid "Points"
+msgstr "Points"
+
+msgid "Unlocked on"
+msgstr "Unlocked on"
+
+msgid "HARDCORE MODE"
+msgstr "HARDCORE MODE"
+
+msgid "LAUNCH"
+msgstr "LAUNCH"
+
+msgid "go back"
+msgstr "go back"
+
+msgid "THIS GAME HAS NO ACHIEVEMENTS YET"
+msgstr "THIS GAME HAS NO ACHIEVEMENTS YET"
+
+msgid "Achievements (softcore)"
+msgstr "Achievements (softcore)"
+
+msgid "Achievements (hardcore)"
+msgstr "Achievements (hardcore)"
+
+#, c-format
+msgid "%d%% complete"
+msgstr "%d%% complete"
 
 msgid "BACKUP USER DATA"
 msgstr "BACKUP USER DATA"
@@ -659,125 +236,140 @@ msgstr "NO DEVICE FOUND"
 msgid "START"
 msgstr "START"
 
-msgid "BACK"
-msgstr "BACK"
+msgid "CONNECT TO NETPLAY"
+msgstr "CONNECT TO NETPLAY"
 
-msgid "CLOSE"
-msgstr "CLOSE"
-
-msgid "CONTENT DOWNLOADER"
-msgstr "CONTENT DOWNLOADER"
-
-msgid "SELECT CONTENT TO INSTALL/REMOVE"
-msgstr "SELECT CONTENT TO INSTALL/REMOVE"
+msgid "Select a game lobby to join"
+msgstr "Select a game lobby to join"
 
 msgid "REFRESH"
 msgstr "REFRESH"
 
-msgid "UPDATE INSTALLED CONTENT"
-msgstr "UPDATE INSTALLED CONTENT"
+msgid "FAILED"
+msgstr "FAILED"
 
-msgid "No items"
-msgstr "No items"
+msgid "UNKNOWN ROM VERSION"
+msgstr "UNKNOWN ROM VERSION"
 
-msgid "MISC"
-msgstr "MISC"
+msgid "DIFFERENT ROM"
+msgstr "DIFFERENT ROM"
 
-msgid "PLEASE WAIT"
-msgstr "PLEASE WAIT"
+msgid "SAME ROM"
+msgstr "SAME ROM"
 
-msgid "UPDATE"
-msgstr "UPDATE"
+msgid "UNAVAILABLE CORE"
+msgstr "UNAVAILABLE CORE"
 
-#, c-format
-msgid "'%s' ADDED TO DOWNLOAD QUEUE"
-msgstr "'%s' ADDED TO DOWNLOAD QUEUE"
-
-msgid "REMOVE"
-msgstr "REMOVE"
-
-msgid "UNINSTALLATION ADDED TO QUEUE"
-msgstr "UNINSTALLATION ADDED TO QUEUE"
-
-msgid "INSTALL"
-msgstr "INSTALL"
-
-#, c-format
-msgid "CURRENTLY IN DOWNLOAD QUEUE"
-msgstr "CURRENTLY IN DOWNLOAD QUEUE"
-
-msgid "THE BEZEL PROJECT"
-msgstr "THE BEZEL PROJECT"
-
-msgid "SELECT BEZELS TO INSTALL/REMOVE"
-msgstr "SELECT BEZELS TO INSTALL/REMOVE"
-
-msgid "NO MISSING BIOS FILES"
-msgstr "NO MISSING BIOS FILES"
-
-msgid "MISSING BIOS CHECK"
-msgstr "MISSING BIOS CHECK"
-
-msgid "Installed systems"
-msgstr "Installed systems"
-
-msgid "All"
-msgstr "ALL"
-
-msgid "refresh"
-msgstr "refresh"
-
-msgid "NO MISSING BIOS"
-msgstr "NO MISSING BIOS"
-
-msgid "DEVICE OPTIONS"
+msgid "LAN GAMES"
 msgstr ""
 
-msgid "DISCONNECT"
+msgid "AVAILABLE GAMES"
+msgstr "AVAILABLE GAMES"
+
+msgid "ONLINE GAMES"
 msgstr ""
 
-msgid "CONNECT"
+msgid "UNAVAILABLE GAMES"
+msgstr "UNAVAILABLE GAMES"
+
+msgid "NO GAMES FOUND"
+msgstr "NO GAMES FOUND"
+
+msgid "JOIN GAME"
+msgstr "JOIN GAME"
+
+msgid "WATCH GAME"
+msgstr "WATCH GAME"
+
+msgid "PARIS"
 msgstr ""
 
-msgid "FORGET"
+msgid "OSAKA"
 msgstr ""
 
-#, c-format
-msgid "ARE YOU SURE YOU WANT TO FORGET '%s' ?"
+msgid "SEOUL"
 msgstr ""
 
-#, c-format
-msgid "ARE YOU SURE YOU WANT TO CONNECT TO '%s' ?"
+msgid "NETPLAY SETTINGS"
+msgstr "NETPLAY SETTINGS"
+
+msgid "SETTINGS"
+msgstr "SETTINGS"
+
+msgid "ENABLE NETPLAY"
+msgstr "ENABLE NETPLAY"
+
+msgid "NICKNAME"
+msgstr "NICKNAME"
+
+msgid "OPTIONS"
+msgstr "OPTIONS"
+
+msgid "PORT"
+msgstr "PORT"
+
+msgid "AUTOMATICALLY CREATE LOBBY"
 msgstr ""
 
-#, c-format
-msgid "ARE YOU SURE YOU WANT TO DISCONNECT '%s' ?"
+msgid "Automatically creates a Netplay lobby when starting a game."
 msgstr ""
 
-msgid "BLUETOOTH DEVICE LIST"
+msgid "SHOW RELAY SERVER GAMES ONLY"
 msgstr ""
 
-msgid "REMOVE ALL"
-msgstr "REMOVE ALL"
-
-msgid "NO BLUETOOTH DEVICES FOUND"
-msgstr "NO BLUETOOTH DEVICES FOUND"
-
-msgid " (Connected)"
+msgid "Relay server games have a higher chance of successful entry."
 msgstr ""
 
-msgid "BLUETOOTH DEVICES HAVE BEEN DELETED."
-msgstr "BLUETOOTH DEVICES HAVE BEEN DELETED."
+msgid "SHOW UNAVAILABLE GAMES"
+msgstr "SHOW UNAVAILABLE GAMES"
 
-#, c-format
-msgid "ARE YOU SURE YOU WANT TO REMOVE '%s' ?"
-msgstr "ARE YOU SURE YOU WANT TO REMOVE '%s' ?"
+msgid "Show rooms for games not present on this machine."
+msgstr "Show rooms for games not present on this machine."
 
-msgid "PAIR A BLUETOOTH DEVICE"
-msgstr "PAIR A BLUETOOTH DEVICE"
+msgid "GAME INDEXES"
+msgstr "GAME INDEXES"
 
-msgid "PAIR"
-msgstr "PAIR"
+msgid "INDEX NEW GAMES AT STARTUP"
+msgstr "INDEX NEW GAMES AT STARTUP"
+
+msgid "INDEX GAMES"
+msgstr "INDEX GAMES"
+
+msgid "USE RELAY SERVER"
+msgstr "USE RELAY SERVER"
+
+msgid "NONE"
+msgstr "NONE"
+
+msgid "NEW YORK"
+msgstr "NEW YORK"
+
+msgid "MADRID"
+msgstr "MADRID"
+
+msgid "MONTREAL"
+msgstr "MONTREAL"
+
+msgid "SAO PAULO"
+msgstr "SAO PAULO"
+
+msgid "CUSTOM"
+msgstr ""
+
+msgid "CUSTOM RELAY SERVER"
+msgstr ""
+
+msgid "ZOOM OUT"
+msgstr "ZOOM OUT"
+
+msgid "ZOOM IN"
+msgstr "ZOOM IN"
+
+msgid "MOVE"
+msgstr "MOVE"
+
+msgid "ZOOM"
+msgstr "ZOOM"
 
 msgid "GAME COLLECTION SETTINGS"
 msgstr "GAME COLLECTION SETTINGS"
@@ -809,9 +401,6 @@ msgstr "CREATE NEW EDITABLE COLLECTION"
 msgid "CREATE NEW DYNAMIC COLLECTION"
 msgstr "CREATE NEW DYNAMIC COLLECTION"
 
-msgid "OPTIONS"
-msgstr "OPTIONS"
-
 msgid "SORT COLLECTIONS AND SYSTEMS"
 msgstr "SORT COLLECTIONS AND SYSTEMS"
 
@@ -838,9 +427,6 @@ msgstr "SORT SYSTEMS"
 
 msgid "START ON SYSTEM"
 msgstr "START ON SYSTEM"
-
-msgid "NONE"
-msgstr "NONE"
 
 msgid "RESTORE LAST SELECTED"
 msgstr "RESTORE LAST SELECTED"
@@ -869,9 +455,6 @@ msgstr ""
 msgid "UPDATE GAMELISTS"
 msgstr "UPDATE GAMELISTS"
 
-msgid "Loading..."
-msgstr "Loading…"
-
 msgid "SELECT COLLECTIONS"
 msgstr "SELECT COLLECTIONS"
 
@@ -896,8 +479,23 @@ msgstr "DYNAMIC COLLECTIONS"
 msgid "CUSTOM GAME COLLECTIONS"
 msgstr "CUSTOM GAME COLLECTIONS"
 
-msgid "FAVORITE SONGS"
-msgstr "FAVORITE SONGS"
+msgid "NO MISSING BIOS FILES"
+msgstr "NO MISSING BIOS FILES"
+
+msgid "MISSING BIOS CHECK"
+msgstr "MISSING BIOS CHECK"
+
+msgid "Installed systems"
+msgstr "Installed systems"
+
+msgid "All"
+msgstr "ALL"
+
+msgid "refresh"
+msgstr "refresh"
+
+msgid "NO MISSING BIOS"
+msgstr "NO MISSING BIOS"
 
 msgid "FILE BROWSER"
 msgstr "FILE BROWSER"
@@ -914,33 +512,27 @@ msgstr "SCREENSHOTS FOLDER"
 msgid "SELECT"
 msgstr "SELECT"
 
-msgid "Points"
-msgstr "Points"
+msgid "BLUETOOTH DEVICE LIST"
+msgstr ""
 
-msgid "Unlocked on"
-msgstr "Unlocked on"
+msgid "REMOVE ALL"
+msgstr "REMOVE ALL"
 
-msgid "HARDCORE MODE"
-msgstr "HARDCORE MODE"
+msgid "NO BLUETOOTH DEVICES FOUND"
+msgstr "NO BLUETOOTH DEVICES FOUND"
 
-msgid "LAUNCH"
-msgstr "LAUNCH"
+msgid " (Connected)"
+msgstr ""
 
-msgid "go back"
-msgstr "go back"
+msgid "REMOVE"
+msgstr "REMOVE"
 
-msgid "THIS GAME HAS NO ACHIEVEMENTS YET"
-msgstr "THIS GAME HAS NO ACHIEVEMENTS YET"
-
-msgid "Achievements (softcore)"
-msgstr "Achievements (softcore)"
-
-msgid "Achievements (hardcore)"
-msgstr "Achievements (hardcore)"
+msgid "BLUETOOTH DEVICES HAVE BEEN DELETED."
+msgstr "BLUETOOTH DEVICES HAVE BEEN DELETED."
 
 #, c-format
-msgid "%d%% complete"
-msgstr "%d%% complete"
+msgid "ARE YOU SURE YOU WANT TO REMOVE '%s' ?"
+msgstr "ARE YOU SURE YOU WANT TO REMOVE '%s' ?"
 
 msgid "GAME MEDIA"
 msgstr "GAME MEDIA"
@@ -1054,6 +646,9 @@ msgstr "REMOVE FROM %s"
 msgid "ADD TO %s"
 msgstr "ADD TO %s"
 
+msgid "FAVORITES"
+msgstr "FAVOURITES"
+
 msgid "ADD TO CUSTOM COLLECTION..."
 msgstr "ADD TO CUSTOM COLLECTION…"
 
@@ -1084,11 +679,97 @@ msgstr "VIEW PAD TO KEYBOARD INFORMATION"
 msgid "THIS FUNCTION IS DISABLED WHILE THE SCRAPER IS RUNNING"
 msgstr "THIS FUNCTION IS DISABLED WHILE THE SCRAPER IS RUNNING"
 
-msgid "ARE YOU SURE YOU WANT TO DELETE THIS ITEM?"
-msgstr "ARE YOU SURE YOU WANT TO DELETE THIS ITEM?"
+msgid "FINISHED"
+msgstr "FINISHED"
 
-msgid "INPUT"
-msgstr "INPUT"
+msgid "ADD COMBINATION KEY"
+msgstr "ADD COMBINATION KEY"
+
+msgid "INPUT MANUALLY"
+msgstr "INPUT MANUALLY"
+
+msgid "NO WI-FI NETWORKS FOUND"
+msgstr "NO WI-FI NETWORKS FOUND"
+
+msgid "SEARCHING WI-FI NETWORKS"
+msgstr "SEARCHING WI-FI NETWORKS"
+
+#, c-format
+msgid "%d of %d softcore points"
+msgstr "%d of %d softcore points"
+
+#, c-format
+msgid "%d of %d hardcore points"
+msgstr "%d of %d hardcore points"
+
+#, c-format
+msgid "%d%% (%d of %d)"
+msgstr "%d%% (%d of %d)"
+
+msgid "RETROACHIEVEMENTS"
+msgstr "RETROACHIEVEMENTS"
+
+msgid "Softcore points"
+msgstr "Softcore points"
+
+msgid "Points (hardcore)"
+msgstr "Points (hardcore)"
+
+msgid "Rank"
+msgstr "Rank"
+
+msgid "VIEW DETAILS"
+msgstr "VIEW DETAILS"
+
+msgid "FAVORITE SONGS"
+msgstr "FAVORITE SONGS"
+
+msgid "INSTALL ON A NEW DISK"
+msgstr "INSTALL ON A NEW DISK"
+
+msgid "TARGET ARCHITECTURE"
+msgstr "TARGET ARCHITECTURE"
+
+msgid "INSTALL"
+msgstr "INSTALL"
+
+msgid "NETWORK REQUIRED"
+msgstr "NETWORK REQUIRED"
+
+msgid "INVALID PARAMETERS"
+msgstr "INVALID PARAMETERS"
+
+msgid "THEMES DOWNLOADER"
+msgstr "THEMES DOWNLOADER"
+
+msgid "SELECT THEMES TO INSTALL/REMOVE"
+msgstr "SELECT THEMES TO INSTALL/REMOVE"
+
+msgid "Installed"
+msgstr "Installed"
+
+msgid "Available"
+msgstr "Available"
+
+msgid "No items"
+msgstr "No items"
+
+msgid "UPDATE"
+msgstr "UPDATE"
+
+#, c-format
+msgid "'%s' ADDED TO DOWNLOAD QUEUE"
+msgstr "'%s' ADDED TO DOWNLOAD QUEUE"
+
+msgid "THEME UNINSTALLED SUCCESSFULLY"
+msgstr "THEME UNINSTALLED SUCCESSFULLY"
+
+msgid "CURRENT THEME"
+msgstr "CURRENT THEME"
+
+#, c-format
+msgid "CURRENTLY IN DOWNLOAD QUEUE"
+msgstr "CURRENTLY IN DOWNLOAD QUEUE"
 
 msgid "FILTER GAMELIST BY"
 msgstr "FILTER GAMELIST BY"
@@ -1102,53 +783,185 @@ msgstr "RESET ALL FILTERS"
 msgid "FIND GAMES"
 msgstr "FIND GAMES"
 
+msgid "Unknown"
+msgstr "Unknown"
+
 msgid "SYSTEMS"
 msgstr "SYSTEMS"
 
-msgid "VIEW OPTIONS"
-msgstr "VIEW OPTIONS"
+msgid "SCRAPER"
+msgstr "SCRAPER"
 
-msgid "NAVIGATION"
-msgstr "NAVIGATION"
+msgid "ACCOUNTS"
+msgstr "ACCOUNTS"
 
-msgid "OTHER FILTERS"
-msgstr "OTHER FILTERS"
+msgid "SCRAPING DATABASE"
+msgstr "SCRAPING DATABASE"
 
-msgid "SELECT RANDOM GAME"
-msgstr "SELECT RANDOM GAME"
+msgid "SOURCE"
+msgstr "SOURCE"
 
-msgid "JUMP TO GAME BEGINNING WITH THE LETTER"
-msgstr "JUMP TO GAME BEGINNING WITH THE LETTER"
+msgid "SCRAPE FROM"
+msgstr "SCRAPE FROM"
 
-msgid "SORT GAMES BY"
-msgstr "SORT GAMES BY"
+msgid "FILTERS"
+msgstr "FILTERS"
 
-msgid "DYNAMIC COLLECTION"
-msgstr "DYNAMIC COLLECTION"
+msgid "GAMES TO SCRAPE FOR"
+msgstr "GAMES TO SCRAPE FOR"
 
-msgid "CUSTOM COLLECTION"
-msgstr "CUSTOM COLLECTION"
+msgid "ALL"
+msgstr "ALL"
 
-msgid "COLLECTION"
-msgstr "COLLECTION"
+msgid "GAMES MISSING ANY MEDIA"
+msgstr "GAMES MISSING ANY MEDIA"
 
-msgid "GAMELIST VIEW STYLE"
-msgstr "GAMELIST VIEW STYLE"
+msgid "GAMES MISSING ALL MEDIA"
+msgstr "GAMES MISSING ALL MEDIA"
 
-msgid "automatic"
-msgstr "automatic"
+msgid "IGNORE RECENTLY SCRAPED GAMES"
+msgstr "IGNORE RECENTLY SCRAPED GAMES"
 
-msgid "VIEW CUSTOMIZATION"
-msgstr "VIEW CUSTOMISATION"
+msgid "LAST DAY"
+msgstr "LAST DAY"
 
-msgid "ADVANCED SYSTEM OPTIONS"
-msgstr "ADVANCED SYSTEM OPTIONS"
+msgid "LAST WEEK"
+msgstr "LAST WEEK"
 
-msgid "RESET FILTERS"
-msgstr "RESET FILTERS"
+msgid "LAST 15 DAYS"
+msgstr "LAST 15 DAYS"
 
-msgid "FILTER GAMES BY TEXT"
-msgstr "FILTER GAMES BY TEXT"
+msgid "LAST MONTH"
+msgstr "LAST MONTH"
+
+msgid "LAST 3 MONTHS"
+msgstr "LAST 3 MONTHS"
+
+msgid "LAST YEAR"
+msgstr "LAST YEAR"
+
+msgid "SYSTEMS INCLUDED"
+msgstr "SYSTEMS INCLUDED"
+
+msgid "SCRAPE NOW"
+msgstr "SCRAPE NOW"
+
+msgid "IMAGE SOURCE"
+msgstr "IMAGE SOURCE"
+
+msgid "SCREENSHOT"
+msgstr "SCREENSHOT"
+
+msgid "TITLE SCREENSHOT"
+msgstr "TITLE SCREENSHOT"
+
+msgid "MIX V1"
+msgstr "MIX V1"
+
+msgid "MIX V2"
+msgstr "MIX V2"
+
+msgid "BOX 2D"
+msgstr "BOX 2D"
+
+msgid "BOX 3D"
+msgstr "BOX 3D"
+
+msgid "FAN ART"
+msgstr "FAN ART"
+
+msgid "BOX SOURCE"
+msgstr "BOX SOURCE"
+
+msgid "LOGO SOURCE"
+msgstr "LOGO SOURCE"
+
+msgid "HD WHEEL"
+msgstr ""
+
+msgid "WHEEL"
+msgstr "WHEEL"
+
+msgid "MARQUEE"
+msgstr "MARQUEE"
+
+msgid "PREFERED REGION"
+msgstr "PREFERED REGION"
+
+msgid "AUTO"
+msgstr "AUTO"
+
+msgid "OVERWRITE NAMES"
+msgstr "OVERWRITE NAMES"
+
+msgid "OVERWRITE DESCRIPTIONS"
+msgstr "OVERWRITE DESCRIPTIONS"
+
+msgid "OVERWRITE MEDIAS"
+msgstr "OVERWRITE MEDIAS"
+
+msgid "SCRAPE FOR"
+msgstr "SCRAPE FOR"
+
+msgid "SHORT NAME"
+msgstr "SHORT NAME"
+
+msgid "COMMUNITY RATING"
+msgstr "COMMUNITY RATING"
+
+msgid "VIDEO"
+msgstr "VIDEO"
+
+msgid "BEZEL (16:9)"
+msgstr "BEZEL (16:9)"
+
+msgid "BOX BACKSIDE"
+msgstr "BOX BACKSIDE"
+
+msgid "MAP"
+msgstr "MAP"
+
+msgid "MANUAL"
+msgstr "MANUAL"
+
+msgid "PADTOKEY SETTINGS"
+msgstr "PADTOKEY SETTINGS"
+
+msgid "MANUAL SCRAPE"
+msgstr ""
+
+msgid "INCLUDED SCRAPERS"
+msgstr ""
+
+msgid "SCREENSCRAPER"
+msgstr ""
+
+msgid "USERNAME"
+msgstr "USERNAME"
+
+msgid "PASSWORD"
+msgstr "PASSWORD"
+
+msgid "IGDB"
+msgstr ""
+
+msgid "CLIENT ID"
+msgstr ""
+
+msgid "CLIENT SECRET"
+msgstr ""
+
+msgid ""
+"WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS "
+"MAY BE FOR DIFFERENT SYSTEMS!\n"
+"CONTINUE ANYWAY?"
+msgstr ""
+"WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS "
+"MAY BE FOR DIFFERENT SYSTEMS!\n"
+"CONTINUE ANYWAY?"
+
+msgid "SCRAPING IS RUNNING. DO YOU WANT TO STOP IT?"
+msgstr "SCRAPING IS RUNNING. DO YOU WANT TO STOP IT?"
 
 msgid "dim"
 msgstr "dim"
@@ -1185,9 +998,6 @@ msgstr "random"
 
 msgid "SCREENSAVER SETTINGS"
 msgstr "SCREENSAVER SETTINGS"
-
-msgid "SETTINGS"
-msgstr "SETTINGS"
 
 msgid "START SCREENSAVER AFTER"
 msgstr "START SCREENSAVER AFTER"
@@ -1267,99 +1077,6 @@ msgstr "USE IMAGES IN SUBFOLDERS OF CUSTOM DIRECTORY"
 msgid "CUSTOM IMAGE FILE EXTENSIONS"
 msgstr "CUSTOM IMAGE FILE EXTENSIONS"
 
-msgid "INDEX GAMES"
-msgstr "INDEX GAMES"
-
-msgid "GAMES TO INDEX"
-msgstr "GAMES TO INDEX"
-
-msgid "ALL"
-msgstr "ALL"
-
-msgid "ONLY MISSING"
-msgstr "ONLY MISSING"
-
-msgid "SYSTEMS INCLUDED"
-msgstr "SYSTEMS INCLUDED"
-
-msgid "ZOOM OUT"
-msgstr "ZOOM OUT"
-
-msgid "ZOOM IN"
-msgstr "ZOOM IN"
-
-msgid "MOVE"
-msgstr "MOVE"
-
-msgid "ZOOM"
-msgstr "ZOOM"
-
-msgid "INSTALL ON A NEW DISK"
-msgstr "INSTALL ON A NEW DISK"
-
-msgid "TARGET ARCHITECTURE"
-msgstr "TARGET ARCHITECTURE"
-
-msgid "ARE YOU SURE?"
-msgstr "ARE YOU SURE?"
-
-msgid "NETWORK REQUIRED"
-msgstr "NETWORK REQUIRED"
-
-msgid "INVALID PARAMETERS"
-msgstr "INVALID PARAMETERS"
-
-msgid "PAD TO KEYBOARD CONFIGURATION"
-msgstr "PAD TO KEYBOARD CONFIGURATION"
-
-msgid "SELECT ACTIONS TO CHANGE"
-msgstr "SELECT ACTIONS TO CHANGE"
-
-msgid "SAVE"
-msgstr "SAVE"
-
-msgid "DELETE"
-msgstr "DELETE"
-
-msgid "PLAYER 1"
-msgstr "PLAYER 1"
-
-msgid "PLAYER 2"
-msgstr "PLAYER 2"
-
-msgid "PLAYER 3"
-msgstr "PLAYER 3"
-
-msgid "PLAYER 4"
-msgstr "PLAYER 4"
-
-msgid "COMBINATIONS"
-msgstr "COMBINATIONS"
-
-msgid "MOUSE CURSOR"
-msgstr "MOUSE CURSOR"
-
-msgid "EMULATE MOUSE CURSOR"
-msgstr "EMULATE MOUSE CURSOR"
-
-msgid "LEFT ANALOG STICK"
-msgstr "LEFT ANALOQUE STICK"
-
-msgid "RIGHT ANALOG STICK"
-msgstr "RIGHT ANALOQUE STICK"
-
-msgid "EDIT DESCRIPTION"
-msgstr "EDIT DESCRIPTION"
-
-msgid "DELETE MAPPING"
-msgstr "DELETE MAPPING"
-
-msgid "SAVE CHANGES?"
-msgstr "SAVE CHANGES?"
-
-msgid "ADD COMBINATION KEY"
-msgstr "ADD COMBINATION KEY"
-
 msgid "KEYBOARDTOPADS"
 msgstr ""
 
@@ -1429,9 +1146,6 @@ msgstr "REWIND"
 msgid "SCREEN LAYOUT"
 msgstr ""
 
-msgid "SCREENSHOT"
-msgstr "SCREENSHOT"
-
 msgid "SWAP SCREEN"
 msgstr ""
 
@@ -1459,168 +1173,32 @@ msgstr ""
 msgid "KEY ASSIGNED TWICE"
 msgstr ""
 
-msgid "EDIT METADATA"
-msgstr "EDIT METADATA"
+msgid "CONTENT DOWNLOADER"
+msgstr "CONTENT DOWNLOADER"
 
-msgid "AUTO"
-msgstr "AUTO"
+msgid "SELECT CONTENT TO INSTALL/REMOVE"
+msgstr "SELECT CONTENT TO INSTALL/REMOVE"
 
-msgid "TAGS"
-msgstr ""
+msgid "SEARCH"
+msgstr "SEARCH"
 
-msgid "GENRES"
-msgstr "GENRES"
+msgid "UPDATE INSTALLED CONTENT"
+msgstr "UPDATE INSTALLED CONTENT"
 
-msgid ""
-"SOME FILES YOU LINKED ARE LOCATED OUTSIDE THE GAMELIST PATH.\n"
-"DO YOU WANT TO USE A COPY OF THESE FILES RELATIVE TO THE GAMELIST ?"
-msgstr ""
-"SOME FILES YOU LINKED ARE LOCATED OUTSIDE THE GAMELIST PATH.\n"
-"DO YOU WANT TO USE A COPY OF THESE FILES RELATIVE TO THE GAMELIST ?"
+msgid "MISC"
+msgstr "MISC"
 
-msgid "CONNECT TO NETPLAY"
-msgstr "CONNECT TO NETPLAY"
+msgid "UNINSTALLATION ADDED TO QUEUE"
+msgstr "UNINSTALLATION ADDED TO QUEUE"
 
-msgid "Select a game lobby to join"
-msgstr "Select a game lobby to join"
+msgid "GAMES TO INDEX"
+msgstr "GAMES TO INDEX"
 
-msgid "FAILED"
-msgstr "FAILED"
-
-msgid "UNKNOWN ROM VERSION"
-msgstr "UNKNOWN ROM VERSION"
-
-msgid "DIFFERENT ROM"
-msgstr "DIFFERENT ROM"
-
-msgid "SAME ROM"
-msgstr "SAME ROM"
-
-msgid "UNAVAILABLE CORE"
-msgstr "UNAVAILABLE CORE"
-
-msgid "LAN GAMES"
-msgstr ""
-
-msgid "AVAILABLE GAMES"
-msgstr "AVAILABLE GAMES"
-
-msgid "ONLINE GAMES"
-msgstr ""
-
-msgid "UNAVAILABLE GAMES"
-msgstr "UNAVAILABLE GAMES"
-
-msgid "NO GAMES FOUND"
-msgstr "NO GAMES FOUND"
-
-msgid "JOIN GAME"
-msgstr "JOIN GAME"
-
-msgid "WATCH GAME"
-msgstr "WATCH GAME"
-
-msgid "PARIS"
-msgstr ""
-
-msgid "OSAKA"
-msgstr ""
-
-msgid "SEOUL"
-msgstr ""
-
-msgid "NETPLAY SETTINGS"
-msgstr "NETPLAY SETTINGS"
-
-msgid "ENABLE NETPLAY"
-msgstr "ENABLE NETPLAY"
-
-msgid "NICKNAME"
-msgstr "NICKNAME"
-
-msgid "PORT"
-msgstr "PORT"
-
-msgid "AUTOMATICALLY CREATE LOBBY"
-msgstr ""
-
-msgid "Automatically creates a Netplay lobby when starting a game."
-msgstr ""
-
-msgid "SHOW RELAY SERVER GAMES ONLY"
-msgstr ""
-
-msgid "Relay server games have a higher chance of successful entry."
-msgstr ""
-
-msgid "SHOW UNAVAILABLE GAMES"
-msgstr "SHOW UNAVAILABLE GAMES"
-
-msgid "Show rooms for games not present on this machine."
-msgstr "Show rooms for games not present on this machine."
-
-msgid "GAME INDEXES"
-msgstr "GAME INDEXES"
-
-msgid "INDEX NEW GAMES AT STARTUP"
-msgstr "INDEX NEW GAMES AT STARTUP"
-
-msgid "USE RELAY SERVER"
-msgstr "USE RELAY SERVER"
-
-msgid "NEW YORK"
-msgstr "NEW YORK"
-
-msgid "MADRID"
-msgstr "MADRID"
-
-msgid "MONTREAL"
-msgstr "MONTREAL"
-
-msgid "SAO PAULO"
-msgstr "SAO PAULO"
-
-msgid "CUSTOM"
-msgstr ""
-
-msgid "CUSTOM RELAY SERVER"
-msgstr ""
-
-#, c-format
-msgid "%d of %d softcore points"
-msgstr "%d of %d softcore points"
-
-#, c-format
-msgid "%d of %d hardcore points"
-msgstr "%d of %d hardcore points"
-
-#, c-format
-msgid "%d%% (%d of %d)"
-msgstr "%d%% (%d of %d)"
-
-msgid "RETROACHIEVEMENTS"
-msgstr "RETROACHIEVEMENTS"
-
-msgid "Softcore points"
-msgstr "Softcore points"
-
-msgid "Points (hardcore)"
-msgstr "Points (hardcore)"
-
-msgid "Rank"
-msgstr "Rank"
-
-msgid "VIEW DETAILS"
-msgstr "VIEW DETAILS"
+msgid "ONLY MISSING"
+msgstr "ONLY MISSING"
 
 msgid "RETROACHIEVEMENTS SETTINGS"
 msgstr "RETROACHIEVEMENTS SETTINGS"
-
-msgid "USERNAME"
-msgstr "USERNAME"
-
-msgid "PASSWORD"
-msgstr "PASSWORD"
 
 msgid "Disable loading states, rewind and cheats for more points."
 msgstr "Disable loading states, rewind and cheats for more points."
@@ -1683,6 +1261,37 @@ msgstr "View your RetroAchievements stats right from the main menu!"
 msgid "UNABLE TO ACTIVATE RETROACHIEVEMENTS:"
 msgstr "UNABLE TO ACTIVATE RETROACHIEVEMENTS:"
 
+msgid "EDIT METADATA"
+msgstr "EDIT METADATA"
+
+msgid "Emulator"
+msgstr "Emulator"
+
+msgid "Core"
+msgstr "Core"
+
+msgid "TAGS"
+msgstr ""
+
+msgid "GENRES"
+msgstr "GENRES"
+
+msgid ""
+"SOME FILES YOU LINKED ARE LOCATED OUTSIDE THE GAMELIST PATH.\n"
+"DO YOU WANT TO USE A COPY OF THESE FILES RELATIVE TO THE GAMELIST ?"
+msgstr ""
+"SOME FILES YOU LINKED ARE LOCATED OUTSIDE THE GAMELIST PATH.\n"
+"DO YOU WANT TO USE A COPY OF THESE FILES RELATIVE TO THE GAMELIST ?"
+
+msgid "PAIR A BLUETOOTH DEVICE"
+msgstr "PAIR A BLUETOOTH DEVICE"
+
+msgid "SCANNING BLUETOOTH"
+msgstr "SCANNING BLUETOOTH"
+
+msgid "PAIR"
+msgstr "PAIR"
+
 msgid "SAVESTATE MANAGER"
 msgstr "SAVESTATE MANAGER"
 
@@ -1700,244 +1309,6 @@ msgstr "SLOT"
 
 msgid "COPY TO FREE SLOT"
 msgstr "COPY TO FREE SLOT"
-
-msgid "SCRAPER"
-msgstr "SCRAPER"
-
-msgid "ACCOUNTS"
-msgstr "ACCOUNTS"
-
-msgid "SCRAPING DATABASE"
-msgstr "SCRAPING DATABASE"
-
-msgid "SOURCE"
-msgstr "SOURCE"
-
-msgid "SCRAPE FROM"
-msgstr "SCRAPE FROM"
-
-msgid "FILTERS"
-msgstr "FILTERS"
-
-msgid "GAMES TO SCRAPE FOR"
-msgstr "GAMES TO SCRAPE FOR"
-
-msgid "GAMES MISSING ANY MEDIA"
-msgstr "GAMES MISSING ANY MEDIA"
-
-msgid "GAMES MISSING ALL MEDIA"
-msgstr "GAMES MISSING ALL MEDIA"
-
-msgid "IGNORE RECENTLY SCRAPED GAMES"
-msgstr "IGNORE RECENTLY SCRAPED GAMES"
-
-msgid "LAST DAY"
-msgstr "LAST DAY"
-
-msgid "LAST WEEK"
-msgstr "LAST WEEK"
-
-msgid "LAST 15 DAYS"
-msgstr "LAST 15 DAYS"
-
-msgid "LAST MONTH"
-msgstr "LAST MONTH"
-
-msgid "LAST 3 MONTHS"
-msgstr "LAST 3 MONTHS"
-
-msgid "LAST YEAR"
-msgstr "LAST YEAR"
-
-msgid "SCRAPE NOW"
-msgstr "SCRAPE NOW"
-
-msgid "IMAGE SOURCE"
-msgstr "IMAGE SOURCE"
-
-msgid "TITLE SCREENSHOT"
-msgstr "TITLE SCREENSHOT"
-
-msgid "MIX V1"
-msgstr "MIX V1"
-
-msgid "MIX V2"
-msgstr "MIX V2"
-
-msgid "BOX 2D"
-msgstr "BOX 2D"
-
-msgid "BOX 3D"
-msgstr "BOX 3D"
-
-msgid "FAN ART"
-msgstr "FAN ART"
-
-msgid "BOX SOURCE"
-msgstr "BOX SOURCE"
-
-msgid "LOGO SOURCE"
-msgstr "LOGO SOURCE"
-
-msgid "HD WHEEL"
-msgstr ""
-
-msgid "WHEEL"
-msgstr "WHEEL"
-
-msgid "MARQUEE"
-msgstr "MARQUEE"
-
-msgid "PREFERED REGION"
-msgstr "PREFERED REGION"
-
-msgid "OVERWRITE NAMES"
-msgstr "OVERWRITE NAMES"
-
-msgid "OVERWRITE DESCRIPTIONS"
-msgstr "OVERWRITE DESCRIPTIONS"
-
-msgid "OVERWRITE MEDIAS"
-msgstr "OVERWRITE MEDIAS"
-
-msgid "SCRAPE FOR"
-msgstr "SCRAPE FOR"
-
-msgid "SHORT NAME"
-msgstr "SHORT NAME"
-
-msgid "COMMUNITY RATING"
-msgstr "COMMUNITY RATING"
-
-msgid "VIDEO"
-msgstr "VIDEO"
-
-msgid "BEZEL (16:9)"
-msgstr "BEZEL (16:9)"
-
-msgid "BOX BACKSIDE"
-msgstr "BOX BACKSIDE"
-
-msgid "MAP"
-msgstr "MAP"
-
-msgid "MANUAL"
-msgstr "MANUAL"
-
-msgid "PADTOKEY SETTINGS"
-msgstr "PADTOKEY SETTINGS"
-
-msgid "MANUAL SCRAPE"
-msgstr ""
-
-msgid "INCLUDED SCRAPERS"
-msgstr ""
-
-msgid "SCREENSCRAPER"
-msgstr ""
-
-msgid "IGDB"
-msgstr ""
-
-msgid "CLIENT ID"
-msgstr ""
-
-msgid "CLIENT SECRET"
-msgstr ""
-
-msgid ""
-"WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS "
-"MAY BE FOR DIFFERENT SYSTEMS!\n"
-"CONTINUE ANYWAY?"
-msgstr ""
-"WARNING: SOME OF YOUR SELECTED SYSTEMS DO NOT HAVE A PLATFORM SET. RESULTS "
-"MAY BE FOR DIFFERENT SYSTEMS!\n"
-"CONTINUE ANYWAY?"
-
-msgid "SCRAPING IS RUNNING. DO YOU WANT TO STOP IT?"
-msgstr "SCRAPING IS RUNNING. DO YOU WANT TO STOP IT?"
-
-msgid "INFORMATION"
-msgstr "INFORMATION"
-
-msgid "VERSION"
-msgstr "VERSION"
-
-msgid "USER DISK USAGE"
-msgstr "USER DISK USAGE"
-
-msgid "SYSTEM DISK USAGE"
-msgstr "SYSTEM DISK USAGE"
-
-msgid "DISK USAGE"
-msgstr ""
-
-msgid "SYSTEM"
-msgstr "SYSTEM"
-
-msgid "VIDEO DRIVER"
-msgstr "VIDEO DRIVER"
-
-msgid "THEMES DOWNLOADER"
-msgstr "THEMES DOWNLOADER"
-
-msgid "SELECT THEMES TO INSTALL/REMOVE"
-msgstr "SELECT THEMES TO INSTALL/REMOVE"
-
-msgid "Installed"
-msgstr "Installed"
-
-msgid "Available"
-msgstr "Available"
-
-msgid "CURRENT THEME"
-msgstr "CURRENT THEME"
-
-msgid "REALLY UPDATE?"
-msgstr "REALLY UPDATE?"
-
-#, c-format
-msgid ""
-"YOU ARE CURRENTLY USING VERSION %s\n"
-"DO YOU WANT TO UPDATE TO VERSION %s?"
-msgstr ""
-"YOU ARE CURRENTLY USING VERSION %s\n"
-"DO YOU WANT TO UPDATE TO VERSION %s?"
-
-#, c-format
-msgid ""
-"UNOFFICIAL SYSTEM MODIFICATIONS DETECTED.\n"
-"UPGRADING COULD BREAK YOUR SYSTEM.\n"
-"DO YOU WANT TO UPDATE TO VERSION %s?"
-msgstr ""
-"UNOFFICIAL SYSTEM MODIFICATIONS DETECTED.\n"
-"UPGRADING COULD BREAK YOUR SYSTEM.\n"
-"DO YOU WANT TO UPDATE TO VERSION %s?"
-
-msgid "NETWORK CONNECTION NEEDED"
-msgstr "NETWORK CONNECTION NEEDED"
-
-msgid "NO UPDATE AVAILABLE"
-msgstr "NO UPDATE AVAILABLE"
-
-#, c-format
-msgid "UPDATING %s"
-msgstr "UPDATING %s"
-
-msgid "UPDATE IS READY"
-msgstr "UPDATE IS READY"
-
-msgid "REBOOT TO APPLY"
-msgstr "REBOOT TO APPLY"
-
-msgid "INPUT MANUALLY"
-msgstr "INPUT MANUALLY"
-
-msgid "NO WI-FI NETWORKS FOUND"
-msgstr "NO WI-FI NETWORKS FOUND"
-
-msgid "SEARCHING WI-FI NETWORKS"
-msgstr "SEARCHING WI-FI NETWORKS"
 
 msgid "CONTROLLER SETTINGS"
 msgstr "CONTROLLER SETTINGS"
@@ -1993,6 +1364,9 @@ msgstr "PAIR BLUETOOTH PADS AUTOMATICALLY"
 
 msgid "PAIR A BLUETOOTH DEVICE MANUALLY"
 msgstr "PAIR A BLUETOOTH DEVICE MANUALLY"
+
+msgid "BLUETOOTH SCAN IS ALREADY RUNNING."
+msgstr "BLUETOOTH SCAN IS ALREADY RUNNING."
 
 msgid "DISPLAY OPTIONS"
 msgstr "DISPLAY OPTIONS"
@@ -2237,6 +1611,97 @@ msgstr "LEFT"
 msgid "RIGHT"
 msgstr "RIGHT"
 
+msgid "REALLY UPDATE?"
+msgstr "REALLY UPDATE?"
+
+#, c-format
+msgid ""
+"YOU ARE CURRENTLY USING VERSION %s\n"
+"DO YOU WANT TO UPDATE TO VERSION %s?"
+msgstr ""
+"YOU ARE CURRENTLY USING VERSION %s\n"
+"DO YOU WANT TO UPDATE TO VERSION %s?"
+
+#, c-format
+msgid ""
+"UNOFFICIAL SYSTEM MODIFICATIONS DETECTED.\n"
+"UPGRADING COULD BREAK YOUR SYSTEM.\n"
+"DO YOU WANT TO UPDATE TO VERSION %s?"
+msgstr ""
+"UNOFFICIAL SYSTEM MODIFICATIONS DETECTED.\n"
+"UPGRADING COULD BREAK YOUR SYSTEM.\n"
+"DO YOU WANT TO UPDATE TO VERSION %s?"
+
+msgid "NETWORK CONNECTION NEEDED"
+msgstr "NETWORK CONNECTION NEEDED"
+
+msgid "NO UPDATE AVAILABLE"
+msgstr "NO UPDATE AVAILABLE"
+
+#, c-format
+msgid "UPDATING %s"
+msgstr "UPDATING %s"
+
+msgid "UPDATE IS READY"
+msgstr "UPDATE IS READY"
+
+msgid "REBOOT TO APPLY"
+msgstr "REBOOT TO APPLY"
+
+msgid "INFORMATION"
+msgstr "INFORMATION"
+
+msgid "VERSION"
+msgstr "VERSION"
+
+msgid "USER DISK USAGE"
+msgstr "USER DISK USAGE"
+
+msgid "SYSTEM DISK USAGE"
+msgstr "SYSTEM DISK USAGE"
+
+msgid "DISK USAGE"
+msgstr ""
+
+msgid "SYSTEM"
+msgstr "SYSTEM"
+
+msgid "VIDEO DRIVER"
+msgstr "VIDEO DRIVER"
+
+msgid "THE BEZEL PROJECT"
+msgstr "THE BEZEL PROJECT"
+
+msgid "SELECT BEZELS TO INSTALL/REMOVE"
+msgstr "SELECT BEZELS TO INSTALL/REMOVE"
+
+msgid "BEZELS UNINSTALLED SUCCESSFULLY"
+msgstr "BEZELS UNINSTALLED SUCCESSFULLY"
+
+msgid "DEVICE OPTIONS"
+msgstr ""
+
+msgid "DISCONNECT"
+msgstr ""
+
+msgid "CONNECT"
+msgstr ""
+
+msgid "FORGET"
+msgstr ""
+
+#, c-format
+msgid "ARE YOU SURE YOU WANT TO FORGET '%s' ?"
+msgstr ""
+
+#, c-format
+msgid "ARE YOU SURE YOU WANT TO CONNECT TO '%s' ?"
+msgstr ""
+
+#, c-format
+msgid "ARE YOU SURE YOU WANT TO DISCONNECT '%s' ?"
+msgstr ""
+
 msgid "fade"
 msgstr "fade"
 
@@ -2406,9 +1871,6 @@ msgstr "SYSTEM SETTINGS"
 
 msgid "UNLOCK USER INTERFACE MODE"
 msgstr "UNLOCK USER INTERFACE MODE"
-
-msgid "QUIT"
-msgstr "QUIT"
 
 msgid "ARE YOU SURE YOU WANT TO CONFIGURE THE INPUT?"
 msgstr "ARE YOU SURE YOU WANT TO CONFIGURE THE INPUT?"
@@ -2794,6 +2256,9 @@ msgstr ""
 msgid "DOWNLOAD STATUS"
 msgstr ""
 
+msgid "LANGUAGE"
+msgstr "LANGUAGE"
+
 msgid "LANGUAGE (REGION)"
 msgstr "LANGUAGE (REGION)"
 
@@ -3169,8 +2634,17 @@ msgstr "YOU MUST APPLY THE THEME BEFORE EDITING ITS CONFIGURATION"
 msgid "THEME CONFIGURATION"
 msgstr "THEME CONFIGURATION"
 
+msgid "VIEW CUSTOMIZATION"
+msgstr "VIEW CUSTOMISATION"
+
 msgid "GAMELIST STYLE"
 msgstr "GAMELIST STYLE"
+
+msgid "GAMELIST VIEW STYLE"
+msgstr "GAMELIST VIEW STYLE"
+
+msgid "automatic"
+msgstr "automatic"
 
 msgid "basic"
 msgstr "basic"
@@ -3518,29 +2992,170 @@ msgstr ""
 msgid "Ejecting..."
 msgstr ""
 
-msgid "Loading system config..."
-msgstr "Loading system config…"
+msgid "VIEW OPTIONS"
+msgstr "VIEW OPTIONS"
 
-msgid "Loading theme"
-msgstr "Loading theme"
+msgid "NAVIGATION"
+msgstr "NAVIGATION"
 
-msgid "SAVING METADATA. PLEASE WAIT..."
+msgid "OTHER FILTERS"
+msgstr "OTHER FILTERS"
+
+msgid "SELECT RANDOM GAME"
+msgstr "SELECT RANDOM GAME"
+
+msgid "JUMP TO GAME BEGINNING WITH THE LETTER"
+msgstr "JUMP TO GAME BEGINNING WITH THE LETTER"
+
+msgid "SORT GAMES BY"
+msgstr "SORT GAMES BY"
+
+msgid "DYNAMIC COLLECTION"
+msgstr "DYNAMIC COLLECTION"
+
+msgid "CUSTOM COLLECTION"
+msgstr "CUSTOM COLLECTION"
+
+msgid "COLLECTION"
+msgstr "COLLECTION"
+
+msgid "ADVANCED SYSTEM OPTIONS"
+msgstr "ADVANCED SYSTEM OPTIONS"
+
+msgid "RESET FILTERS"
+msgstr "RESET FILTERS"
+
+msgid "FILTER GAMES BY TEXT"
+msgstr "FILTER GAMES BY TEXT"
+
+msgid "INPUT"
+msgstr "INPUT"
+
+msgid "SLOW"
 msgstr ""
 
-msgid "INVALID CREDENTIALS"
+msgid "NOT WORKING"
 msgstr ""
 
-msgid "SCRAPING"
-msgstr "SCRAPING"
+msgid "BUGGY"
+msgstr ""
 
-msgid "SCRAPE FAILED"
-msgstr "SCRAPE FAILED"
+msgid "LIKED"
+msgstr ""
 
-msgid "SCRAPING FINISHED"
-msgstr "SCRAPING FINISHED"
+msgid "DISLIKED"
+msgstr ""
 
-msgid "DO YOU WANT TO SWITCH THE SCREEN ?"
-msgstr "DO YOU WANT TO SWITCH THE SCREEN?"
+msgid "FILENAME, ASCENDING"
+msgstr "FILENAME, ASCENDING"
+
+msgid "FILENAME, DESCENDING"
+msgstr "FILENAME, DESCENDING"
+
+msgid "RATING, ASCENDING"
+msgstr "RATING, ASCENDING"
+
+msgid "RATING, DESCENDING"
+msgstr "RATING, DESCENDING"
+
+msgid "TIMES PLAYED, ASCENDING"
+msgstr "TIMES PLAYED, ASCENDING"
+
+msgid "TIMES PLAYED, DESCENDING"
+msgstr "TIMES PLAYED, DESCENDING"
+
+msgid "LAST PLAYED, ASCENDING"
+msgstr "LAST PLAYED, ASCENDING"
+
+msgid "LAST PLAYED, DESCENDING"
+msgstr "LAST PLAYED, DESCENDING"
+
+msgid "NUMBER PLAYERS, ASCENDING"
+msgstr "NUMBER PLAYERS, ASCENDING"
+
+msgid "NUMBER PLAYERS, DESCENDING"
+msgstr "NUMBER PLAYERS, DESCENDING"
+
+msgid "RELEASE DATE, ASCENDING"
+msgstr "RELEASE DATE, ASCENDING"
+
+msgid "RELEASE DATE, DESCENDING"
+msgstr "RELEASE DATE, DESCENDING"
+
+msgid "GENRE, ASCENDING"
+msgstr "GENRE, ASCENDING"
+
+msgid "GENRE, DESCENDING"
+msgstr "GENRE, DESCENDING"
+
+msgid "DEVELOPER, ASCENDING"
+msgstr "DEVELOPER, ASCENDING"
+
+msgid "DEVELOPER, DESCENDING"
+msgstr "DEVELOPER, DESCENDING"
+
+msgid "PUBLISHER, ASCENDING"
+msgstr "PUBLISHER, ASCENDING"
+
+msgid "PUBLISHER, DESCENDING"
+msgstr "PUBLISHER, DESCENDING"
+
+msgid "SYSTEM, ASCENDING"
+msgstr "SYSTEM, ASCENDING"
+
+msgid "SYSTEM, DESCENDING"
+msgstr "SYSTEM, DESCENDING"
+
+msgid "FILE CREATION DATE, ASCENDING"
+msgstr "FILE CREATION DATE, ASCENDING"
+
+msgid "FILE CREATION DATE, DESCENDING"
+msgstr "FILE CREATION DATE, DESCENDING"
+
+msgid "GAME TIME, ASCENDING"
+msgstr "GAME TIME, ASCENDING"
+
+msgid "GAME TIME, DESCENDING"
+msgstr "GAME TIME, DESCENDING"
+
+msgid "SYSTEM, RELEASE YEAR, ASCENDING"
+msgstr "SYSTEM, RELEASE YEAR, ASCENDING"
+
+msgid "SYSTEM, RELEASE YEAR, DESCENDING"
+msgstr "SYSTEM, RELEASE YEAR, DESCENDING"
+
+msgid "RELEASE YEAR, SYSTEM, ASCENDING"
+msgstr "RELEASE YEAR, SYSTEM, ASCENDING"
+
+msgid "RELEASE YEAR, SYSTEM, DESCENDING"
+msgstr "RELEASE YEAR, SYSTEM, DESCENDING"
+
+msgid "A,AN,THE"
+msgstr "A,AN,THE"
+
+msgid ""
+"WARNING: THE EMULATOR/CORE CURRENTLY SET DOES NOT SUPPORT THIS GAME'S FILE "
+"FORMAT.\n"
+"DO YOU WANT TO LAUNCH IT ANYWAY?"
+msgstr ""
+"WARNING: THE EMULATOR/CORE CURRENTLY SET DOES NOT SUPPORT THIS GAME'S FILE "
+"FORMAT.\n"
+"DO YOU WANT TO LAUNCH IT ANYWAY?"
+
+msgid ""
+"WARNING: THE SYSTEM HAS MISSING BIOS FILE(S) AND THE GAME MAY NOT WORK "
+"CORRECTLY.\n"
+"DO YOU WANT TO LAUNCH IT ANYWAY?"
+msgstr ""
+"WARNING: THE SYSTEM HAS MISSING BIOS FILE(S) AND THE GAME MAY NOT WORK "
+"CORRECTLY.\n"
+"DO YOU WANT TO LAUNCH IT ANYWAY?"
+
+msgid "Preloading UI"
+msgstr "Preloading UI"
+
+msgid "Loading gamelists"
+msgstr "Loading gamelists"
 
 msgid "SYSTEM INFO"
 msgstr "SYSTEM INFO"
@@ -3590,44 +3205,35 @@ msgstr "RANDOM"
 msgid "NAVIGATION BAR"
 msgstr "NAVIGATION BAR"
 
-msgid "Full"
-msgstr "Full"
+msgid "Rating"
+msgstr "Rating"
 
-msgid "Kiosk"
-msgstr "Kiosk"
+msgid "Released"
+msgstr "Released"
 
-msgid "Kid"
-msgstr "Kid"
+msgid "Developer"
+msgstr "Developer"
 
-msgid "Basic"
-msgstr "Basic"
+msgid "Publisher"
+msgstr "Publisher"
 
-msgid ""
-"WARNING: THE EMULATOR/CORE CURRENTLY SET DOES NOT SUPPORT THIS GAME'S FILE "
-"FORMAT.\n"
-"DO YOU WANT TO LAUNCH IT ANYWAY?"
-msgstr ""
-"WARNING: THE EMULATOR/CORE CURRENTLY SET DOES NOT SUPPORT THIS GAME'S FILE "
-"FORMAT.\n"
-"DO YOU WANT TO LAUNCH IT ANYWAY?"
+msgid "Genre"
+msgstr "Genre"
 
-msgid ""
-"WARNING: THE SYSTEM HAS MISSING BIOS FILE(S) AND THE GAME MAY NOT WORK "
-"CORRECTLY.\n"
-"DO YOU WANT TO LAUNCH IT ANYWAY?"
-msgstr ""
-"WARNING: THE SYSTEM HAS MISSING BIOS FILE(S) AND THE GAME MAY NOT WORK "
-"CORRECTLY.\n"
-"DO YOU WANT TO LAUNCH IT ANYWAY?"
+msgid "Players"
+msgstr "Players"
 
-msgid "Preloading UI"
-msgstr "Preloading UI"
-
-msgid "Loading gamelists"
-msgstr "Loading gamelists"
+msgid "Last played"
+msgstr "Last played"
 
 msgid "Times played"
 msgstr "Times played"
+
+msgid "Game time"
+msgstr "Game time"
+
+msgid "Favorite"
+msgstr "Favourite"
 
 #, c-format
 msgid "This folder contains %i game, including: %s"
@@ -3657,8 +3263,402 @@ msgstr "Back to %s"
 msgid "No Entries Found"
 msgstr "No Entries Found"
 
-msgid "Checking for latest upgrade script..."
+msgid "Full"
+msgstr "Full"
+
+msgid "Kiosk"
+msgstr "Kiosk"
+
+msgid "Kid"
+msgstr "Kid"
+
+msgid "Basic"
+msgstr "Basic"
+
+msgid "THE EMULATOR EXITED UNEXPECTEDLY"
+msgstr "THE EMULATOR EXITED UNEXPECTEDLY"
+
+msgid "BAD COMMAND LINE ARGUMENTS"
+msgstr "BAD COMMAND LINE ARGUMENTS"
+
+msgid "INVALID CONFIGURATION"
+msgstr "INVALID CONFIGURATION"
+
+msgid "UNKNOWN EMULATOR"
+msgstr "UNKNOWN EMULATOR"
+
+msgid "EMULATOR IS MISSING"
+msgstr "EMULATOR IS MISSING"
+
+msgid "CORE IS MISSING"
+msgstr "CORE IS MISSING"
+
+msgid "UKNOWN ERROR"
+msgstr "UKNOWN ERROR"
+
+msgid "DOWNLOADING"
+msgstr "DOWNLOADING"
+
+msgid "THEME INSTALLED SUCCESSFULLY"
+msgstr "THEME INSTALLED SUCCESSFULLY"
+
+msgid "BEZELS INSTALLED SUCCESSFULLY"
+msgstr "BEZELS INSTALLED SUCCESSFULLY"
+
+msgid "PACKAGE INSTALLED SUCCESSFULLY"
+msgstr "PACKAGE INSTALLED SUCCESSFULLY"
+
+msgid "PACKAGE REMOVED SUCCESSFULLY"
+msgstr "PACKAGE REMOVED SUCCESSFULLY"
+
+msgid "INVALID CREDENTIALS"
 msgstr ""
+
+msgid "SCRAPING"
+msgstr "SCRAPING"
+
+msgid "SCRAPE FAILED"
+msgstr "SCRAPE FAILED"
+
+msgid "SCRAPING FINISHED"
+msgstr "SCRAPING FINISHED"
+
+msgid "Collections"
+msgstr "Collections"
+
+msgid "UPDATE AVAILABLE"
+msgstr "UPDATE AVAILABLE"
+
+msgid "DO YOU WANT TO SWITCH THE SCREEN ?"
+msgstr "DO YOU WANT TO SWITCH THE SCREEN?"
+
+msgid "Searching for devices..."
+msgstr "Searching for devices…"
+
+msgid "FORMATTING DEVICE"
+msgstr "FORMATTING DEVICE"
+
+msgid "Formatting"
+msgstr "Formatting"
+
+msgid "A REBOOT IS REQUIRED TO COMPLETE THE OPERATION"
+msgstr "A REBOOT IS REQUIRED TO COMPLETE THE OPERATION"
+
+msgid "A DRIVE IS ALREADY BEING FORMATTED."
+msgstr "A DRIVE IS ALREADY BEING FORMATTED."
+
+msgid "INVALID CONTENT"
+msgstr "INVALID CONTENT"
+
+msgid ""
+"A valid account is required. Please register an account on https://"
+"retroachievements.org"
+msgstr ""
+"A valid account is required. Please register an account on https://"
+"retroachievements.org"
+
+msgid "Searching"
+msgstr "Searching"
+
+msgid "NO GAMES FOUND - SKIP"
+msgstr "NO GAMES FOUND - SKIP"
+
+msgid "RETRY"
+msgstr "RETRY"
+
+msgid "SKIP"
+msgstr "SKIP"
+
+msgid "Downloading"
+msgstr "Downloading"
+
+msgid "SEARCH FOR"
+msgstr "SEARCH FOR"
+
+msgid "ACCEPT RESULT"
+msgstr "ACCEPT RESULT"
+
+msgid "Interlaced"
+msgstr ""
+
+msgid "Name"
+msgstr "Name"
+
+msgid "this game's name"
+msgstr "this game's name"
+
+msgid "Description"
+msgstr "Description"
+
+msgid "this game's description"
+msgstr "this game's description"
+
+msgid "enter game genre"
+msgstr "enter game genre"
+
+msgid "Tags"
+msgstr ""
+
+msgid "tags"
+msgstr ""
+
+msgid "Sort name"
+msgstr ""
+
+msgid "enter game sort name"
+msgstr ""
+
+msgid "emulator"
+msgstr "emulator"
+
+msgid "core"
+msgstr "core"
+
+msgid "Image"
+msgstr "Image"
+
+msgid "enter path to image"
+msgstr "enter path to image"
+
+msgid "Video"
+msgstr "Video"
+
+msgid "enter path to video"
+msgstr "enter path to video"
+
+msgid "Logo"
+msgstr "Logo"
+
+msgid "enter path to logo"
+msgstr "enter path to logo"
+
+msgid "Box"
+msgstr "Box"
+
+msgid "enter path to box"
+msgstr "enter path to box"
+
+msgid "Fan art"
+msgstr "Fan art"
+
+msgid "enter path to fan art"
+msgstr "enter path to fan art"
+
+msgid "Title shot"
+msgstr "Title shot"
+
+msgid "enter path to title shot"
+msgstr "enter path to title shot"
+
+msgid "Manual"
+msgstr "Manual"
+
+msgid "enter path to manual"
+msgstr "enter path to manual"
+
+msgid "Magazine"
+msgstr "Magazine"
+
+msgid "enter path to magazine"
+msgstr "enter path to magazine"
+
+msgid "Map"
+msgstr "Map"
+
+msgid "enter path to map"
+msgstr "enter path to map"
+
+msgid "Bezel (16:9)"
+msgstr "Bezel (16:9)"
+
+msgid "enter path to bezel (16:9)"
+msgstr "enter path to bezel (16:9)"
+
+msgid "Cartridge"
+msgstr "Cartridge"
+
+msgid "enter path to cartridge"
+msgstr "enter path to cartridge"
+
+msgid "Alt BoxArt"
+msgstr "Alt BoxArt"
+
+msgid "enter path to alt boxart"
+msgstr "enter path to alt boxart"
+
+msgid "Box backside"
+msgstr "Box backside"
+
+msgid "enter path to box background"
+msgstr "enter path to box background"
+
+msgid "Wheel"
+msgstr "Wheel"
+
+msgid "enter path to wheel"
+msgstr "enter path to wheel"
+
+msgid "Mix"
+msgstr "Mix"
+
+msgid "enter path to mix"
+msgstr "enter path to mix"
+
+msgid "enter rating"
+msgstr "enter rating"
+
+msgid "Release date"
+msgstr "Release date"
+
+msgid "enter release date"
+msgstr "enter release date"
+
+msgid "this game's developer"
+msgstr "this game's developer"
+
+msgid "this game's publisher"
+msgstr "this game's publisher"
+
+msgid "Game family"
+msgstr "Game family"
+
+msgid "this game's game family"
+msgstr "this game's game family"
+
+msgid "Genres"
+msgstr "Genres"
+
+msgid "enter game genres"
+msgstr "enter game genres"
+
+msgid "Arcade system"
+msgstr "Arcade system"
+
+msgid "this game's arcade system"
+msgstr "this game's arcade system"
+
+msgid "this game's number of players"
+msgstr "this game's number of players"
+
+msgid "enter favorite"
+msgstr "enter favourite"
+
+msgid "Hidden"
+msgstr "Hidden"
+
+msgid "enter hidden"
+msgstr "enter hidden"
+
+msgid "Kidgame"
+msgstr "Kidgame"
+
+msgid "enter kidgame"
+msgstr "enter kidgame"
+
+msgid "Play count"
+msgstr "Play count"
+
+msgid "enter number of times played"
+msgstr "enter number of times played"
+
+msgid "enter last played date"
+msgstr "enter last played date"
+
+msgid "Crc32"
+msgstr "Crc32"
+
+msgid "Crc32 checksum"
+msgstr "Crc32 checksum"
+
+msgid "Md5"
+msgstr "Md5"
+
+msgid "Md5 checksum"
+msgstr "Md5 checksum"
+
+msgid "how long the game has been played in total (seconds)"
+msgstr "how long the game has been played in total (seconds)"
+
+msgid "Languages"
+msgstr "Languages"
+
+msgid "this game's languages"
+msgstr "this game's languages"
+
+msgid "Region"
+msgstr "Region"
+
+msgid "this game's region"
+msgstr "this game's region"
+
+msgid "Cheevos Hash"
+msgstr "Cheevos Hash"
+
+msgid "Cheevos checksum"
+msgstr "Cheevos checksum"
+
+msgid "Cheevos Game ID"
+msgstr "Cheevos Game ID"
+
+msgid "Screenscraper Game ID"
+msgstr "Screenscraper Game ID"
+
+msgid "MultiDisk"
+msgstr ""
+
+msgid "GENRE"
+msgstr "GENRE"
+
+msgid "TAG"
+msgstr ""
+
+msgid "FAMILY"
+msgstr "FAMILY"
+
+msgid "PLAYERS"
+msgstr "PLAYERS"
+
+msgid "PUBLISHER/DEVELOPER"
+msgstr "PUBLISHER/DEVELOPER"
+
+msgid "RATING"
+msgstr "RATING"
+
+msgid "YEAR"
+msgstr "YEAR"
+
+msgid "REGION"
+msgstr "REGION"
+
+msgid "KIDGAME"
+msgstr "KIDGAME"
+
+msgid "ALREADY PLAYED"
+msgstr "ALREADY PLAYED"
+
+msgid "HAS ACHIEVEMENTS"
+msgstr "HAS ACHIEVEMENTS"
+
+msgid "VERTICAL"
+msgstr "VERTICAL"
+
+msgid "LIGHTGUN"
+msgstr "LIGHTGUN"
+
+msgid "STEERING WHEEL"
+msgstr "STEERING WHEEL"
+
+msgid "TRACKBALL"
+msgstr ""
+
+msgid "SPINNER"
+msgstr ""
+
+msgid "HAVING MEDIAS"
+msgstr "HAVING MEDIAS"
+
+msgid "MISSING MEDIAS"
+msgstr "MISSING MEDIAS"
 
 #, c-format
 msgid "%s connected"
@@ -3668,123 +3668,20 @@ msgstr "%s connected"
 msgid "%s disconnected"
 msgstr "%s disconnected"
 
-msgid "SCREEN READER ENABLED"
-msgstr "SCREEN READER ENABLED"
+msgid "DISCARD CHANGES"
+msgstr "DISCARD CHANGES"
 
-msgid "SCREEN READER DISABLED"
-msgstr "SCREEN READER DISABLED"
+msgid "SHIFTS FOR UPPER, LOWER, AND SPECIAL"
+msgstr "SHIFTS FOR UPPER, LOWER, AND SPECIAL"
 
-msgid ""
-"CALIBRATING GUN\n"
-"Fire on targets to calibrate"
-msgstr ""
-"CALIBRATING GUN\n"
-"Fire on targets to calibrate"
+msgid "ALT GR"
+msgstr "ALT GR"
 
-msgid "Reloaded the games list..."
-msgstr ""
+msgid "SHIFT"
+msgstr "SHIFT"
 
-msgid "GAME DRIVE DETECTED"
-msgstr ""
-
-msgid "DEVICE"
-msgstr ""
-
-msgid "MODEL"
-msgstr ""
-
-msgid "SIZE"
-msgstr ""
-
-msgid "MOUNT"
-msgstr ""
-
-msgid "Merge games from this drive partition now?"
-msgstr ""
-
-msgid "(This will also apply on future boots)"
-msgstr ""
-
-msgid "Merge requested... Please wait."
-msgstr ""
-
-msgid "MERGE FAILED"
-msgstr ""
-
-msgid "Please check the logs."
-msgstr ""
-
-msgid "NO, IGNORE THIS TIME"
-msgstr ""
-
-msgid "NO, IGNORE FOREVER"
-msgstr ""
-
-msgid "Adding drive to ignore list..."
-msgstr ""
-
-msgid "YES, MERGE DRIVE"
-msgstr ""
-
-msgid "NEW DRIVE DETECTED"
-msgstr ""
-
-msgid "Format and prepare this drive for game storage?"
-msgstr ""
-
-msgid "(ALL EXISTING DATA WILL BE ERASED)"
-msgstr ""
-
-msgid "Starting format process..."
-msgstr ""
-
-msgid "FORMAT FAILED"
-msgstr ""
-
-msgid "YES, FORMAT & MERGE"
-msgstr ""
-
-msgid "NO, IGNORE"
-msgstr ""
-
-msgid "WORKING..."
-msgstr "WORKING…"
-
-msgid "ENABLED"
-msgstr "ENABLED"
-
-msgid "up/down"
-msgstr "up/down"
-
-msgid "accept"
-msgstr "accept"
-
-msgid "SELECT ALL"
-msgstr "SELECT ALL"
-
-msgid "select all"
-msgstr "select all"
-
-msgid "SELECT NONE"
-msgstr "SELECT NONE"
-
-msgid "select none"
-msgstr "select none"
-
-#, c-format
-msgid "%i SELECTED"
-msgid_plural "%i SELECTED"
-msgstr[0] "%i SELECTED"
-msgstr[1] "%i SELECTED"
-
-msgid "CHANGE"
-msgstr "CHANGE"
-
-msgid "MOVE CURSOR"
-msgstr "MOVE CURSOR"
-
-msgid "EDIT"
-msgstr "EDIT"
+msgid "SPACE"
+msgstr "SPACE"
 
 msgid "WELCOME"
 msgstr "WELCOME"
@@ -3951,20 +3848,84 @@ msgstr "PRESS ANYTHING"
 msgid "ALREADY TAKEN"
 msgstr "ALREADY TAKEN"
 
-msgid "DISCARD CHANGES"
-msgstr "DISCARD CHANGES"
+msgid ""
+"CALIBRATING GUN\n"
+"Fire on targets to calibrate"
+msgstr ""
+"CALIBRATING GUN\n"
+"Fire on targets to calibrate"
 
-msgid "SHIFTS FOR UPPER, LOWER, AND SPECIAL"
-msgstr "SHIFTS FOR UPPER, LOWER, AND SPECIAL"
+msgid "Reloaded the games list..."
+msgstr ""
 
-msgid "ALT GR"
-msgstr "ALT GR"
+msgid "GAME DRIVE DETECTED"
+msgstr ""
 
-msgid "SHIFT"
-msgstr "SHIFT"
+msgid "DEVICE"
+msgstr ""
 
-msgid "SPACE"
-msgstr "SPACE"
+msgid "MODEL"
+msgstr ""
+
+msgid "SIZE"
+msgstr ""
+
+msgid "MOUNT"
+msgstr ""
+
+msgid "Merge games from this drive partition now?"
+msgstr ""
+
+msgid "(This will also apply on future boots)"
+msgstr ""
+
+msgid "Merge requested... Please wait."
+msgstr ""
+
+msgid "MERGE FAILED"
+msgstr ""
+
+msgid "Please check the logs."
+msgstr ""
+
+msgid "NO, IGNORE THIS TIME"
+msgstr ""
+
+msgid "NO, IGNORE FOREVER"
+msgstr ""
+
+msgid "Adding drive to ignore list..."
+msgstr ""
+
+msgid "YES, MERGE DRIVE"
+msgstr ""
+
+msgid "NEW DRIVE DETECTED"
+msgstr ""
+
+msgid "Format and prepare this drive for game storage?"
+msgstr ""
+
+msgid "(ALL EXISTING DATA WILL BE ERASED)"
+msgstr ""
+
+msgid "Starting format process..."
+msgstr ""
+
+msgid "FORMAT FAILED"
+msgstr ""
+
+msgid "YES, FORMAT & MERGE"
+msgstr ""
+
+msgid "NO, IGNORE"
+msgstr ""
+
+msgid "SCREEN READER ENABLED"
+msgstr "SCREEN READER ENABLED"
+
+msgid "SCREEN READER DISABLED"
+msgstr "SCREEN READER DISABLED"
 
 #, c-format
 msgid "%d d"
@@ -4011,6 +3972,45 @@ msgid "%d second ago"
 msgid_plural "%d seconds ago"
 msgstr[0] "%d second ago"
 msgstr[1] "%d seconds ago"
+
+msgid "WORKING..."
+msgstr "WORKING…"
+
+msgid "MOVE CURSOR"
+msgstr "MOVE CURSOR"
+
+msgid "EDIT"
+msgstr "EDIT"
+
+msgid "up/down"
+msgstr "up/down"
+
+msgid "CHANGE"
+msgstr "CHANGE"
+
+msgid "accept"
+msgstr "accept"
+
+msgid "SELECT ALL"
+msgstr "SELECT ALL"
+
+msgid "select all"
+msgstr "select all"
+
+msgid "SELECT NONE"
+msgstr "SELECT NONE"
+
+msgid "select none"
+msgstr "select none"
+
+#, c-format
+msgid "%i SELECTED"
+msgid_plural "%i SELECTED"
+msgstr[0] "%i SELECTED"
+msgstr[1] "%i SELECTED"
+
+msgid "ENABLED"
+msgstr "ENABLED"
 
 #~ msgid "FANART"
 #~ msgstr "FAN ART"
