@@ -35,6 +35,7 @@
 #include "resources/TextureData.h"
 #include "views/gamelist/GameNameFormatter.h"
 #include "watchers/WatchersManager.h"
+#include "ProfileManager.h"
 
 using namespace Utils::Platform;
 
@@ -703,6 +704,15 @@ bool FileData::launchGame(Window* window, LaunchGameOptions options)
 	std::string command = getlaunchCommand(options);
 	if (command.empty())
 		return false;
+
+	PlayerProfile p1 = ProfileManager::getInstance()->getPlayerProfile(0);
+	if(!p1.isGuest && !p1.mountPoint.empty()) {
+		std::string envVar = "ESGI_SAVEPATH=\"" + p1.mountPoint + "/ESGI-Game/Saves/\" ";
+		if(p1.isGuest) {
+			envVar = "ESGI_SAVEPATH=/tmp";
+		}
+		command = envVar + command;
+	}
 
 	AudioManager::getInstance()->deinit();
 	VolumeControl::getInstance()->deinit();

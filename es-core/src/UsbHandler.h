@@ -18,6 +18,7 @@ class UsbHandler {
     
     private:
         void run();
+        void processDeviceNode(const std::string& devnode);
 
         std::thread mThread;
         std::atomic<bool> mRunning;

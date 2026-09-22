@@ -21,7 +21,10 @@ void GuiProfileSelector::buildMenu() {
     auto profiles = ProfileManager::getInstance()->getAvailableProfiles();
 
     for (int i = 0; i < numControllers; ++i) {
-        std::string playerLabel = "Controller #" + std::to_string(i + 1);
+        InputConfig* inputConfig = InputManager::getInstance()->getInputConfigByDevice(i);
+        std::string deviceName = (inputConfig != nullptr) ? inputConfig->getDeviceName() : "Unknown Controller";
+        
+        std::string playerLabel = "Controller #" + std::to_string(i + 1) + " (" + deviceName + ")";
 
         auto selector = std::make_shared<OptionListComponent<std::string>>(mWindow, playerLabel, false);
         PlayerProfile currentAssigned = ProfileManager::getInstance()->getPlayerProfile(i);
