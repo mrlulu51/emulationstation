@@ -1,6 +1,7 @@
 //EmulationStation, a graphical front-end for ROM browsing. Created by Alec "Aloshi" Lofquist.
 //http://www.aloshi.com
 
+#include "UsbHandler.h"
 #include "services/HttpServerThread.h"
 #include "guis/GuiDetectDevice.h"
 #include "guis/GuiMsgBox.h"
@@ -20,7 +21,9 @@
 #include <SDL_events.h>
 #include <SDL_main.h>
 #include <SDL_timer.h>
+#include <cstdint>
 #include <iostream>
+#include <string>
 #include <time.h>
 #include "LocaleES.h"
 #include <SystemConf.h>
@@ -635,6 +638,10 @@ int main(int argc, char* argv[])
 	InputManager::getInstance()->init();
 	SDL_StopTextInput();
 
+	// Initialize USB Handler
+	UsbHandler usbHandler;
+	usbHandler.start();
+
 	NetworkThread* nthread = new NetworkThread(&window);
 	HttpServerThread httpServer(&window);
 
@@ -721,6 +728,17 @@ int main(int argc, char* argv[])
 			// PowerSaver can push events to exit SDL_WaitEventTimeout immediatly
 			// Reset this event's state
 			TRYCATCH("resetRefreshEvent", PowerSaver::resetRefreshEvent());
+
+			if(event.type == EVENT_USB_INSERTED) {
+				char* idStr = static_cast<char*>(event.user.data1);
+				std::string uniqueId(idStr);
+				delete[] idStr;
+
+				std::string msg = "Bienvenue " + uniqueId;
+
+				window.displayNotificationMessage(msg);
+				continue;
+			}
 
 			do
 			{
@@ -859,6 +877,8 @@ int main(int argc, char* argv[])
 
 	if (SystemData::hasDirtySystems())
 		window.renderSplashScreen(_("SAVING METADATA. PLEASE WAIT..."));
+
+	usbHandler.stop();
 
 	MameNames::deinit();
 	ViewController::saveState();

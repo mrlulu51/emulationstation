@@ -29,6 +29,7 @@ set(CORE_HEADERS
 	${CMAKE_CURRENT_SOURCE_DIR}/src/MultiStateInput.h
 	${CMAKE_CURRENT_SOURCE_DIR}/src/TextToSpeech.h
 	${CMAKE_CURRENT_SOURCE_DIR}/src/Paths.h
+	${CMAKE_CURRENT_SOURCE_DIR}/src/UsbHandler.h
 
 	# Animations
 	${CMAKE_CURRENT_SOURCE_DIR}/src/animations/Animation.h
@@ -166,6 +167,7 @@ set(CORE_SOURCES
 	${CMAKE_CURRENT_SOURCE_DIR}/src/MultiStateInput.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/src/TextToSpeech.cpp
 	${CMAKE_CURRENT_SOURCE_DIR}/src/Paths.cpp
+	${CMAKE_CURRENT_SOURCE_DIR}/src/UsbHandler.cpp
 
 	# Animations
 	${CMAKE_CURRENT_SOURCE_DIR}/src/animations/AnimationController.cpp	
