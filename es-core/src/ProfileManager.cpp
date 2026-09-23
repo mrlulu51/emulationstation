@@ -1,4 +1,5 @@
 #include "ProfileManager.h"
+#include <algorithm>
 
 ProfileManager* ProfileManager::getInstance() {
     static ProfileManager instance;
@@ -16,7 +17,7 @@ void ProfileManager::addProfile(const std::string& id, const std::string& nickna
 
 void ProfileManager::removeProfile(const std::string& mountPoint) {
     mAvailableProfiles.erase(
-        std::__remove_if(mAvailableProfiles.begin(), mAvailableProfiles.end(), [&](const PlayerProfile& p) { return p.mountPoint == mountPoint; }),
+        std::remove_if(mAvailableProfiles.begin(), mAvailableProfiles.end(), [&](const PlayerProfile& p) { return p.mountPoint == mountPoint; }),
         mAvailableProfiles.end()
     );
 
