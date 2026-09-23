@@ -881,8 +881,8 @@ int main(int argc, char *argv[])
 					}
 				}
 
-				if (event.type == SDL_QUIT)
-					running = false;
+				if (Utils::Platform::ExitRequest::user == 1) {
++				  running = false;
 			} while (SDL_PollEvent(&event));
 
 			// check guns
