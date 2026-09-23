@@ -883,6 +883,7 @@ int main(int argc, char *argv[])
 
 				if (Utils::Platform::ExitRequest::user == 1) {
 				  running = false;
+				}
 			} while (SDL_PollEvent(&event));
 
 			// check guns
