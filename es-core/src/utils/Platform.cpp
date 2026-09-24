@@ -33,6 +33,8 @@ namespace Utils
 {
 	namespace Platform
 	{
+		int ExitRequest::user = 0;
+
 		ProcessStartInfo::ProcessStartInfo()
 		{
 			window = nullptr;
@@ -44,7 +46,7 @@ namespace Utils
 #endif
 		}
 
-		ProcessStartInfo::ProcessStartInfo(const std::string& cmd)
+		ProcessStartInfo::ProcessStartInfo(const std::string &cmd)
 		{
 			command = cmd;
 			window = nullptr;
@@ -72,7 +74,7 @@ namespace Utils
 			DWORD dwLen = ExpandEnvironmentStringsW(cmd_w.c_str(), NULL, 0);
 			if (dwLen > 0)
 			{
-				WCHAR* szEnvPath = new WCHAR[dwLen];
+				WCHAR *szEnvPath = new WCHAR[dwLen];
 
 				dwLen = ExpandEnvironmentStringsW(cmd_w.c_str(), szEnvPath, dwLen);
 				if (dwLen > 0)
@@ -97,9 +99,9 @@ namespace Utils
 			lpExecInfo.hwnd = NULL;
 			lpExecInfo.lpVerb = L"open"; // to open  program
 			lpExecInfo.lpDirectory = NULL;
-			lpExecInfo.nShow = showWindow ? SW_SHOW : SW_HIDE;  // show command prompt with normal window size
-			lpExecInfo.hInstApp = (HINSTANCE)SE_ERR_DDEFAIL;   //WINSHELLAPI BOOL WINAPI result;
-			lpExecInfo.lpParameters = wargs.c_str(); //  file name as an argument
+			lpExecInfo.nShow = showWindow ? SW_SHOW : SW_HIDE; // show command prompt with normal window size
+			lpExecInfo.hInstApp = (HINSTANCE)SE_ERR_DDEFAIL;   // WINSHELLAPI BOOL WINAPI result;
+			lpExecInfo.lpParameters = wargs.c_str();		   //  file name as an argument
 
 			std::wstring wpath;
 
@@ -124,7 +126,6 @@ namespace Utils
 					WaitForSingleObject(lpExecInfo.hProcess, INFINITE);
 				else
 				{
-				
 
 					while (WaitForSingleObject(lpExecInfo.hProcess, 50) == 0x00000102L)
 					{
@@ -136,15 +137,15 @@ namespace Utils
 
 						if (window != nullptr && polled)
 							window->renderSplashScreen();
-					}				
+					}
 				}
 
 				DWORD dwExitCode;
 				if (!GetExitCodeProcess(lpExecInfo.hProcess, &dwExitCode))
 					dwExitCode = 0;
 
-				CloseHandle(lpExecInfo.hProcess); 
-				
+				CloseHandle(lpExecInfo.hProcess);
+
 				if (waitForExit)
 					Renderer::setWindowResizable(true);
 
@@ -160,11 +161,12 @@ namespace Utils
 			// https://stackoverflow.com/questions/1221833/pipe-output-and-capture-exit-status-in-bash
 			std::string cmdOutput = "((((" + cmd_utf8 + " 2> " + Utils::FileSystem::combine(Paths::getLogPath(), stderrFilename) + " ; echo $? >&3) | head -300 > " + Utils::FileSystem::combine(Paths::getLogPath(), stdoutFilename) + ") 3>&1) | (read xs; exit $xs))";
 			if (!Log::enabled())
-			  cmdOutput = "((((" + cmd_utf8 + " 2> /dev/null ; echo $? >&3) | head -300 > /dev/null) 3>&1) | (read xs; exit $xs))";
+				cmdOutput = "((((" + cmd_utf8 + " 2> /dev/null ; echo $? >&3) | head -300 > /dev/null) 3>&1) | (read xs; exit $xs))";
 
-			if (waitForExit) {
-			  int n = system(cmdOutput.c_str());
-			  return WEXITSTATUS(n);
+			if (waitForExit)
+			{
+				int n = system(cmdOutput.c_str());
+				return WEXITSTATUS(n);
 			}
 
 			// fork the current process
@@ -174,7 +176,7 @@ namespace Utils
 				ret = fork();
 				if (ret == 0)
 				{
-					execl("/bin/sh", "sh", "-c", cmdOutput.c_str(), (char *) NULL);
+					execl("/bin/sh", "sh", "-c", cmdOutput.c_str(), (char *)NULL);
 					_exit(1); // execl failed
 				}
 				_exit(0); // exit the child process
@@ -197,7 +199,7 @@ namespace Utils
 #ifdef WIN32 // windows
 			return system("shutdown -s -t 0");
 #else // osx / linux
-		return system("shutdown -P -h now");
+			return system("shutdown -P -h now");
 #endif
 		}
 
@@ -231,13 +233,15 @@ namespace Utils
 				break;
 			}
 
-			SDL_Event* quit = new SDL_Event();
+			ExitRequest::user = 1;
+
+			SDL_Event *quit = new SDL_Event();
 			quit->type = SDL_QUIT;
 			SDL_PushEvent(quit);
 			return 0;
 		}
 
-		void touch(const std::string& filename)
+		void touch(const std::string &filename)
 		{
 #ifndef WIN32
 			int fd = open(filename.c_str(), O_CREAT | O_WRONLY, 0644);
@@ -296,16 +300,16 @@ namespace Utils
 			if (wsa_ReturnCode != 0)
 				return "";
 
-			char* szLocalIP = nullptr;
+			char *szLocalIP = nullptr;
 
 			// Get the local hostname
 			char szHostName[255];
 			if (gethostname(szHostName, 255) == 0)
 			{
-				struct hostent* host_entry;
+				struct hostent *host_entry;
 				host_entry = gethostbyname(szHostName);
 				if (host_entry != nullptr)
-					szLocalIP = inet_ntoa(*(struct in_addr*)*host_entry->h_addr_list);
+					szLocalIP = inet_ntoa(*(struct in_addr *)*host_entry->h_addr_list);
 			}
 
 			WSACleanup();
@@ -315,9 +319,9 @@ namespace Utils
 
 			return std::string(szLocalIP); // "127.0.0.1"
 #else
-			struct ifaddrs* ifAddrStruct = NULL;
-			struct ifaddrs* ifa = NULL;
-			void* tmpAddrPtr = NULL;
+			struct ifaddrs *ifAddrStruct = NULL;
+			struct ifaddrs *ifa = NULL;
+			void *tmpAddrPtr = NULL;
 
 			getifaddrs(&ifAddrStruct);
 
@@ -329,7 +333,7 @@ namespace Utils
 				// check it is IP4 is a valid IP4 Address
 				if (ifa->ifa_addr->sa_family == AF_INET)
 				{
-					tmpAddrPtr = &((struct sockaddr_in*)ifa->ifa_addr)->sin_addr;
+					tmpAddrPtr = &((struct sockaddr_in *)ifa->ifa_addr)->sin_addr;
 					char addressBuffer[INET_ADDRSTRLEN];
 					inet_ntop(AF_INET, tmpAddrPtr, addressBuffer, INET_ADDRSTRLEN);
 
@@ -352,7 +356,7 @@ namespace Utils
 					// check it is IP6 is a valid IP6 Address
 					if (ifa->ifa_addr->sa_family == AF_INET6)
 					{
-						tmpAddrPtr = &((struct sockaddr_in6*)ifa->ifa_addr)->sin6_addr;
+						tmpAddrPtr = &((struct sockaddr_in6 *)ifa->ifa_addr)->sin6_addr;
 						char addressBuffer[INET6_ADDRSTRLEN];
 						inet_ntop(AF_INET6, tmpAddrPtr, addressBuffer, INET6_ADDRSTRLEN);
 
@@ -375,7 +379,6 @@ namespace Utils
 #endif
 
 			return result;
-
 		}
 
 		BatteryInformation queryBatteryInformation()
@@ -390,8 +393,8 @@ namespace Utils
 			ret.isCharging = true;
 			ret.level = 33;
 
-			time_t     clockNow = time(0);
-			struct tm  clockTstruct = *localtime(&clockNow);
+			time_t clockNow = time(0);
+			struct tm clockTstruct = *localtime(&clockNow);
 			ret.level = clockTstruct.tm_min;
 
 			return ret;
@@ -534,7 +537,7 @@ namespace Utils
 		}
 
 #if WIN32
-		static bool _getWindowsVersion(WORD& major, WORD& minor, WORD& build, WORD& revision)
+		static bool _getWindowsVersion(WORD &major, WORD &minor, WORD &build, WORD &revision)
 		{
 			// Use product version in kernel32.dll to have real Windows version as we don't have a compatibility manifest (GetVersion is limited to 6.2)
 			HMODULE kernel32Module = GetModuleHandle("kernel32.dll");
@@ -550,12 +553,12 @@ namespace Utils
 					std::vector<char> versionData(versionSize);
 					if (GetFileVersionInfoW(filePath, 0, versionSize, versionData.data()))
 					{
-						VS_FIXEDFILEINFO* fileInfo;
+						VS_FIXEDFILEINFO *fileInfo;
 						UINT fileInfoSize;
 
-						if (VerQueryValueW(versionData.data(), L"\\", reinterpret_cast<void**>(&fileInfo), &fileInfoSize))
+						if (VerQueryValueW(versionData.data(), L"\\", reinterpret_cast<void **>(&fileInfo), &fileInfoSize))
 						{
-						    major = HIWORD(fileInfo->dwProductVersionMS);
+							major = HIWORD(fileInfo->dwProductVersionMS);
 							minor = LOWORD(fileInfo->dwProductVersionMS);
 							build = HIWORD(fileInfo->dwProductVersionLS);
 							revision = LOWORD(fileInfo->dwProductVersionLS);
@@ -604,12 +607,12 @@ namespace Utils
 		// compiled against; on older SDKs the constant/type simply doesn't exist yet.
 #ifndef DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2
 		DECLARE_HANDLE(DPI_AWARENESS_CONTEXT);
-#define DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 ((DPI_AWARENESS_CONTEXT)-4)
+#define DPI_AWARENESS_CONTEXT_PER_MONITOR_AWARE_V2 ((DPI_AWARENESS_CONTEXT) - 4)
 #endif
 
-		typedef BOOL(WINAPI* SetProcessDpiAwarenessContext_t)(DPI_AWARENESS_CONTEXT);
-		typedef HRESULT(WINAPI* SetProcessDpiAwareness_t)(int);
-		typedef BOOL(WINAPI* SetProcessDPIAware_t)();
+		typedef BOOL(WINAPI *SetProcessDpiAwarenessContext_t)(DPI_AWARENESS_CONTEXT);
+		typedef HRESULT(WINAPI *SetProcessDpiAwareness_t)(int);
+		typedef BOOL(WINAPI *SetProcessDPIAware_t)();
 
 		// Marks the process Per-Monitor-V2 DPI aware so Windows stops bitmap-
 		// stretching our output on displays scaled above 100% (e.g. 4K @ 150%).
@@ -659,7 +662,7 @@ namespace Utils
 #else
 		bool isBuildroot()
 		{
-			static const bool cached = []() 
+			static const bool cached = []()
 			{
 				std::ifstream f("/etc/os-release");
 				if (!f)
@@ -791,21 +794,21 @@ namespace Utils
 			return "";
 		}
 
-		unsigned long long getTotalSystemMemory() 
+		unsigned long long getTotalSystemMemory()
 		{
 #ifdef WIN32
 			MEMORYSTATUSEX status;
 			status.dwLength = sizeof(status);
 			if (GlobalMemoryStatusEx(&status))
 				return status.ullTotalPhys;
-			
+
 			return 0;
 #else
 			long pages = sysconf(_SC_PHYS_PAGES);
 			long page_size = sysconf(_SC_PAGE_SIZE);
 			if (pages == -1 || page_size == -1)
 				return 0;
-			
+
 			return (unsigned long long)pages * (unsigned long long)page_size;
 #endif
 		}
