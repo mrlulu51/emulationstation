@@ -6,7 +6,6 @@
 #include "services/HttpServerThread.h"
 #include "guis/GuiDetectDevice.h"
 #include "guis/GuiMsgBox.h"
-#include "guis/GuiProfileSelector.h"
 #include "utils/FileSystemUtil.h"
 #include "views/ViewController.h"
 #include "CollectionSystemManager.h"
@@ -49,6 +48,7 @@
 #include <thread>
 #include "ZaparooSupport.h"
 #include "utils/ThreadPool.h"
+#include "UsbEventHandler.h"
 
 #ifdef WIN32
 #include <Windows.h>
@@ -756,66 +756,41 @@ int main(int argc, char *argv[])
 
 			if (event.type == EVENT_USB_INSERTED)
 			{
-
-				char *jsonStr = static_cast<char *>(event.user.data1);
-				char *mountStr = static_cast<char *>(event.user.data2);
-
-				std::string jsonData(jsonStr);
-				std::string mountPoint(mountStr);
-
-				delete[] jsonStr;
-				delete[] mountStr;
-
-				std::string playerName = "Guest";
-				std::string playerId = "0";
-
-				size_t namePos = jsonData.find("\"nickname\"");
-				if (namePos != std::string::npos)
+				UsbInsertedEventData *data = static_cast<UsbInsertedEventData *>(event.user.data1);
+				if (data)
 				{
-					size_t startQuote = jsonData.find("\"", namePos + 10);
-					if (startQuote != std::string::npos)
-					{
-						size_t endQuote = jsonData.find("\"", startQuote + 1);
-						if (endQuote != std::string::npos)
-						{
-							playerName = jsonData.substr(startQuote + 1, endQuote - startQuote - 1);
-						}
-					}
+					std::string devnode = data->devnode ? data->devnode : "";
+					std::string mountPoint = data->mountPoint ? data->mountPoint : "";
+
+					delete[] data->devnode;
+					delete[] data->mountPoint;
+					delete data;
+
+					UsbEventHandler::handleInserted(
+						&window,
+						mountPoint,
+						devnode);
 				}
 
-				size_t idPos = jsonData.find("\"id\"");
-				if (idPos != std::string::npos)
+				continue;
+			}
+
+			if (event.type == EVENT_USB_UNPLUGGED)
+			{
+				LOG(LogDebug)
+					<< "main: EVENT_USB_UNPLUGGED received";
+
+				char *devnodeStr = static_cast<char *>(event.user.data1);
+				if (devnodeStr)
 				{
-					size_t startQuote = jsonData.find("\"", idPos + 4);
-					if (startQuote != std::string::npos)
-					{
-						size_t endQuote = jsonData.find("\"", startQuote + 1);
-						if (endQuote != std::string::npos)
-						{
-							playerId = jsonData.substr(startQuote + 1, endQuote - startQuote - 1);
-						}
-					}
-				}
+					std::string devnode(devnodeStr);
+					delete[] devnodeStr;
 
-				std::string welcomeMessage = "Welcome " + playerName;
-				window.displayNotificationMessage(welcomeMessage);
+					LOG(LogDebug)
+						<< "main: USB unplugged devnode="
+						<< devnode;
 
-				ProfileManager::getInstance()->addProfile(playerId, playerName, mountPoint);
-
-				auto profiles = ProfileManager::getInstance()->getAvailableProfiles();
-				int numControllers = InputManager::getInstance()->getNumConfiguredDevices();
-
-				if(profiles.size() == 1) {
-					ProfileManager::getInstance()->assignProfileToPlayer(0, profiles[0]);
-					window.displayNotificationMessage(profiles[0].nickname + " has been assigned to Controller #1");
-
-					for (int i = 1; i < numControllers; i++) {
-						PlayerProfile guest = { "0", "Guest", "", true };
-						ProfileManager::getInstance()->assignProfileToPlayer(i, guest);
-					}
-				}
-				else if(profiles.size() > 1) {
-					window.pushGui(new GuiProfileSelector(&window));
+					UsbEventHandler::handleUnplugged(&window, devnode);
 				}
 
 				continue;
@@ -881,8 +856,9 @@ int main(int argc, char *argv[])
 					}
 				}
 
-				if (Utils::Platform::ExitRequest::user == 1) {
-				  running = false;
+				if (Utils::Platform::ExitRequest::user == 1)
+				{
+					running = false;
 				}
 			} while (SDL_PollEvent(&event));
 

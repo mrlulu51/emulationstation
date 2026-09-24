@@ -19,13 +19,15 @@
 #endif
 
 uint32_t EVENT_USB_INSERTED = (uint32_t)-1;
+uint32_t EVENT_USB_UNPLUGGED = (uint32_t)-1;
 
 UsbHandler::UsbHandler() : mRunning(false)
 {
   if (EVENT_USB_INSERTED == (uint32_t)-1)
-  {
     EVENT_USB_INSERTED = SDL_RegisterEvents(1);
-  }
+
+  if (EVENT_USB_UNPLUGGED == (uint32_t)-1)
+    EVENT_USB_UNPLUGGED = SDL_RegisterEvents(1);
 }
 
 UsbHandler::~UsbHandler() { stop(); }
@@ -69,6 +71,12 @@ std::string waitForMount(const std::string &devnode)
         {
           mountPoint.replace(pos, 4, " ");
         }
+
+        LOG(LogDebug)
+            << "UsbHandler: device "
+            << devnode
+            << " mounted at "
+            << mountPoint;
         return mountPoint;
       }
     }
@@ -100,17 +108,24 @@ void UsbHandler::run()
   {
     const char *path = udev_list_entry_get_name(dev_list_entry);
     struct udev_device *dev = udev_device_new_from_syspath(udev, path);
-    if (dev)
-    {
-      const char *id_bus = udev_device_get_property_value(dev, "ID_BUS");
-      const char *devnode = udev_device_get_devnode(dev);
 
-      if (id_bus && std::string(id_bus) == "usb" && devnode)
-      {
-        processDeviceNode(devnode);
-      }
-      udev_device_unref(dev);
+    if (!dev)
+      continue;
+
+    const char *devnode = udev_device_get_devnode(dev);
+    const char *devtype = udev_device_get_devtype(dev);
+
+    struct udev_device *parent_usb = udev_device_get_parent_with_subsystem_devtype(dev, "usb", "usb_device");
+
+    if (devnode && devtype && std::string(devtype) == "partition" && parent_usb)
+    {
+      LOG(LogDebug)
+          << "UsbHandler: existing USB partition detected: "
+          << devnode;
+      processDeviceNode(devnode);
     }
+
+    udev_device_unref(dev);
   }
   udev_enumerate_unref(enumerate);
 
@@ -127,9 +142,6 @@ void UsbHandler::run()
       udev_monitor_filter_add_match_subsystem_devtype(
           mon, "block", NULL);
 
-  LOG(LogDebug) << "UsbHandler: monitor filter result = "
-                << filterResult;
-
   if (filterResult < 0)
   {
     LOG(LogError) << "UsbHandler: failed to add block filter";
@@ -139,9 +151,6 @@ void UsbHandler::run()
   }
 
   int receiveResult = udev_monitor_enable_receiving(mon);
-
-  LOG(LogDebug) << "UsbHandler: monitor enable result = "
-                << receiveResult;
 
   if (receiveResult < 0)
   {
@@ -165,50 +174,69 @@ void UsbHandler::run()
   fds[0].fd = fd;
   fds[0].events = POLLIN;
 
-  LOG(LogDebug) << "UsbHandler: udev monitor started, fd=" << fd;
+  LOG(LogDebug)
+      << "UsbHandler: udev monitor started, fd="
+      << fd;
 
   while (mRunning)
   {
     int ret = poll(fds, 1, 500);
-    LOG(LogDebug) << "UsbHandler: poll returned " << ret;
-    if (ret > 0 && (fds[0].revents & POLLIN))
+
+    if (ret < 0)
     {
-      struct udev_device *dev = udev_monitor_receive_device(mon);
-      if (dev)
+      if (!mRunning)
+        break;
+
+      continue;
+    }
+
+    if (ret == 0)
+      continue;
+
+    if (!(fds[0].revents & POLLIN))
+      continue;
+
+    struct udev_device *dev = udev_monitor_receive_device(mon);
+
+    if (!dev)
+      continue;
+
+    const char *action = udev_device_get_action(dev);
+    const char *devnode = udev_device_get_devnode(dev);
+    const char *devtype = udev_device_get_devtype(dev);
+
+    struct udev_device *parent_usb = udev_device_get_parent_with_subsystem_devtype(dev, "usb", "usb_device");
+    bool is_usb = (parent_usb != nullptr);
+
+    LOG(LogDebug)
+        << "UsbHandler: udev event"
+        << " action="
+        << (action ? action : "NULL")
+        << " devnode="
+        << (devnode ? devnode : "NULL")
+        << " devtype="
+        << (devtype ? devtype : "NULL")
+        << " usb="
+        << (parent_usb ? "yes" : "no");
+
+    if (action && devnode)
+    {
+      std::string actionStr(action);
+
+      if (is_usb && std::string(devtype) == "partition")
       {
-        const char *action = udev_device_get_action(dev);
-        const char *devnode = udev_device_get_devnode(dev);
-        const char *subsystem = udev_device_get_subsystem(dev);
-        const char *devtype = udev_device_get_devtype(dev);
-
-        LOG(LogDebug) << "UsbHandler: udev event"
-                      << " action=" << (action ? action : "NULL")
-                      << " subsystem=" << (subsystem ? subsystem : "NULL")
-                      << " devtype=" << (devtype ? devtype : "NULL")
-                      << " devnode=" << (devnode ? devnode : "NULL");
-
-        if (action && std::string(action) == "add" &&
-            subsystem && std::string(subsystem) == "block" &&
-            devnode)
+        if (actionStr == "add")
         {
-
-          struct udev_device *parent_usb = udev_device_get_parent_with_subsystem_devtype(dev, "usb", "usb_device");
-          if (parent_usb)
-          {
-            LOG(LogDebug) << "UsbHandler: USB block device detected: "
-                          << devnode;
-            processDeviceNode(devnode);
-          }
-          else
-          {
-            LOG(LogDebug) << "UsbHandler: block device is not USB: "
-                          << devnode;
-          }
+          processDeviceNode(devnode);
         }
-
-        udev_device_unref(dev);
+        else if (actionStr == "remove")
+        {
+          processDeviceRemoval(devnode);
+        }
       }
     }
+
+    udev_device_unref(dev);
   }
 
   udev_monitor_unref(mon);
@@ -223,36 +251,71 @@ void UsbHandler::run()
 
 void UsbHandler::processDeviceNode(const std::string &devnode)
 {
-  std::string nodePath(devnode);
-  std::string mountPoint = waitForMount(nodePath);
+  std::string mountPoint = waitForMount(devnode);
 
-  if (!mountPoint.empty())
+  if (mountPoint.empty())
+    return;
+
+  std::string playerDataFile = mountPoint + "/ESGI-Game/player_data.json";
+  std::ifstream file(playerDataFile);
+
+  if (!file.is_open())
+    return;
+
+  file.close();
+
+  if (EVENT_USB_INSERTED == (uint32_t)-1)
+    return;
+
+  LOG(LogDebug)
+      << "UsbHandler: preparing EVENT_USB_INSERTED for "
+      << mountPoint;
+
+  SDL_Event event;
+  SDL_zero(event);
+
+  event.type = EVENT_USB_INSERTED;
+
+  UsbInsertedEventData* data = new UsbInsertedEventData;
+
+  data->devnode = new char[devnode.size() + 1];
+  std::strcpy(data->devnode, devnode.c_str());
+
+  data->mountPoint = new char[mountPoint.length() + 1];
+  std::strcpy(data->mountPoint, mountPoint.c_str());
+  event.user.data1 = data;
+  event.user.data2 = nullptr;
+
+  if (SDL_PushEvent(&event) != 1)
   {
-    std::string playerDataFile = mountPoint + "/ESGI-Game/player_data.json";
-    std::ifstream file(playerDataFile);
-
-    if (file.is_open())
-    {
-      std::stringstream buffer;
-      buffer << file.rdbuf();
-      std::string jsonContent = buffer.str();
-
-      if (EVENT_USB_INSERTED != (uint32_t)-1)
-      {
-        SDL_Event event;
-        SDL_zero(event);
-        event.type = EVENT_USB_INSERTED;
-
-        char *dataStr = new char[jsonContent.length() + 1];
-        std::strcpy(dataStr, jsonContent.c_str());
-        event.user.data1 = dataStr;
-
-        char *mountStr = new char[mountPoint.length() + 1];
-        std::strcpy(mountStr, mountPoint.c_str());
-        event.user.data2 = mountStr;
-
-        SDL_PushEvent(&event);
-      }
-    }
+    LOG(LogError)
+        << "UsbHandler: SDL_PushEvent failed: "
+        << SDL_GetError();
+    delete[] data;
   }
+  else
+  {
+    LOG(LogDebug)
+        << "UsbHandler: EVENT_USB_INSERTED pushed successfully";
+  }
+}
+
+void UsbHandler::processDeviceRemoval(const std::string &devnode)
+{
+  if (EVENT_USB_UNPLUGGED == (uint32_t)-1)
+    return;
+
+  SDL_Event event;
+  SDL_zero(event);
+
+  event.type = EVENT_USB_UNPLUGGED;
+
+  char *devnodeStr = new char[devnode.length() + 1];
+  std::strcpy(devnodeStr, devnode.c_str());
+
+  event.user.data1 = devnodeStr;
+  event.user.data2 = nullptr;
+
+  if (SDL_PushEvent(&event) != 1)
+    delete[] devnodeStr;
 }
