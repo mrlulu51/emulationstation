@@ -2172,7 +2172,9 @@ msgid "RIGHT ANALOG STICK CHANGES VOLUME"
 msgstr "EL STICK ANALÓGICO DERECHO CAMBIA EL VOLUMEN"
 
 msgid "Move the right stick up/down to raise or lower the audio volume."
-msgstr "Mueva el joystick derecho hacia arriba o hacia abajo para subir o bajar el volumen del audio."
+msgstr ""
+"Mueva el joystick derecho hacia arriba o hacia abajo para subir o bajar el "
+"volumen del audio."
 
 msgid "GUN MOVE TOLERENCE"
 msgstr "TOLERANCIA AL MOVIMIENTO DEL ARMA"
@@ -2437,30 +2439,6 @@ msgstr "on"
 msgid "OVERCLOCK"
 msgstr "OVERCLOCK"
 
-msgid "LED HARDWARE"
-msgstr "LEDS"
-
-msgid "ENABLE LED"
-msgstr "ACTIVAR LED"
-
-msgid "LED MODE"
-msgstr "MODO DE LED"
-
-msgid "STATIC"
-msgstr "ESTÁTICO"
-
-msgid "RAINBOW"
-msgstr "MULTICOLOR"
-
-msgid "CHROMA"
-msgstr "CROMA"
-
-msgid "PULSE"
-msgstr "PULSO"
-
-msgid "LED BRIGHTNESS"
-msgstr "BRILLO DE LOS LEDS"
-
 msgid "STORAGE"
 msgstr "ALMACENAMIENTO"
 
@@ -2495,8 +2473,9 @@ msgid ""
 "Disabling mitigations may improve performance on some systems at the cost of "
 "reduced protection against certain CPU vulnerabilities."
 msgstr ""
-"Deshabilitar las medidas de mitigación puede mejorar el rendimiento en algunos "
-"sistemas a costa de una menor protección contra ciertas vulnerabilidades de la CPU."
+"Deshabilitar las medidas de mitigación puede mejorar el rendimiento en "
+"algunos sistemas a costa de una menor protección contra ciertas "
+"vulnerabilidades de la CPU."
 
 msgid "LATENCY REDUCTION"
 msgstr "REDUCCIÓN DE LATENCIA"
@@ -3672,151 +3651,6 @@ msgstr "ID DE JUEGO EN SCREENSCRAPER"
 msgid "MultiDisk"
 msgstr "Multidisco"
 
-msgid "Loading system config..."
-msgstr "Cargando configuración del sistema…"
-
-msgid "SAVING METADATA. PLEASE WAIT..."
-msgstr "GUARDANDO METADATO. POR FAVOR, ESPERA…"
-
-msgid "DO YOU WANT TO SWITCH THE SCREEN ?"
-msgstr "¿QUIERES CAMBIAR LA PANTALLA?"
-
-msgid "all games"
-msgstr "todos los juegos"
-
-msgid "last played"
-msgstr "últimos jugados"
-
-msgid "favorites"
-msgstr "favoritos"
-
-msgid "2 players"
-msgstr "2 jugadores"
-
-msgid "4 players"
-msgstr "4 jugadores"
-
-msgid "never played"
-msgstr "nunca jugado"
-
-msgid "RetroAchievements"
-msgstr "RetroAchievements (logros)"
-
-msgid "arcade"
-msgstr "arcade"
-
-msgid "vertical arcade"
-msgstr "arcade vertical"
-
-msgid "lightgun games"
-msgstr "juegos compatibles con lightgun"
-
-msgid "wheel games"
-msgstr "juegos compatibles con volante"
-
-msgid "trackball games"
-msgstr "juegos compatibles con trackball"
-
-msgid "spinner games"
-msgstr "juegos compatibles con spinner"
-
-msgid "collections"
-msgstr "colecciones"
-
-#, c-format
-msgid "Added '%s' to '%s'"
-msgstr "Añadido '%s' a '%s'"
-
-#, c-format
-msgid "Removed '%s' from '%s'"
-msgstr "Borrado '%s' de '%s'"
-
-msgid "This collection is empty."
-msgstr "Esta colección está vacía."
-
-#. TRANSLATION: number of developpers / various developpers
-msgid "None"
-msgstr "Ninguno"
-
-msgid "Various"
-msgstr "Varios"
-
-#, c-format
-msgid "This collection contains %i game: %s"
-msgid_plural "This collection contains %i games, including: %s"
-msgstr[0] "Esta colección contiene %i juego: %s"
-msgstr[1] "Esta colección contiene %i juegos, incluyendo: %s"
-
-msgid "INVALID CONTENT"
-msgstr "CONTENIDO NO VÁLIDO"
-
-msgid ""
-"A valid account is required. Please register an account on https://"
-"retroachievements.org"
-msgstr ""
-"Se requiere una cuenta válida. Por favor, regístrese en https://"
-"retroachievements.org"
-
-msgid "SLOW"
-msgstr "LENTO"
-
-msgid "NOT WORKING"
-msgstr "NO FUNCIONA"
-
-msgid "BUGGY"
-msgstr "INCORRECTO"
-
-msgid "LIKED"
-msgstr "ME GUSTÓ"
-
-msgid "DISLIKED"
-msgstr "NO ME GUSTÓ"
-
-msgid "UPDATE AVAILABLE"
-msgstr "ACTUALIZACIÓN DISPONIBLE"
-
-msgid "THE EMULATOR EXITED UNEXPECTEDLY"
-msgstr "EL EMULADOR SE HA CERRADO INESPERADAMENTE"
-
-msgid "BAD COMMAND LINE ARGUMENTS"
-msgstr "ARGUMENTOS DE LÍNEA DE COMANDOS NO VÁLIDOS"
-
-msgid "INVALID CONFIGURATION"
-msgstr "CONFIGURACIÓN NO VÁLIDA"
-
-msgid "UNKNOWN EMULATOR"
-msgstr "EMULADOR DESCONOCIDO"
-
-msgid "EMULATOR IS MISSING"
-msgstr "FALTA EL EMULADOR"
-
-msgid "CORE IS MISSING"
-msgstr "FALTA EL NÚCLEO"
-
-msgid "UKNOWN ERROR"
-msgstr "ERROR DESCONOCIDO"
-
-msgid "Checking for latest upgrade script..."
-msgstr "Comprobando si hay un script de actualización más reciente..."
-
-msgid "Collections"
-msgstr "Colecciones"
-
-msgid "Searching for devices..."
-msgstr "Buscando dispositivos…"
-
-msgid "FORMATTING DEVICE"
-msgstr "FORMATEANDO DISPOSITIVO"
-
-msgid "Formatting"
-msgstr "Formateando"
-
-msgid "A REBOOT IS REQUIRED TO COMPLETE THE OPERATION"
-msgstr "ES NECESARIO REINICIAR PARA COMPLETAR LA OPERACIÓN"
-
-msgid "A DRIVE IS ALREADY BEING FORMATTED."
-msgstr "YA SE ESTÁ FORMATEANDO UNA UNIDAD."
-
 msgid "GENRE"
 msgstr "GÉNERO"
 
@@ -4061,10 +3895,8 @@ msgstr "EN USO"
 
 msgid ""
 "CALIBRATING GUN\n"
-"Fire on targets to calibrate\n"
+"Fire on targets to calibrate"
 msgstr ""
-"CALIBRANDO PISTOLA\n"
-"Dispara a los objetivos para calibrar\n"
 
 msgid "Reloaded the games list..."
 msgstr "Recargada la lista de juegos..."
@@ -4222,6 +4054,13 @@ msgstr[1] "%i SELECCIONADOS"
 
 msgid "ENABLED"
 msgstr "ACTIVADO"
+
+#~ msgid ""
+#~ "CALIBRATING GUN\n"
+#~ "Fire on targets to calibrate\n"
+#~ msgstr ""
+#~ "CALIBRANDO PISTOLA\n"
+#~ "Dispara a los objetivos para calibrar\n"
 
 #~ msgid "FANART"
 #~ msgstr "FANART"
